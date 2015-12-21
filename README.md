@@ -1,9 +1,18 @@
 # international-list
 
-International list consists mostly of static cosmetic filters. A few tracking filters are copied from other advanced filter lists. There are various English and German websites included. The list is intended for simple users with set-and-forget approach.
+International List consists mostly of static cosmetic filters. English and few German websites are included. As regards tracking filters, they have been partly copied from other privacy filter lists (such as Fanboy Annoyances List).
 
-Copy the following URL to your content-filtering software's custom filter list (see point 2.B below):
-https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt
+**What is the difference between this list and other ad blocking filter lists?**
+
+International List is a **complementary list** to basic ad blocking filter lists. Example: EasyList sometimes blocks only the advert. International List removes also the frame, where the ad had been placed. The complete frame removal often leaves more space for useful content and is therefore not meant only for aesthetic purposes.
+
+**What is the difference between this list and other advanced privacy filter lists?**
+
+International List is a **"light" (mostly cosmetic)** version. See chapter No. 2 below for more info. This means it doesn't block all the social content. Example: if there are social buttons on top and bottom of a webpage, this filter list will remove only social buttons on the top. The others on the bottom remain in order to keep the website functional in terms of social networks.
+
+*So a basic rule here is: first content, then other social crap.*
+
+The list is **intended for simple users** with a set-and-forget approach. Copy the raw URL to your content-filtering software's custom filter list (see point 2.B below for more info). If you have any suggestions or issues to report, please report it [here](https://github.com/betterwebleon/international-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
 
 ###1. Recommended content-filtering software:
 **uBlock Origin**
@@ -24,21 +33,26 @@ Why? Because it's efficient, lightweight, simple and free.
 - Malware domains
 - Spam404
 
-**B) following lists can be added by copying their URLs to the "Custom" field in uBlock Origin [3rd-party filters]**
-- https://easylist-downloads.adblockplus.org/adwarefilters.txt
-- https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt
-- https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt
-- https://raw.github.com/liamja/Prebake/master/obtrusive.txt
-- https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt
+**B) various filter lists can be added by copying the following URLs to the "Custom" field in uBlock Origin ["3rd-party filters" tab]**
+
+(International List is under the number 5, however it is recommended to add all of them.)
+
+1. https://easylist-downloads.adblockplus.org/adwarefilters.txt
+2. https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt
+3. https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt
+4. https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt
+5. https://raw.github.com/liamja/Prebake/master/obtrusive.txt
+6. https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt
+7. https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt
 
 ###3. Recommended browser:
 **Mozilla Firefox**
 
 Why? Because it can be customized in order to improve browsing speed, privacy, user interface, etc.
 
-But how? Type this in your address (URL) bar: *<code>about.config</code>*
+How? Type this in your address (URL) bar: *<code>about.config</code>*
 
-Then select the following preference names (by pasting them to a search bar) and change their values to the following ones:
+Hit enter and confirm the scary Firefox warning message. Then select the following preference names (by pasting them to a search bar) and change their values to the following ones to:
 
 |   | PREFERENCE NAME                      | VALUE |
 |---|:-------------------------------------|:-----:|
@@ -52,7 +66,7 @@ Then select the following preference names (by pasting them to a search bar) and
 |8. | media.peerconnection.turn.disable    |  true |
 |9. | privacy.trackingprotection.enabled   |  true |
 
-**The upper settings are privacy-related only. If you want more speed, keep on tweaking:**
+**The upper settings are privacy-related only. If you want more speed as well, keep on tweaking:**
 
 |    | PREFERENCE NAME                           | VALUE |
 |----|:------------------------------------------|:-----:|
@@ -69,7 +83,7 @@ Then select the following preference names (by pasting them to a search bar) and
 | 20.| network.http.request.max-start-delay      |   3   |
 | 21.| network.websocket.delay-failed-reconnects | false |
 
-\* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime, so be fearless.*** :)
+\* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 
 ###4. License
 This is free and unencumbered software released into the public domain.
@@ -96,3 +110,5 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org>
+
+HAVE A NICE DAY. (*This wish is not part of a license anymore. You can however treat it as a special annex to the license.*)

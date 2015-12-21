@@ -43,7 +43,7 @@ Why? Because it's efficient, lightweight, simple and free.
 6. https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt
 7. https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt
 
-(*International List is under the number 5, however it is recommended to add all of them.*)
+(*International List is under the number 4, however it is recommended to add all of them.*)
 
 ###3. Recommended browser:
 **Mozilla Firefox**

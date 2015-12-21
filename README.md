@@ -85,7 +85,7 @@ Hit enter and confirm scary Firefox warning message. Then select the following p
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 
-###4. License
+###4. License:
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or

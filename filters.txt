@@ -1,3 +1,7 @@
+! Title: International filter list
+! Expires: 3 days
+! Issue tracker: https://github.com/betterwebleon/international-list/issues
+
 ###avatar-template-copyright
 ###FbLike
 ###js-aside > .aside-ad-container

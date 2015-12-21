@@ -4,7 +4,7 @@
 
 **What is the difference between this list and other ad blocking filter lists?**
 
-International List is a **complementary list** to basic ad blocking filter lists (see chapter number 2 below for more info). Example: EasyList sometimes blocks only the advert. International List removes also the frame, where the ad had been placed. The complete frame removal often leaves more space for useful content and is therefore not meant only for aesthetic purposes.
+International List is a **complementary list** to basic ad blocking filter lists (see chapter number 2 below for more info). It blocks various subscription and Facebook pop-ups, as well as doubled social buttons. Example: EasyList filter list sometimes blocks only the advert. International List removes also the frame, where the ad was originally placed. The complete ad frame removal often leaves more space for useful content and is therefore not meant only for aesthetics.
 
 **What is the difference between this list and other advanced privacy filter lists?**
 

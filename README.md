@@ -1,10 +1,9 @@
 # international-list
-Cosmetic and tracking filters for uBlock Origin and uBlock.
 
-It consists mostly of static cosmetic filters. A few tracking filters are copied from other advanced filter lists. There are various English and German websites included. The list is intended for simple users with set-and-forget approach.
+International list consists mostly of static cosmetic filters. A few tracking filters are copied from other advanced filter lists. There are various English and German websites included. The list is intended for simple users with set-and-forget approach.
 
-Copy the following URL to your content-filtering software's custom filter list:
-
+Copy the following URL to your content-filtering software's custom filter list (see point 2.B below):
+https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt
 
 ###1. Recommended content-filtering software:
 **uBlock Origin**
@@ -32,7 +31,7 @@ Why? Because it's efficient, lightweight, simple and free.
 - https://raw.github.com/liamja/Prebake/master/obtrusive.txt
 - https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt
 
-###2. Recommended browser:
+###3. Recommended browser:
 **Mozilla Firefox**
 
 Why? Because it can be customized in order to improve browsing speed, privacy, user interface, etc.
@@ -72,7 +71,7 @@ Then select the following preference names (by pasting them to a search bar) and
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime, so be fearless.*** :)
 
-## License
+###4. License
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or

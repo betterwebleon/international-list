@@ -1,18 +1,18 @@
 # international-list
 
-International List consists mostly of static cosmetic filters. English and few German websites are included. As regards tracking filters, they have been partly copied from other privacy filter lists (such as Fanboy Annoyances List).
+**International List consists mostly of static cosmetic filters. English and few German websites are included.** As regards tracking filters, they have been partly copied from other privacy filter lists.
 
 **What is the difference between this list and other ad blocking filter lists?**
 
-International List is a **complementary list** to basic ad blocking filter lists. Example: EasyList sometimes blocks only the advert. International List removes also the frame, where the ad had been placed. The complete frame removal often leaves more space for useful content and is therefore not meant only for aesthetic purposes.
+International List is a **complementary list** to basic ad blocking filter lists (see chapter number 2 below for more info). Example: EasyList sometimes blocks only the advert. International List removes also the frame, where the ad had been placed. The complete frame removal often leaves more space for useful content and is therefore not meant only for aesthetic purposes.
 
 **What is the difference between this list and other advanced privacy filter lists?**
 
-International List is a **"light" (mostly cosmetic)** version. See chapter No. 2 below for more info. This means it doesn't block all the social content. Example: if there are social buttons on top and bottom of a webpage, this filter list will remove only social buttons on the top. The others on the bottom remain in order to keep the website functional in terms of social networks.
+International List is a very **"light" (mostly cosmetic)** version of Fanboy Annoyances List. This means it doesn't block all the social content. Example: if there are social buttons on top and bottom of a webpage, this filter list will remove only social buttons on the top. The others on the bottom remain in order to keep the website functional in terms of social networks.
 
 *So a basic rule here is: first content, then other social crap.*
 
-The list is **intended for simple users** with a set-and-forget approach. Copy the raw URL to your content-filtering software's custom filter list (see point 2.B below for more info). If you have any suggestions or issues to report, please report it [here](https://github.com/betterwebleon/international-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
+The list is **intended for simple users** with a set-and-forget approach. Copy the raw URL to your content-filtering software's custom filter list (see point 2.B below for more info). If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/international-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
 
 ###1. Recommended content-filtering software:
 **uBlock Origin**
@@ -20,7 +20,7 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 Why? Because it's efficient, lightweight, simple and free.
 
 ###2. Recommended complementary filter lists:
-**A) following lists can be turned on by ticking them in uBlock Origin [3rd-party filters]**
+**A) following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party filters" tab]**
 - uBlock filters
 - uBlock filters – Badware risks
 - uBlock filters – Block-then-redirect
@@ -35,8 +35,6 @@ Why? Because it's efficient, lightweight, simple and free.
 
 **B) various filter lists can be added by copying the following URLs to the "Custom" field in uBlock Origin ["3rd-party filters" tab]**
 
-(International List is under the number 5, however it is recommended to add all of them.)
-
 1. https://easylist-downloads.adblockplus.org/adwarefilters.txt
 2. https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt
 3. https://raw.github.com/r4vi/block-the-eu-cookie-shit-list/master/filterlist.txt
@@ -45,6 +43,8 @@ Why? Because it's efficient, lightweight, simple and free.
 6. https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt
 7. https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt
 
+(*International List is under the number 5, however it is recommended to add all of them.*)
+
 ###3. Recommended browser:
 **Mozilla Firefox**
 
@@ -52,7 +52,7 @@ Why? Because it can be customized in order to improve browsing speed, privacy, u
 
 How? Type this in your address (URL) bar: *<code>about.config</code>*
 
-Hit enter and confirm the scary Firefox warning message. Then select the following preference names (by pasting them to a search bar) and change their values to the following ones to:
+Hit enter and confirm scary Firefox warning message. Then select the following preference names (by pasting them to a search bar) and change their values to the following ones:
 
 |   | PREFERENCE NAME                      | VALUE |
 |---|:-------------------------------------|:-----:|
@@ -111,4 +111,4 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org>
 
-HAVE A NICE DAY. (*This wish is not part of a license anymore. You can however treat it as a special annex to the license.*)
+HAVE A NICE DAY. (*This wish is not part of the license anymore. You can however treat it as a special annex to the license.*)

@@ -1,8 +1,8 @@
-! Title: International list
+! Title: International List
 ! Expires: 3 days
 ! Issue tracker: https://github.com/betterwebleon/international-list/issues
 
-! Tracking filters:
+! Filters:
 ###avatar-template-copyright
 ###FbLike
 ###js-aside > .aside-ad-container
@@ -208,8 +208,6 @@ tech.co#@#.addthis_toolbox
 ||www.facebook.com/ajax/bz$first-party,xmlhttprequest
 ||www.huffingtonpost.com/_uac/2014adpage.html
 ||ziffstatic.com^$third-party
-
-! Cosmetic filters:
 arstechnica.com###article-sidebar > .column > .thick-divide-bottom.thick-divide-top
 arstechnica.com###content > .standalone > header > .post-meta > .corner-info
 arstechnica.com###outbrain-recs

@@ -1,0 +1,463 @@
+###avatar-template-copyright
+###FbLike
+###js-aside > .aside-ad-container
+###js-top-fb-block
+###share-track-tw
+###supportAds
+###trackSocialBuzzSection
+##.follow-appeal-container
+##.follow-bar
+##.follow-bar-wrapper
+##.follow-btn
+##.follow-button
+##.follow-button-gplus
+##.follow-buttons
+##.follow-facebook
+##.follow-fb
+##.follow-google-plus
+##.follow-gp
+##.follow-huffpost
+##.follow-ico
+##.follow-icon
+##.follow-icons
+##.follow-ie
+##.follow-igoogle
+##.follow-instagram
+##.follow-iphone
+##.follow-label
+##.follow-link-wrapper
+##.follow-linkedin
+##.follow-links
+##.follow-pinterest
+##.follow-property-facebook
+##.follow-property-flickr
+##.follow-property-gplus
+##.follow-property-pinterest
+##.follow-property-tumblr
+##.follow-property-twitter
+##.follow-rs
+##.follow-share
+##.follow-sharer-icon
+##.follow-social
+##.follow-sprite
+##.follow-the-atlantic
+##.follow-tumblr
+##.follow-twitter
+##.follow-twt
+##.follow-us
+##.follow-us-component__networks
+##.follow-us-facebook
+##.follow-us-google
+##.follow-us-links
+##.follow-us-on-module
+##.follow-us-on-twitter
+##.follow-us-right-sidebar
+##.follow-us-twitter
+##.follow-us-widget
+##.follow-us-wrapper
+##.follow-vulture
+##.follow-widget
+##.follow-widget-facebook
+##.follow-widget-instagram
+##.follow-widget-twitter
+##.follow-widget-youtube
+##.follow-yahoo
+##.follow-youtube
+##.followBox
+##.followButtons
+##.followFacebook
+##.followGoogle
+##.followIcon
+##.followServices
+##.followTwitter
+##.followUs
+##.followUsBox
+##.followUsContainer
+##.followUsDiv
+##.followUsModule
+##.followYouTube
+##.followYoutube
+##.follow__item
+##.follow_author_twitter
+##.follow_block
+##.follow_box
+##.follow_btn
+##.follow_container
+##.follow_icons_container
+##.follow_links
+##.follow_n_share_bg
+##.follow_right_block
+##.follow_share
+##.follow_twitter
+##.follow_us
+##.follow_us_heading
+##.follow_widget
+##.followandshare
+##.followbl
+##.followbox
+##.followscreen
+##.followus
+##.followus-footer
+##.followus-links
+##.followus-static
+##.followus_net
+##.js-fixed-like-box-new.js-fixed-like-box.fixed-like-box-blue
+##.megaads
+##.place_for_ad
+##.track-action-Facebook
+##.track-action-LinkedIn
+##.track-action-Twitter
+##.track-click
+##.tracking_article_social
+##.utils_social_tracking
+##[class^="show_"][class$="_ads"]
+##[id="WIX_ADS"]
+@@||cloudflare.com/ajax/libs/require.js
+@@||connect.facebook.net/^/sdk.js
+@@||facebook.com/connect
+@@||facebook.com/plugins/comments
+@@||facebook.com/v2.^/plugins/video.php
+@@||flvto.biz/scripts/ads.js
+@@||www.googletagservices.com/tag/js/gpt.js
+tech.co#@#.addthis_toolbox
+||2o7.net
+||vid01.24ur.com^.mp4$domain=behind-the-scene
+||ad.doubleclick.net^$domain=behind-the-scene
+||api-read.facebook.com/restserver.php?api_key=$third-party
+||api.groupon.com^$third-party
+||api.oneall.com^$third-party
+||api.starsmp.com^$third-party
+||apis.google.com/*/socialgraph/$third-party
+||apis.google.com/_/apps-static/_/js/gapi/*plusone/$third-party
+||apis.google.com/_/scs/apps-static/*=page,plusone/$third-party
+||apis.google.com/js/platform.js$third-party
+||apis.google.com^/widget/render/follow?$third-party
+||apis.google.com^/widget/render/page?$third-party
+||apis.google.com^/widget/render/person?$third-party
+||assets.pinterest.com/js/pinit.js$third-party
+||assets.pinterest.com/pidget.html$third-party
+||assets.tumblr.com/assets/html/iframe/o.html$third-party
+||assets.tumblr.com/assets/html/iframe/teaser.html?$third-party
+||bit.ly/TweetAndTrack.js
+||cdn.jquerytools.org/^/jquery.tools.min.js
+||chartbeat.com
+||chartbeat.net
+||cityam.com/assets/js/^1.11.1.min.js
+||clicky.com$domain=~clicky.com
+||cruftexcision.xyz
+||eu-st.^.com/js/analytics.js
+||eu-st.^.com/js/track.min.js
+||facebook.com$domain=~facebook.com
+||facebook.net$domain=~facebook.net
+||fastly.net
+||fbcdn-profile-a.akamaihd.net$domain=~facebook.com|~fbcdn.net
+||fbcdnnet$domain=~facebook.com|~fbcdn.net,third-party
+||fbstatic-a.akamaihd.net^$domain=~facebook.com,third-party
+||flappyhamster.net$domain=~flappyhamster.net
+||flappyhamster.net/dt.adsafeprotected.com$image,domain=behind-the-scene
+||flipboard.com$domain=~flipboard.com
+||gather.^/scripts/visittrack.js
+||giurn.co.uk
+||google.com/js/bg
+||google.com/js/plusone.js$third-party
+||googleadservices.com
+||googleplus.com$domain=~googleplus.com|~plus.google.com
+||googletagmanager.com/^.js
+||googletagservices.com/tag/js
+||googleusercontent.com/gadgets/js
+||gplusapi.$domain=~googleplus.com|~plus.google.com
+||gplusapi.appspot.com$third-party
+||hit.gemius.pl
+||i.po.st/share/script/post-widget.js
+||intextad.net
+||linkedin.com$domain=~linkedin.com
+||livefyre.com/wjs
+||optimizely.com$domain=~optimizely.com
+||pinterest.com$domain=~pinterest.com
+||plista.com$domain=~plista.com
+||plus.google.com$domain=~plus.google.com|~googleplus.com
+||plusone.google.com
+||quantservice.com$domain=~quantservice.com
+||realtime.services.disqus.com/api/^/thread/
+||reddit.com$domain=~reddit.com
+||rp-api.com/rjs/repostus.js
+||safebrowsing-cache.google.com^
+||safebrowsing-cache.google.com^$other,domain=behind-the-scene
+||safebrowsing.google.com^
+||safebrowsing.google.com^$other,domain=behind-the-scene
+||scorecardresearch.com$domain=~scorecardresearch.com
+||spot.im/embed/scripts/launcher.js$third-party
+||spotilocal.com$domain=~spotify.com
+||static.addtoany.com/menu/page.js
+||static2.businessinsider.com/image/51e9584f69beddbb1d000003-208/appstorebadgeen.png
+||stumbleupon.com$domain=~stumbleupon.com
+||symcd.com$domain=~symcd.com
+||syndication.twitter.com/widgets/video/?callback$domain=~twitter.com
+||telemetry-experiment^$xmlhttprequest,domain=behind-the-scene
+||thefinancialbrand.com/wp-content/*/*/*_*.*
+||twimg.com^$domain=~twitter.com|~twimg.com|~gov.si|~24ur.com|~radio1.si|~iflscience.com
+||twitter.com$domain=~twitter.com|~twimg.com|~gov.si|~24ur.com|~radio1.si|~iflscience.com
+||twitter.com/intent
+||www5.pcmag.com/media/images/368286-slideout-subscribe.png
+||www.anandtech.com/Content/images/twitter_down_arrow.png
+||www.facebook.com/ajax/bz$first-party,xmlhttprequest
+||www.huffingtonpost.com/_uac/2014adpage.html
+||ziffstatic.com^$third-party
+arstechnica.com###article-sidebar > .column > .thick-divide-bottom.thick-divide-top
+arstechnica.com###content > .standalone > header > .post-meta > .corner-info
+arstechnica.com###outbrain-recs
+arstechnica.com###outbrain-recs-wrap > hr
+arstechnica.com###stories-features > .thick-divide-bottom.thick-divide-top
+blog.sfgate.com###ctpl-fullbanner1
+brightside.me###js-article-content > div:nth-of-type(1) > .article-yandex-direct
+brightside.me##.js-dialog.js-fixed-like-box.dialog-social-fb.dialog-social-bottom.dialog-social
+businessinsider.com###main-content > .container > .siteskin-dropshadow > .primary-row.row > .span8 > .post.content > .clear-both.clearfix.bottom-share-module
+cpuboss.com###facebook-widget
+cpuboss.com###side-fb-likes > h3
+csglobe.com###post-14512 > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid:nth-of-type(2) > .td-post-sidebar.column_container.span4 > .widget_text.widget
+diycozyhome.com###inner-wrap > .td-footer-wrap
+diycozyhome.com###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4 > .widget_text.widget
+eprints.lse.ac.uk##.ep_noprint.ep_tm_header > div:nth-of-type(1)
+fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .article-image-figcaption
+fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
+fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
+fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-divider > .two_ad
+fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-header > .article-byline > .article-social.article-byline-social.social-icons
+fstoppers.com###block-block-12
+fstoppers.com###block-fs_helpers-fs_helpers_connect
+fstoppers.com###header-region > .social
+idioms.thefreedictionary.com###content > .content-holder > aside > .share-block
+imgur.com###cta-container
+krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
+m.bestvideo.pub###ads-back
+m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
+motherboard.vice.com###yw1
+rt.com##.main-header > .main-header-wp > .head-nav > .center > .alternative
+rt.com##.main-header > .main-header-wp > .head-nav > .center > .b-follow-us
+rt.com##.page > .col-high-simple.aside > .aside-wp > .editable_widget.cont-wp
+techaeris.com###dat-menu > .dat-menu-container > .dat-menu-padding.dat-menu-wrapper > .active.boxed > .content > .wrapper > .has-sidebar.main-content > .left.left-content > .banner.article-body-banner
+techaeris.com###essb_displayed_both1607151333 > .essb_links_list
+techaeris.com###sidebar > .sidebar-fixed
+techaeris.com###sidebar > .widget.widget-4 > .textwidget
+techcrunch.com###social-after-wrapper
+techcrunch.com##.announcement-centered.announcement-flat-background.announcement
+techcrunch.com##.fluid > .lc.article > .l-two-col-expose > .demo-block.l-sidebar > .recirc-accordion.accordion > ul > .active
+techcrunch.com##.fluid > .lc.article > .l-two-col-expose > .l-main-container > .l-main > .l-two-col > .l-sidebar > .block.collapse-adjacent.collapse.newsletters-signup.aside.section
+techcrunch.com##.header-context-news.cf.header > .nav-bar > .lc > .lc > .cf.header-logo-bar > .header-social > .sprite-social.social-list.inline-list
+techcrunch.com##.header-context-null.cf.header > .nav-bar > .lc > .lc > .cf.header-logo-bar > .header-social > .sprite-social.social-list.inline-list
+techcrunch.com##.homepage.split.flush.fluid > .lc-island.flush.lc > .l-two-col > .lc-padding.l-sidebar > .flush.section > .block.collapse-adjacent.collapse.newsletters-signup.aside.section
+thefinancialbrand.com###content > .entry.tag-watson.tag-robots.tag-papper.tag-nao.tag-mizuho-bank.tag-ibm.tag-david-brear.tag-chris-skinner.tag-brett-king.tag-bank-of-tokyo-mitsubishi-ufj.tag-bank-of-japan.tag-artificial-intelligence.tag-ai.category-technology-strategies.category-branches.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-52735 > .entry-content > .sd-sharing-enabled.sharedaddy:nth-of-type(1)
+thefinancialbrand.com###dym-sidebar-single-19 > .widget-wrap
+thefreethoughtproject.com###ajax_indicator
+thefreethoughtproject.com###WFWrapper
+thepiratebay.^###social
+thespiritscience.net###shr_canvas4
+uk.eonline.com###cc-tag
+useconomy.about.com###main > .container > .row > .article-content.col-tablet-8.col-11.col > .col-push-tablet-1.col-push-2 > .js-share.s-btns-eoc.s-btns
+useconomy.about.com###main > .lb-s.container > .row > .article-content.col-tablet-8.col-11.col > .col-push-tablet-1.col-push-2 > .js-share.s-btns-eoc.s-btns
+wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar > .widget_momizattabber.widget
+wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar > .clearfix.momizat-ads.widget:nth-of-type(14)
+wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar > .clearfix.momizat-ads.widget:nth-of-type(15)
+wccftech.com###banner
+wccftech.com###content > .clear.single > .body > div:nth-of-type(3)
+wccftech.com###content > .clear.single > .meta > .share
+wccftech.com###sidebar > .widget:nth-of-type(1)
+wccftech.com###sidebar > div:nth-of-type(3)
+wccftech.com###sidebar > div:nth-of-type(4)
+wccftech.com###sidebar > div:nth-of-type(6)
+wccftech.com###sidebar > div:nth-of-type(7)
+windows.ittoolbox.com###popupdiv
+windowssecrets.com###sidebar > li:nth-of-type(1) > .smaller.block
+windowssecrets.com###sidebar > li:nth-of-type(2)
+wirtschaftsblatt.at###section-main > .fl > .contentBlockHome > .Advertisiment.ContentMedium
+worldtruth.tv##.clearfix.container > .clearfix.row > .span4 > .widget:nth-of-type(16)
+worldtruth.tv##.clearfix.container > .clearfix.row > .span4 > .widget:nth-of-type(30) > .textwidget > center > form > input:nth-of-type(3)
+worldtruth.tv##.clearfix.container > .clearfix.row > .span4 > .widget:nth-of-type(31) > .textwidget > center > form
+worldtruth.tv##.clearfix.container > .clearfix.row > .span4 > .widget:nth-of-type(36)
+worldtruth.tv##.clearfix.container > .clearfix.row > .span4 > .widget:nth-of-type(37)
+worldtruth.tv##.clearfix.container > .clearfix.row > .span4 > .widget:nth-of-type(38) > .title-block
+worldtruth.tv##.clearfix.container > .clearfix.row > .span8 > .textwidget:nth-of-type(6) > center
+www.accuweather.com###content > .clearfix.column-2-world.column-2
+www.accuweather.com###social-connect
+www.agame.com###sgAdLb2Hp728x90
+www.agame.com###sgAdLbHp728x90
+www.agame.com###sgAdScHp160x600
+www.alternet.org###like_alternet_on_fb
+www.amazon.com###poweredBy
+www.amazon.com###raw-sitewide-rhf
+www.amazon.com###rhf_table
+www.anandtech.com##.content > .sidebar > .twitter > .twitter_box > .pie.twitter_follow_btn[href="http://twitter.com/anandtech"]
+www.anandtech.com##.header > .header_top > .header_top_right > .header_right_btm > span
+www.anandtech.com##.header > .topic_inner.topic_menu:nth-of-type(2)
+www.anandtech.com##.header > .topic_inner.topic_menu:nth-of-type(3)
+www.avclub.com###sideshare > .unstyled
+www.avclub.com###topshare > .unstyled
+www.bbc.com###share-tools-top
+www.bbc.com###story-page > .standalone-parallax-wrapper
+www.bdlive.co.za###article-finished
+www.bloomberg.com###content > .transporter > .transporter-item--current.transporter-item > .supports-inline-slideshow.with-standard-lede.article > .article__content-well-boundary > div:nth-of-type(2) > .article-rail > .article-rail__social.article-rail-container > div
+www.bloomberg.com###content > .transporter > .transporter-item--current.transporter-item > .supports-inline-slideshow.with-standard-lede.article > .article__content-well-boundary > div:nth-of-type(4) > .article-body > .article-body__social-container > .sticky-social-share > div
+www.brighthubpm.com###ez-search
+www.brighthubpm.com###ez-sidebar > .ezCSS.html5aside.ez-search-container > .ezCSS.title
+www.brighthubpm.com###footer > .ezCSS.container > .ezCSS.bottom-social.row > .ezCSS.social-grid
+www.brighthubpm.com###wrapper > .ezCSS.container:nth-of-type(2) > .ezCSS.ezoic-top-partition.ezoic-wrapper
+www.brighthubpm.com###wrapper > .ezCSS.container:nth-of-type(2) > .ezCSS.ezoic-top-partition-space:nth-of-type(1)
+www.businessinsider.com###main-content > .subnav-container
+www.buzzfeed.com###cute_or_not_out
+www.buzzfeed.com###page_container > .bf_dom.section.page-content.PageContent > .Column2 > .connect-widget
+www.buzzfeed.com###sailthru_email-1
+www.buzzfeed.com###share_control
+www.chicagobusiness.com###wrapper > .center:nth-of-type(1)
+www.chinabusinessreview.com###adpress_widget-4 > .widgettitle
+www.cityam.com###content > article > .clearfix.social
+www.cnbc.com###optIn-right-rail
+www.cnbc.com###rt_contact
+www.cnbc.com###social-tools-panel
+www.cnet.com###rbContent > .container > .row > .row:nth-of-type(2) > .col-12 > .row > .row:nth-of-type(2) > .col-12 > .row > .col-10 > .col-4 > .latestDeals.productList
+www.cnet.com###rbContent > .social-bar-wrapper.col-12 > .fixed.fixate.col-12.social-bar
+www.cnet.com###secondary
+www.cnet.com##.container > .row > .row > .col-12 > .tocNav
+www.cnet.com##.container > .row > .row:nth-of-type(1) > .col-12 > .row > .col-8 > .tocNav > ul
+www.cnet.com##[id^="leader-top"]
+www.cnet.com##[id^="sponsored-feed-top"]
+www.computerworld.com###page-wrapper > section > .bodee > .col-wrapper > .news-promos > .right-rail > .brandposts-wrapper.promo-wrapper
+www.computerworld.com###page-wrapper > section > .bodee > .col-wrapper > .news-promos > .right-rail > .partner-hub-wrapper.promo-wrapper
+www.computerworld.com###reading-tools-wrapper > .tools > .social
+www.computerworld.com###taboola
+www.digitaltrends.com##.h-bartender.m-bartender > .m-pint-wrap:nth-of-type(1)
+www.digitaltrends.com##.l-main-container > .dtads-group.l-page > .l-block-wrap > .is-enabled.l-sidebar_smart.l-sidebar > .h-register-newsletter.m-widget_news-reg.m-widget
+www.digitaltrends.com##.l-main-container > .dtads-group.l-page > .l-block-wrap > .l-sidebar_smart.l-sidebar > .h-register-newsletter.m-widget_news-reg.m-widget
+www.economist.com###block-ec_components-print_sub
+www.economist.com###block-ec_components-share_inline_footer
+www.economist.com###page > footer > .footer-stripe-top
+www.engadget.com###rail-collection-main > .rail-latest.module:nth-of-type(2) > .green.hed
+www.expertreviews.co.uk###block-system-main > .content > .node-full.odd.node-promoted.node-article.node > .content > .sharerich-1.sharerich-expert-reviews-wrapper.sharerich-wrapper > .item-list > .rrssb-1.clearfix.rrssb-buttons.sharerich-buttons
+www.extremetech.com###intelliTXT > .article-image > .social-share
+www.extremetech.com###TopBanner
+www.extremetech.com###zdAdsOverlayBlackout
+www.extremetech.com###zdAdsOverlayIFrame
+www.finanzen.net###bs_abstand
+www.finanzen100.de###NEWS_ARTICLE > .sticky.social-sharing
+www.flvto.biz##.content > .wrapper > .h-placeholder
+www.flvto.biz##.form > .wrapper > .h-placeholder
+www.flvto.biz###firefox_plugin
+www.forbes.com###abovefold > aside > .ad.block
+www.forbes.com###article-page > .article-background-wrapper > .main-article > .main-article-padding > .ng-scope.article-header > .ng-scope.top-ad-sticky
+www.fudzilla.com###Mod123
+www.fudzilla.com###Mod152
+www.fudzilla.com###t3-mainnav > .navbar.container > .navbar-inner > .head-social > .nav > .nav-connect.parent.dropdown
+www.ft.com###page-container > .middleSection.master-column > .contentSection.master-row > .marketingSection.master-row
+www.ghacks.net###main > .adslot_1.adsbygoogle
+www.ghacks.net##[id^="pgloggedouttext-"]
+www.gsmarena.com###subHeader
+www.hollywoodreporter.com###js__stories-wrapper > .social-container
+www.howtogeek.com##.overlay-bg
+www.huffingtonpost.com###wrapper > .content > .group.main > .fix.rail > .no-ad.follow-huffpost
+www.huffingtonpost.com###wrapper > .content > .group.main > .fix.rail > span
+www.ibtimes.co.uk##body > .hidden-print:nth-of-type(1) > .container > .w100 > ul > .icon-sns
+www.ibtimes.co.uk###article-social-wrap
+www.icann.org##.js-site-change-banner.site-change-banner
+www.iflscience.com##[id^="mediumrectanglebottom"]
+www.iflscience.com##[id^="mediumrectangletop"]
+www.iflscience.com###block-ifls-openx-0 > .content
+www.iflscience.com###block-ifls-strongmail-newsletter
+www.iflscience.com###header > .social-links
+www.imdb.com###maindetails_sidebar_bottom > .aux-content-widget-2:nth-of-type(10)
+www.investopedia.com###abkoverlay
+www.kitguru.net###facebooklikebox-3
+www.latimes.com##.trb_allContentWrapper > .trb_article_panelWrapper > div > .trb_article > .trb_article_articleHeader > .trb_socialize
+www.latimes.com##.trb_bnn
+www.livescience.com###main_header > .header > .search-social > .social
+www.livescience.com###network_contents
+www.livescience.com###nointelliTXT > .right_nav_bar
+www.livescience.com###side_nav > .rnav_spacer
+www.livescience.com###side_nav > .sidebar.sidebar-module
+www.livescience.com###sticky_social
+www.logitech.com###splash-bar
+www.maximumpc.com###center_content > .center_content_bottom > .special.section_header:nth-of-type(1)
+www.monova.org###lightbox_socials
+www.nytimes.com###TopAd1
+www.pcadvisor.co.uk###mainContent > .articleBd > .revProduct > .metaArticleContainer
+www.pcmag.com###outbrain_widget_1 > .AR_2.ob_dual_container > .ob_dual_right
+www.pcmag.com###primarybanner
+www.pcworld.com###taboola-below-article-thumbnails
+www.pcworld.com###toaster
+www.petri.com###simplemodal-container
+www.petri.com###simplemodal-overlay
+www.petri.com###text-42
+www.petri.com##[id^="post"] > .ad.freestyle
+www.petri.com##[id^="post"] > .in-content-lower.ad
+www.pocket-lint.com###article > .nolinks.norewrite.extras > .comments > div > .block-mpu.block
+www.pocket-lint.com###pl-id-1
+www.popularmechanics.com###share-sticky-bar
+www.ptleader.com###in-story
+www.reddit.com##.content > .newsletter-container.newsletterbar.infobar
+www.rethinkrobotics.com###main > .l-main > .l-container > .blog > .row > .blog-main > .post > .m-sharing
+www.reuters.com###content > .section:nth-of-type(4) > .sectionContent > .wrap.group > .grid-inside.grid8.column1 > .reuters-share-sticky.reuters-share > .horizontal-list
+www.sciencedaily.com###contents > .row > .less-padding-right.main.col-sm-8 > hr:nth-of-type(2)
+www.sciencedaily.com###contents > .row > .sidebar.less-padding-left.col-sm-4 > .tools-bottom.btn-group-sm.btn-group.pull-right
+www.sciencedaily.com###contents > .row > .sidebar.less-padding-left.col-sm-4 > .hidden-xs.hidden-tiny.tools-top.btn-group-sm.btn-group.pull-right
+www.sciencedaily.com###share_this_page
+www.sciencedaily.com###subscribe
+www.sciencedaily.com##header > .white.container > .header.row > .no-padding-left.col-md-8.col-sm-7 > .sharing
+www.scientificamerican.com###bodyWrap > .toasterAd
+www.scientificamerican.com###shareFloat
+www.scientificamerican.com##.bodyWrap > .toasterAd
+www.securityweek.com###simplemodal-container
+www.securityweek.com###simplemodal-overlay
+www.smbc-comics.com###boxbeat
+www.smbc-comics.com###towerarea
+www.softpoint.in##.us_mobile_hide.us_floating
+www.technologyreview.com##.hp-content > .wrapper > .right.scroll-wrapper > .region-homepage-right-col.region > .partner-network
+www.techradar.com###main > .news-article > .parsed.dynamic.hawk-widget-insert
+www.techradar.com###sidebar > .newsletter-signup.box
+www.techrepublic.com###share-bar:nth-of-type(2)
+www.telegraph.co.uk###tmglBody > .gutterUnder.twoThirdsThird2 > .oneThird > .gutterUnder.summaryMedium:nth-of-type(7) > div > .styleThree.headerOne
+www.telegraph.co.uk###tmglBody > .gutterUnder.twoThirdsThird2 > .oneThird > .gutterUnder.summaryMedium:nth-of-type(11) > div > .mnIframe.iframeSummary.summary
+www.telegraph.co.uk###tmglBody > .gutterUnder.twoThirdsThird2 > .oneThird > .gutterUnder.summaryMedium:nth-of-type(11) > div > .styleThree.headerOne
+www.telegraph.co.uk###tmglBody > .gutterUnder.twoThirdsThird2 > .oneThird > .gutterUnder.summaryMedium:nth-of-type(13) > div > .editorsChoice
+www.telegraph.co.uk###tmglBody > .gutterUnder.twoThirdsThird2 > .oneThird > .gutterUnder.summaryMedium:nth-of-type(14) > div > .styleThree.headerOne
+www.thefreedictionary.com###headerBlock > .mobile-hidden.share-block
+www.thefreedictionary.com###sidebar
+www.thefreedictionary.com###sy1
+www.thefreedictionary.com###sy2
+www.thefreedictionary.com###w1 > .w2 > div:nth-of-type(1)
+www.thefreedictionary.com###yj1
+www.theguardian.com###article > .tonal__main--tone-news.tonal__main.content__main > .gs-container > .js-content-main-column.content__main-column--article.content__main-column > .submeta > .u-cf
+www.theguardian.com###footer-nav > .u-cf.l-footer__navigation-wrapper > .navigation-container--collapsed.navigation-container.js-navigation-footer > .navigation.gs-container
+www.theguardian.com##.l-side-margins > .content-footer > .fc-container--commercial-high.fc-container
+www.theguardian.com##.site-message--adblock.site-message--banner.js-site-message.site-message
+www.theguardian.com##.site-message--adblock-message.site-message--banner.js-site-message.site-message
+www.theguardian.com##.site-message--international-with-survey-new.site-message--banner.js-site-message.site-message
+www.theguardian.com##.site-message--membership-message-variants.site-message--banner.js-site-message.site-message
+www.theguardian.com##[id] > .fc-container__inner > .fc-show-more--hidden.fc-container__body.fc-container--rolled-up-hide > .fc-slice-wrapper > .fc-slice--t-tl-mpu.fc-slice.l-row--cols-3.l-row.u-unstyled > .fc-slice__item--mpu-candidate.js-fc-slice-mpu-candidate.l-row__item--span-1.l-row__item.fc-slice__item
+www.thehindu.com###fun-games
+www.thurrott.com###pageWrapper > .container > .primary > .clearfix.wrap > .sidebar1
+www.ucsusa.org###interrupt
+www.webofdebt.com##body > .skiptranslate
+www.westernjournalism.com###be-newsletter-widget-2
+www.westernjournalism.com###respond > h3
+www.westernjournalism.com###respond > p
+www.westernjournalism.com##.site-container > .site-inner > .wrap > .content-sidebar-wrap > .content > .email-newsletter
+www.westernjournalism.com###text-21 > .widget-wrap > .textwidget > .fb-page
+www.wimp.com##body > table:nth-of-type(3) > tbody > tr:nth-of-type(2) > td:nth-of-type(2)
+www.wimp.com##body > table:nth-of-type(4) > tbody > tr:nth-of-type(1) > td:nth-of-type(2)
+www.wimp.com##body > table:nth-of-type(4) > tbody > tr:nth-of-type(2) > td > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > div > .post-to-wall
+www.wimp.com##body > table:nth-of-type(4) > tbody > tr:nth-of-type(2) > td > div > table > tbody > tr:nth-of-type(4) > td:nth-of-type(2)
+www.wimp.com##body > table:nth-of-type(4) > tbody > tr:nth-of-type(2) > td > div > table > tbody > tr:nth-of-type(7) > td:nth-of-type(2)
+www.wimp.com##body > table:nth-of-type(4) > tbody > tr:nth-of-type(2) > td > div > table > tbody > tr:nth-of-type(8) > td:nth-of-type(2)
+www.wimp.com###footer > .secondary.subfooter-outer
+www.wimp.com###interact
+www.wimp.com###sidebar > .ad-336
+www.wimp.com###sidebar > .advertise-btn
+www.wimp.com###sidebar-newsletter
+www.wimp.com###video-content > .fb-like-box
+www.wimp.com###video-content > .fb-share-left.fb-share[href^="http://www.facebook.com/sharer/sharer.php"]
+www.wired.com###cm-footer-cm-unit
+www.wired.com###global-footer
+www.wired.com###grid > .site-container.clearfix:nth-of-type(1) > .float-r-med.float-r-big.flex-row > .marg-b-med.sm-col-9.col.box.rad.mob-center > .cursor-pointer > .no-border.card.fallback-card-tall.fallback
+www.wired.com###grid > .site-container.clearfix:nth-of-type(4) > .med-order-1.items-2.items.flex-row > .med-col-8.col.marg-b-med.box.rad.mob-center
+www.wired.com###rad-card-small
+www.wired.com###sidebar-wrap > .sidebar-rad.marg-b-med.box.rad > a[href="javascript:;"] > .fallback-tall.fallback
+www.youtube.com###page > .alerts-wrapper
+www.zdnet.com###mantle_skin > .contentWrapper > .container > .row > .row > .col-12 > .row > .row:nth-of-type(1) > .col-12 > .row > .col-8 > article > .shareBar:nth-of-type(1)

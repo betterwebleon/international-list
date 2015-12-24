@@ -115,59 +115,59 @@
 ##.track-click
 ##.tracking_article_social
 ##.utils_social_tracking
-##[class^="show_"][class$="_ads"]
+##[class*="show_"][class$="_ads"]
 ##[id="WIX_ADS"]
 @@||cloudflare.com/ajax/libs/require.js
-@@||connect.facebook.net/^/sdk.js
+@@||connect.facebook.net/*/sdk.js
 @@||facebook.com/connect
 @@||facebook.com/plugins/comments
-@@||facebook.com/v2.^/plugins/video.php
+@@||facebook.com/v2.*/plugins/video.php
 @@||flvto.biz/scripts/ads.js
 @@||www.googletagservices.com/tag/js/gpt.js
 tech.co#@#.addthis_toolbox
 ||2o7.net
-||vid01.24ur.com^.mp4$domain=behind-the-scene
-||ad.doubleclick.net^$domain=behind-the-scene
+||vid01.24ur.com*.mp4$domain=behind-the-scene
+||ad.doubleclick.net*$domain=behind-the-scene
 ||api-read.facebook.com/restserver.php?api_key=$third-party
-||api.groupon.com^$third-party
-||api.oneall.com^$third-party
-||api.starsmp.com^$third-party
+||api.groupon.com*$third-party
+||api.oneall.com*$third-party
+||api.starsmp.com*$third-party
 ||apis.google.com/*/socialgraph/$third-party
 ||apis.google.com/_/apps-static/_/js/gapi/*plusone/$third-party
 ||apis.google.com/_/scs/apps-static/*=page,plusone/$third-party
 ||apis.google.com/js/platform.js$third-party
-||apis.google.com^/widget/render/follow?$third-party
-||apis.google.com^/widget/render/page?$third-party
-||apis.google.com^/widget/render/person?$third-party
+||apis.google.com*/widget/render/follow?$third-party
+||apis.google.com*/widget/render/page?$third-party
+||apis.google.com*/widget/render/person?$third-party
 ||assets.pinterest.com/js/pinit.js$third-party
 ||assets.pinterest.com/pidget.html$third-party
 ||assets.tumblr.com/assets/html/iframe/o.html$third-party
 ||assets.tumblr.com/assets/html/iframe/teaser.html?$third-party
 ||bit.ly/TweetAndTrack.js
-||cdn.jquerytools.org/^/jquery.tools.min.js
+||cdn.jquerytools.org/*/jquery.tools.min.js
 ||chartbeat.com
 ||chartbeat.net
-||cityam.com/assets/js/^1.11.1.min.js
+||cityam.com/assets/js/*1.11.1.min.js
 ||clicky.com$domain=~clicky.com
 ||cruftexcision.xyz
-||eu-st.^.com/js/analytics.js
-||eu-st.^.com/js/track.min.js
+||eu-st.*.com/js/analytics.js
+||eu-st.*.com/js/track.min.js
 ||facebook.com$domain=~facebook.com
 ||facebook.net$domain=~facebook.net
 ||fastly.net
 ||fbcdn-profile-a.akamaihd.net$domain=~facebook.com|~fbcdn.net
 ||fbcdnnet$domain=~facebook.com|~fbcdn.net,third-party
-||fbstatic-a.akamaihd.net^$domain=~facebook.com,third-party
+||fbstatic-a.akamaihd.net*$domain=~facebook.com,third-party
 ||flappyhamster.net$domain=~flappyhamster.net
 ||flappyhamster.net/dt.adsafeprotected.com$image,domain=behind-the-scene
 ||flipboard.com$domain=~flipboard.com
-||gather.^/scripts/visittrack.js
+||gather.*/scripts/visittrack.js
 ||giurn.co.uk
 ||google.com/js/bg
 ||google.com/js/plusone.js$third-party
 ||googleadservices.com
 ||googleplus.com$domain=~googleplus.com|~plus.google.com
-||googletagmanager.com/^.js
+||googletagmanager.com/*.js
 ||googletagservices.com/tag/js
 ||googleusercontent.com/gadgets/js
 ||gplusapi.$domain=~googleplus.com|~plus.google.com
@@ -183,13 +183,13 @@ tech.co#@#.addthis_toolbox
 ||plus.google.com$domain=~plus.google.com|~googleplus.com
 ||plusone.google.com
 ||quantservice.com$domain=~quantservice.com
-||realtime.services.disqus.com/api/^/thread/
+||realtime.services.disqus.com/api/*/thread/
 ||reddit.com$domain=~reddit.com
 ||rp-api.com/rjs/repostus.js
-||safebrowsing-cache.google.com^
-||safebrowsing-cache.google.com^$other,domain=behind-the-scene
-||safebrowsing.google.com^
-||safebrowsing.google.com^$other,domain=behind-the-scene
+||safebrowsing-cache.google.com*
+||safebrowsing-cache.google.com*$other,domain=behind-the-scene
+||safebrowsing.google.com*
+||safebrowsing.google.com*$other,domain=behind-the-scene
 ||scorecardresearch.com$domain=~scorecardresearch.com
 ||spot.im/embed/scripts/launcher.js$third-party
 ||spotilocal.com$domain=~spotify.com
@@ -198,16 +198,16 @@ tech.co#@#.addthis_toolbox
 ||stumbleupon.com$domain=~stumbleupon.com
 ||symcd.com$domain=~symcd.com
 ||syndication.twitter.com/widgets/video/?callback$domain=~twitter.com
-||telemetry-experiment^$xmlhttprequest,domain=behind-the-scene
+||telemetry-experiment*$xmlhttprequest,domain=behind-the-scene
 ||thefinancialbrand.com/wp-content/*/*/*_*.*
-||twimg.com^$domain=~twitter.com|~twimg.com|~gov.si|~24ur.com|~radio1.si|~iflscience.com
+||twimg.com*$domain=~twitter.com|~twimg.com|~gov.si|~24ur.com|~radio1.si|~iflscience.com
 ||twitter.com$domain=~twitter.com|~twimg.com|~gov.si|~24ur.com|~radio1.si|~iflscience.com
 ||twitter.com/intent
 ||www5.pcmag.com/media/images/368286-slideout-subscribe.png
 ||www.anandtech.com/Content/images/twitter_down_arrow.png
 ||www.facebook.com/ajax/bz$first-party,xmlhttprequest
 ||www.huffingtonpost.com/_uac/2014adpage.html
-||ziffstatic.com^$third-party
+||ziffstatic.com*$third-party
 arstechnica.com###article-sidebar > .column > .thick-divide-bottom.thick-divide-top
 arstechnica.com###content > .standalone > header > .post-meta > .corner-info
 arstechnica.com###outbrain-recs
@@ -255,7 +255,7 @@ thefinancialbrand.com###content > .entry.tag-watson.tag-robots.tag-papper.tag-na
 thefinancialbrand.com###dym-sidebar-single-19 > .widget-wrap
 thefreethoughtproject.com###ajax_indicator
 thefreethoughtproject.com###WFWrapper
-thepiratebay.^###social
+thepiratebay.*###social
 thespiritscience.net###shr_canvas4
 uk.eonline.com###cc-tag
 useconomy.about.com###main > .container > .row > .article-content.col-tablet-8.col-11.col > .col-push-tablet-1.col-push-2 > .js-share.s-btns-eoc.s-btns
@@ -323,8 +323,8 @@ www.cnet.com###rbContent > .social-bar-wrapper.col-12 > .fixed.fixate.col-12.soc
 www.cnet.com###secondary
 www.cnet.com##.container > .row > .row > .col-12 > .tocNav
 www.cnet.com##.container > .row > .row:nth-of-type(1) > .col-12 > .row > .col-8 > .tocNav > ul
-www.cnet.com##[id^="leader-top"]
-www.cnet.com##[id^="sponsored-feed-top"]
+www.cnet.com##[id*="leader-top"]
+www.cnet.com##[id*="sponsored-feed-top"]
 www.computerworld.com###page-wrapper > section > .bodee > .col-wrapper > .news-promos > .right-rail > .brandposts-wrapper.promo-wrapper
 www.computerworld.com###page-wrapper > section > .bodee > .col-wrapper > .news-promos > .right-rail > .partner-hub-wrapper.promo-wrapper
 www.computerworld.com###reading-tools-wrapper > .tools > .social
@@ -353,7 +353,7 @@ www.fudzilla.com###Mod152
 www.fudzilla.com###t3-mainnav > .navbar.container > .navbar-inner > .head-social > .nav > .nav-connect.parent.dropdown
 www.ft.com###page-container > .middleSection.master-column > .contentSection.master-row > .marketingSection.master-row
 www.ghacks.net###main > .adslot_1.adsbygoogle
-www.ghacks.net##[id^="pgloggedouttext-"]
+www.ghacks.net##[id*="pgloggedouttext-"]
 www.gsmarena.com###subHeader
 www.hollywoodreporter.com###js__stories-wrapper > .social-container
 www.howtogeek.com##.overlay-bg
@@ -362,8 +362,8 @@ www.huffingtonpost.com###wrapper > .content > .group.main > .fix.rail > span
 www.ibtimes.co.uk##body > .hidden-print:nth-of-type(1) > .container > .w100 > ul > .icon-sns
 www.ibtimes.co.uk###article-social-wrap
 www.icann.org##.js-site-change-banner.site-change-banner
-www.iflscience.com##[id^="mediumrectanglebottom"]
-www.iflscience.com##[id^="mediumrectangletop"]
+www.iflscience.com##[id*="mediumrectanglebottom"]
+www.iflscience.com##[id*="mediumrectangletop"]
 www.iflscience.com###block-ifls-openx-0 > .content
 www.iflscience.com###block-ifls-strongmail-newsletter
 www.iflscience.com###header > .social-links
@@ -390,8 +390,8 @@ www.pcworld.com###toaster
 www.petri.com###simplemodal-container
 www.petri.com###simplemodal-overlay
 www.petri.com###text-42
-www.petri.com##[id^="post"] > .ad.freestyle
-www.petri.com##[id^="post"] > .in-content-lower.ad
+www.petri.com##[id*="post"] > .ad.freestyle
+www.petri.com##[id*="post"] > .in-content-lower.ad
 www.pocket-lint.com###article > .nolinks.norewrite.extras > .comments > div > .block-mpu.block
 www.pocket-lint.com###pl-id-1
 www.popularmechanics.com###share-sticky-bar
@@ -457,7 +457,7 @@ www.wimp.com###sidebar > .ad-336
 www.wimp.com###sidebar > .advertise-btn
 www.wimp.com###sidebar-newsletter
 www.wimp.com###video-content > .fb-like-box
-www.wimp.com###video-content > .fb-share-left.fb-share[href^="http://www.facebook.com/sharer/sharer.php"]
+www.wimp.com###video-content > .fb-share-left.fb-share[href*="http://www.facebook.com/sharer/sharer.php"]
 www.wired.com###cm-footer-cm-unit
 www.wired.com###global-footer
 www.wired.com###grid > .site-container.clearfix:nth-of-type(1) > .float-r-med.float-r-big.flex-row > .marg-b-med.sm-col-9.col.box.rad.mob-center > .cursor-pointer > .no-border.card.fallback-card-tall.fallback

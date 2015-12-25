@@ -14,12 +14,12 @@ International List is a very **"light" (mostly cosmetic)** version of Fanboy Ann
 
 The list is **intended for simple users** with a set-and-forget approach. Copy the raw URL to your content-filtering software's custom filter list (see point 2.B below for more info). If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/international-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
 
-###1. Recommended content-filtering software:
+###1. Recommended content-filtering software
 **uBlock Origin**
 
 *Why?* Because it's efficient, lightweight, simple and free.
 
-###2. Recommended complementary filter lists:
+###2. Recommended complementary filter lists
 **A) following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party filters" tab]**
 - uBlock filters
 - uBlock filters – Badware risks
@@ -35,7 +35,7 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 
 (*Many of them may already be turned on.*)
 
-**B) various filter lists can be added by copying the following URLs to the "Custom" field in uBlock Origin ["3rd-party filters" tab]**
+**B) various filter lists can be added by copying the following URLs to the "Custom" field in uBlock Origin<br>["3rd-party filters" tab]**
 
 1. https://easylist-downloads.adblockplus.org/adwarefilters.txt
 2. https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt
@@ -46,7 +46,7 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 
 (*International List is under the number 4, however it is recommended to add all of them.*)
 
-###3. Recommended browser:
+###3. Recommended browser
 **Mozilla Firefox**
 
 *Why?* Because it can be customized in order to improve browsing speed, privacy, user interface, etc.
@@ -85,7 +85,7 @@ Hit enter and confirm a Firefox warning message. Then find the following prefere
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 
-###4. Hosts file:
+###4. Hosts file
 Another very important and useful tweak is the file named "hosts". It is highly recommended to set it up **together** with all aforementioned tweaks. According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), <code>hosts</code> is a plain-text file used by all operating systems to map hostnames to IP addresses. The <code>hosts</code> is not bound to any browser, so it should work all the time irrespective of the browser or program.
 
 In other words, <code>hosts</code> works on a system level and takes care of all the junk before it even "reaches" a browser. It blocks the whole website and therefore protects user from getting into contact with dangerous websites, full of malware. Further, it greatly improves browsing speed and privacy by blocking access to various known ad servers and data collecting systems. StevenBlack's version of <code>hosts</code> file has been amalgamated with various sources. You can download the file from [here](https://github.com/StevenBlack/hosts/archive/master.zip) (you will find it within the downloaded zip file). Then:
@@ -103,7 +103,7 @@ After you are done, the easiest way is to restart the computer. Or you can also 
 
 Close the window and restart your browser, if it has been opened. That's all. Enjoy browsing :)
 
-###5. License:
+###5. License
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or

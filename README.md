@@ -12,7 +12,7 @@ International List is a very **"light" (mostly cosmetic)** version of Fanboy Ann
 
 *So a basic rule here is: first content, then other unobtrusive social crap.*
 
-The list is **intended for simple users** with a set-and-forget approach. Copy the raw URL to your content-filtering software's custom filter list (see point 2.B below for more info). If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/international-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
+The list is **intended for simple users** with a set-and-forget approach. Copy the raw URL to your content-filtering software's custom filter list (see chapter 2.B below for more info). If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/international-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
 
 ###1. Recommended content-filtering software
 **uBlock Origin**
@@ -52,7 +52,7 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 *Why?* Because it can be customized in order to improve browsing speed, privacy, user interface, etc.
 
 *How?* \*Type this in your address (URL) bar: *<code>about.config</code>*<br>
-Hit enter and confirm a Firefox warning message. Then find the following preference names by pasting each one of them to a search bar. Double-click on each preference name and change its value to:
+Hit enter and confirm a Firefox warning message. Then find the following preference names by pasting each one of them to search bar. Double-click on each preference name and change its value to:
 
 |   | PREFERENCE NAME                      | VALUE |
 |---|:-------------------------------------|:-----:|

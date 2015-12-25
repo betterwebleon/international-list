@@ -1,23 +1,23 @@
 # international-list
 
-**International List consists mostly of static cosmetic filters. English and few German websites are included.** As regards tracking filters, they have been partly copied from other privacy filter lists.
+International List consists **mostly of static cosmetic filters**. English and few German websites are included. As regards tracking filters, they have been partly copied from other privacy filter lists.
 
 **What is the difference between this list and other ad blocking filter lists?**
 
-International List is a **complementary list** to basic ad blocking filter lists (see chapter number 2 below for more info). It blocks various subscription and Facebook pop-ups, as well as doubled social buttons. Example: EasyList filter list sometimes blocks only the advert. International List removes also the frame, where the ad was originally placed. The complete ad frame removal often leaves more space for useful content and is therefore not meant only for aesthetics.
+International List is a **complementary list** to basic ad blocking filter lists (for more info see chapter 2 below). It blocks various subscription and social pop-ups, as well as doubled social buttons. **For example:** EasyList filter list sometimes blocks only the advert. International List removes also the frame, where the ad was originally placed. The complete ad frame removal often leaves more space for useful content and is therefore not meant only for aesthetics.
 
 **What is the difference between this list and other advanced privacy filter lists?**
 
-International List is a very **"light" (mostly cosmetic)** version of Fanboy Annoyances List. This means it doesn't block all the social content. Example: if there are social buttons on top and bottom of a webpage, this filter list will remove only social buttons on the top. The others on the bottom remain in order to keep the website functional in terms of social networks.
+International List is a very **"light" (mostly cosmetic)** version of Fanboy Annoyances List. This means it doesn't block all the social content. **For example:** if there are social buttons on top and bottom of a webpage, this filter list will remove only social buttons on the top. The others on the bottom remain in order to keep the website functional in terms of social networks.
 
-*So a basic rule here is: first content, then other social crap.*
+*So a basic rule here is: first content, then other unobtrusive social crap.*
 
 The list is **intended for simple users** with a set-and-forget approach. Copy the raw URL to your content-filtering software's custom filter list (see point 2.B below for more info). If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/international-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
 
 ###1. Recommended content-filtering software:
 **uBlock Origin**
 
-Why? Because it's efficient, lightweight, simple and free.
+*Why?* Because it's efficient, lightweight, simple and free.
 
 ###2. Recommended complementary filter lists:
 **A) following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party filters" tab]**
@@ -33,7 +33,7 @@ Why? Because it's efficient, lightweight, simple and free.
 - Malware domains
 - Spam404
 
-(*Some of them may already be turned on.*)
+(*Many of them may already be turned on.*)
 
 **B) various filter lists can be added by copying the following URLs to the "Custom" field in uBlock Origin ["3rd-party filters" tab]**
 
@@ -50,11 +50,10 @@ Why? Because it's efficient, lightweight, simple and free.
 ###3. Recommended browser:
 **Mozilla Firefox**
 
-Why? Because it can be customized in order to improve browsing speed, privacy, user interface, etc.
+*Why?* Because it can be customized in order to improve browsing speed, privacy, user interface, etc.
 
-How? Type this in your address (URL) bar: *<code>about.config</code>*
-
-Hit enter and confirm scary Firefox warning message. Then select the following preference names (by pasting them to a search bar) and change their values to the following ones:
+*How?* \*Type this in your address (URL) bar: *<code>about.config</code>*<br>
+Hit enter and confirm a Firefox warning message. Then find the following preference names by pasting each one of them to a search bar. Double-click on each preference name and change its value to:
 
 |   | PREFERENCE NAME                      | VALUE |
 |---|:-------------------------------------|:-----:|
@@ -88,14 +87,22 @@ Hit enter and confirm scary Firefox warning message. Then select the following p
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 
 ###4. Hosts file:
-Another very important and useful tweak is the file named "hosts". According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), it is a plain-text file used by all operating systems to map hostnames to IP addresses. The <code>hosts</code> is not bound to any browser, so it should work all the time irrespective of the browser or program. StevenBlack's version of <code>hosts</code> file has been amalgamated with various sources. You can download the file from [here](https://github.com/StevenBlack/hosts/archive/master.zip) (you will find it within the downloaded zip file). Then:
+Another very important and useful tweak is the file named "hosts". It is highly recommended to set it up **together** with all aforementioned tweaks. According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), <code>hosts</code> is a plain-text file used by all operating systems to map hostnames to IP addresses. The <code>hosts</code> is not bound to any browser, so it should work all the time irrespective of the browser or program.
+
+In other words, <code>hosts</code> works on a system level and takes care of all the junk before it even "reaches" a browser. It blocks the whole website and therefore protects user from getting into contact with dangerous websites, full of malware. Further, it greatly improves browsing speed and privacy by blocking access to various known ad servers and data collecting systems. StevenBlack's version of <code>hosts</code> file has been amalgamated with various sources. You can download the file from [here](https://github.com/StevenBlack/hosts/archive/master.zip) (you will find it within the downloaded zip file). Then:
 
 - in Windows, you  place it to the folder <code>C:\Windows\System32\Drivers\etc</code>
 - in Mac OS X, iOS, Linux or Android you place it to the folder <code>/etc/hosts</code>
 
-After you are done, the easiest way is to restart the computer.
+After you are done, the easiest way is to restart the computer. Or you can also do it faster:
 
-That's all. Enjoy browsing :)
+- in **Windows**, open the Command Prompt window (cmd.exe) as an Administrator: Then run <code>ipconfig /flushdns</code>
+- in **Mac OS X**, open the Terminal and run: <code>sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder</code>
+- in **Linux Debian/Ubuntu**, open the Terminal and run with root privileges: <code>sudo /etc/rc.d/init.d/nscd restart</code>
+- in **Linux with systemd**, open the Terminal and run with root privileges: <code>sudo systemctl restart network.service</code>
+- in **Fedora Linux** or **Arch Linux/Manjaro**, open the Terminal and run with root privileges:<br><code>sudo systemctl restart NetworkManager.service</code>
+
+Close the window and restart your browser, if it has been opened. That's all. Enjoy browsing :)
 
 ###5. License:
 This is free and unencumbered software released into the public domain.

@@ -4,7 +4,7 @@ International List consists **mostly of static cosmetic filters**. English and f
 
 **What is the difference between this list and other ad blocking filter lists?**
 
-International List is a **complementary list** to basic ad blocking filter lists (for more info see chapter 2 below). It blocks various subscription and social pop-ups, as well as doubled social buttons. **For example:** EasyList filter list sometimes blocks only the advert. International List removes also the frame, where the ad was originally placed. The complete ad frame removal often leaves more space for useful content and is therefore not meant only for aesthetics.
+International List is a **complementary list** to basic ad blocking filter lists (for more info see chapter 2 below). It blocks various subscription and social pop-ups, as well as doubled social buttons. **For example:** EasyList filter list sometimes blocks adverts only. International List often removes the frame where advert was placed initially. The complete ad frame removal often leaves more space for useful content. This list is therefore not meant only for aesthetics but also for practical reasons to keep the page neat and rather clear.
 
 **What is the difference between this list and other advanced privacy filter lists?**
 
@@ -43,7 +43,6 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 4. https://raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt
 5. https://raw.github.com/liamja/Prebake/master/obtrusive.txt
 6. https://raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt
-7. https://raw.githubusercontent.com/betterwebleon/slovenian-list/master/filters.txt
 
 (*International List is under the number 4, however it is recommended to add all of them.*)
 

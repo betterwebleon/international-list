@@ -8,7 +8,7 @@ International List is a **complementary list** to basic ad blocking filter lists
 
 **What is the difference between this list and other advanced privacy filter lists?**
 
-International List is a very **"light" (mostly cosmetic)** version of Fanboy Annoyances List. This means it doesn't block all the social content. **For example:** if there are social buttons on top and bottom of a webpage, this filter list will remove only social buttons on the top. The others on the bottom remain in order to keep the website functional in terms of social networks.
+International List is a **very light (mostly cosmetic)** version of Fanboy Annoyances List. This means it doesn't block all the social content. **For example:** if there are social buttons on top and bottom of a webpage, this filter list will remove only social buttons on the top. The others on the bottom remain in order to keep the website functional in terms of social networks.
 
 *So a basic rule here is: first content, then other unobtrusive social crap.*
 
@@ -35,7 +35,7 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 
 (*Many of them may already be turned on.*)
 
-**B) various filter lists can be added by copying the following URLs to the "Custom" field in uBlock Origin<br>["3rd-party filters" tab]**
+**B) various custom filter lists can be added by copying the following URLs to the "Custom" field in uBlock Origin<br>["3rd-party filters" tab]**
 
 1. https://easylist-downloads.adblockplus.org/adwarefilters.txt
 2. https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt

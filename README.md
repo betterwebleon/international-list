@@ -66,11 +66,11 @@ Hit enter and confirm a Firefox warning message. Then find the following prefere
 |8. | media.peerconnection.turn.disable    |  true |
 |9. | privacy.trackingprotection.enabled   |  true |
 
-**The upper settings are privacy-related only. If you want more speed as well, keep on tweaking:**
+**The upper settings are privacy-related only. If you want more speed and beter UI as well, keep on tweaking:**
 
 |    | PREFERENCE NAME                           | VALUE |
 |----|:------------------------------------------|:-----:|
-| 10.| full-screen-api.approval-required         | false |
+| 10.| browser.newtabpage.rows                   |   2   |
 | 11.| full-screen-api.transition-duration.enter |       |
 | 12.| full-screen-api.transition-duration.leave |       |
 | 13.| memory.free_dirty_pages                   |  true |

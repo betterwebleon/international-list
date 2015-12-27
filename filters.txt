@@ -209,6 +209,7 @@ csglobe.com###post-14512 > .td-page-wrap.container > .row > .span12 > .td-grid-w
 diycozyhome.com###inner-wrap > .td-footer-wrap
 diycozyhome.com###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4 > .widget_text.widget
 eprints.lse.ac.uk##.ep_noprint.ep_tm_header > div:nth-of-type(1)
+events.redditmedia.com
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .article-image-figcaption
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
@@ -425,6 +426,7 @@ www.theguardian.com##.site-message--membership-message-variants.site-message--ba
 www.theguardian.com##[id] > .fc-container__inner > .fc-show-more--hidden.fc-container__body.fc-container--rolled-up-hide > .fc-slice-wrapper > .fc-slice--t-tl-mpu.fc-slice.l-row--cols-3.l-row.u-unstyled > .fc-slice__item--mpu-candidate.js-fc-slice-mpu-candidate.l-row__item--span-1.l-row__item.fc-slice__item
 www.thehindu.com###fun-games
 www.thurrott.com###pageWrapper > .container > .primary > .clearfix.wrap > .sidebar1
+www.tickld.com###main-container > .page-wrapper > .content-wrapper > .articles.row.tickld-body-main > .main-page > .article-body > .article-footer
 www.ucsusa.org###interrupt
 www.webofdebt.com##body > .skiptranslate
 www.westernjournalism.com###be-newsletter-widget-2

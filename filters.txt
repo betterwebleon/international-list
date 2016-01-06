@@ -124,7 +124,6 @@
 @@||facebook.com/connect
 @@||facebook.com/plugins/comments
 @@||facebook.com/v2.*/plugins/video.php
-@@||flvto.biz/scripts/ads.js
 @@||www.googletagservices.com/tag/js/gpt.js
 tech.co#@#.addthis_toolbox
 ||2o7.net
@@ -335,8 +334,9 @@ www.extremetech.com###zdAdsOverlayBlackout
 www.extremetech.com###zdAdsOverlayIFrame
 www.finanzen.net###bs_abstand
 www.finanzen100.de###NEWS_ARTICLE > .sticky.social-sharing
-www.flvto.biz###firefox_plugin
-www.flvto.biz##.form > .wrapper > .h-placeholder
+www.flvto.biz##.content > .middle-content > .wrapper > .h-placeholder
+www.flvto.biz##.content > .wrapper > .h-placeholder
+www.flvto.biz##.form > .wrapper > .top-placeholder
 www.forbes.com###abovefold > aside > .ad.block
 www.forbes.com###article-page > .article-background-wrapper > .main-article > .main-article-padding > .ng-scope.article-header > .ng-scope.top-ad-sticky
 www.fudzilla.com###Mod123

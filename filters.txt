@@ -172,6 +172,7 @@ tech.co#@#.addthis_toolbox
 ||i.po.st/share/script/post-widget.js
 ||intextad.net
 ||livefyre.com/wjs
+||monova.org/ajax/get_lightbox_content$xmlhttprequest,first-party
 ||plusone.google.com
 ||realtime.services.disqus.com/api/*/thread/
 ||rp-api.com/rjs/repostus.js
@@ -185,6 +186,7 @@ tech.co#@#.addthis_toolbox
 ||static2.businessinsider.com/image/51e9584f69beddbb1d000003-208/appstorebadgeen.png
 ||syndication.twitter.com/widgets/video/?callback$domain=~twitter.com
 ||telemetry-experiment^$xmlhttprequest
+||telemetry.mozilla.org/submit/telemetry
 ||thefinancialbrand.com/wp-content/*/*/*_*.*
 ||twimg.com^$domain=~twitter.com|~twimg.com|~gov.si|~24ur.com|~radio1.si|~iflscience.com
 ||twitter.com^$domain=~twitter.com|~twimg.com|~gov.si|~24ur.com|~radio1.si|~iflscience.com
@@ -224,6 +226,8 @@ krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
 m.bestvideo.pub###ads-back
 m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
 motherboard.vice.com###yw1
+pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
+pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .alternative
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .b-follow-us
 rt.com##.page > .col-high-simple.aside > .aside-wp > .editable_widget.cont-wp
@@ -331,9 +335,8 @@ www.extremetech.com###zdAdsOverlayBlackout
 www.extremetech.com###zdAdsOverlayIFrame
 www.finanzen.net###bs_abstand
 www.finanzen100.de###NEWS_ARTICLE > .sticky.social-sharing
-www.flvto.biz##.content > .wrapper > .h-placeholder
-www.flvto.biz##.form > .wrapper > .h-placeholder
 www.flvto.biz###firefox_plugin
+www.flvto.biz##.form > .wrapper > .h-placeholder
 www.forbes.com###abovefold > aside > .ad.block
 www.forbes.com###article-page > .article-background-wrapper > .main-article > .main-article-padding > .ng-scope.article-header > .ng-scope.top-ad-sticky
 www.fudzilla.com###Mod123
@@ -453,5 +456,6 @@ www.wired.com###grid > .site-container.clearfix:nth-of-type(1) > .float-r-med.fl
 www.wired.com###grid > .site-container.clearfix:nth-of-type(4) > .med-order-1.items-2.items.flex-row > .med-col-8.col.marg-b-med.box.rad.mob-center
 www.wired.com###rad-card-small
 www.wired.com###sidebar-wrap > .sidebar-rad.marg-b-med.box.rad > a[href="javascript:;"] > .fallback-tall.fallback
+www.youtube.com###masthead-positioner > .clearfix.yt-consent-banner.yt-consent
 www.youtube.com###page > .alerts-wrapper
 www.zdnet.com###mantle_skin > .contentWrapper > .container > .row > .row > .col-12 > .row > .row:nth-of-type(1) > .col-12 > .row > .col-8 > article > .shareBar:nth-of-type(1)

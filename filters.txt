@@ -45,6 +45,7 @@
 ##.followus-static
 ##.followus_net
 ##.js-fixed-like-box-new.js-fixed-like-box.fixed-like-box-blue
+##.like-iframe
 ##.megaads
 ##.place_for_ad
 ##.track-action-Facebook
@@ -160,6 +161,7 @@ imgur.com###cta-container
 krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
 m.bestvideo.pub###ads-back
 m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
+monova.org###lightbox_loading
 motherboard.vice.com###yw1
 pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
@@ -344,6 +346,7 @@ www.technologyreview.com##.hp-content > .wrapper > .right.scroll-wrapper > .regi
 www.techradar.com###main > .news-article > .parsed.dynamic.hawk-widget-insert
 www.techradar.com###sidebar > .newsletter-signup.box
 www.techrepublic.com###share-bar:nth-of-type(2)
+www.techsupportalert.com###slidead-popup
 www.telegraph.co.uk###tmglBody > .gutterUnder.twoThirdsThird2 > .oneThird > .gutterUnder.summaryMedium:nth-of-type(7) > div > .styleThree.headerOne
 www.telegraph.co.uk###tmglBody > .gutterUnder.twoThirdsThird2 > .oneThird > .gutterUnder.summaryMedium:nth-of-type(11) > div > .mnIframe.iframeSummary.summary
 www.telegraph.co.uk###tmglBody > .gutterUnder.twoThirdsThird2 > .oneThird > .gutterUnder.summaryMedium:nth-of-type(11) > div > .styleThree.headerOne

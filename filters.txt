@@ -7,6 +7,8 @@
 ! Filters:
 ###avatar-template-copyright
 ###FbLike
+###fan-exit
+###fanback
 ###js-aside > .aside-ad-container
 ###js-top-fb-block
 ###share-track-tw
@@ -285,6 +287,7 @@ www.ghacks.net###main > .adslot_1.adsbygoogle
 www.ghacks.net##[id^="pgloggedouttext-"]
 www.gsmarena.com###subHeader
 www.hollywoodreporter.com###js__stories-wrapper > .social-container
+www.howtogeek.com###htgHeader > .logo > .logo2
 www.howtogeek.com##.overlay-bg
 www.huffingtonpost.com###wrapper > .content > .group.main > .fix.rail > .no-ad.follow-huffpost
 www.huffingtonpost.com###wrapper > .content > .group.main > .fix.rail > span
@@ -324,10 +327,12 @@ www.petri.com##[id^="post"] > .in-content-lower.ad
 www.pocket-lint.com###article > .nolinks.norewrite.extras > .comments > div > .block-mpu.block
 www.pocket-lint.com###pl-id-1
 www.popularmechanics.com###share-sticky-bar
+www.psychologytoday.com###pt-social-media
 www.ptleader.com###in-story
 www.reddit.com##.content > .newsletter-container.newsletterbar.infobar
 www.rethinkrobotics.com###main > .l-main > .l-container > .blog > .row > .blog-main > .post > .m-sharing
 www.reuters.com###content > .section:nth-of-type(4) > .sectionContent > .wrap.group > .grid-inside.grid8.column1 > .reuters-share-sticky.reuters-share > .horizontal-list
+www.rt.com###extension-browser
 www.sciencedaily.com###contents > .row > .less-padding-right.main.col-sm-8 > hr:nth-of-type(2)
 www.sciencedaily.com###contents > .row > .sidebar.less-padding-left.col-sm-4 > .tools-bottom.btn-group-sm.btn-group.pull-right
 www.sciencedaily.com###contents > .row > .sidebar.less-padding-left.col-sm-4 > .hidden-xs.hidden-tiny.tools-top.btn-group-sm.btn-group.pull-right
@@ -389,6 +394,7 @@ www.wimp.com###sidebar > .advertise-btn
 www.wimp.com###sidebar-newsletter
 www.wimp.com###video-content > .fb-like-box
 www.wimp.com###video-content > .fb-share-left.fb-share[href^="http://www.facebook.com/sharer/sharer.php"]
+www.winbeta.org###page > .container-inner > .main > .group.main-inner > .content > .group.pad > .post > .group.post-inner > .entry > .entry-inner > .mashsb-main.mashsb-container:nth-of-type(1)
 www.wired.com###cm-footer-cm-unit
 www.wired.com###global-footer
 www.wired.com###grid > .site-container.clearfix:nth-of-type(1) > .float-r-med.float-r-big.flex-row > .marg-b-med.sm-col-9.col.box.rad.mob-center > .cursor-pointer > .no-border.card.fallback-card-tall.fallback

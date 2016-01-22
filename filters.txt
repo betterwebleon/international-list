@@ -300,6 +300,9 @@ www.iflscience.com###block-ifls-openx-0 > .content
 www.iflscience.com###block-ifls-strongmail-newsletter
 www.iflscience.com###header > .social-links
 www.imdb.com###maindetails_sidebar_bottom > .aux-content-widget-2:nth-of-type(10)
+www.inc.com###leaderboard-container
+www.inc.com###topnav-placeholder
+www.inc.com##[id^="adInPattern"]
 www.investopedia.com###abkoverlay
 www.kitguru.net###facebooklikebox-3
 www.latimes.com##.trb_allContentWrapper > .trb_article_panelWrapper > div > .trb_article > .trb_article_articleHeader > .trb_socialize

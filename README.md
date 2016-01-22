@@ -67,19 +67,20 @@ Hit enter and confirm a Firefox warning message. Then find the following prefere
 
 **The upper settings are privacy-related only. If you want more speed and beter UI as well, keep on tweaking:**
 
-|    | PREFERENCE NAME                           | VALUE |
-|----|:------------------------------------------|:-----:|
-| 9. | full-screen-api.transition-duration.enter |       |
-| 10.| full-screen-api.transition-duration.leave |       |
-| 11.| memory.free_dirty_pages                   |  true |
-| 12.| network.http.keep-alive.timeout           |   60  |
-| 13.| network.http.pipelining                   |  true |
-| 14.| network.http.pipelining.aggressive        |  true |
-| 15.| network.http.pipelining.maxrequests       |   8   |
-| 16.| network.http.pipelining.ssl               |  true |
-| 17.| network.http.proxy.pipelining             |  true |
-| 18.| network.http.request.max-start-delay      |   3   |
-| 19.| network.websocket.delay-failed-reconnects | false |
+|   | PREFERENCE NAME                           | VALUE |
+|---|:------------------------------------------|:-----:|
+|9. | full-screen-api.transition-duration.enter |       |
+|10.| full-screen-api.transition-duration.leave |       |
+|11.| full-screen-api.warning.timeout           |   0   |
+|12.| memory.free_dirty_pages                   |  true |
+|13.| network.http.keep-alive.timeout           |   60  |
+|14.| network.http.pipelining                   |  true |
+|15.| network.http.pipelining.aggressive        |  true |
+|16.| network.http.pipelining.maxrequests       |   8   |
+|17.| network.http.pipelining.ssl               |  true |
+|18.| network.http.proxy.pipelining             |  true |
+|19.| network.http.request.max-start-delay      |   3   |
+|20.| network.websocket.delay-failed-reconnects | false |
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 

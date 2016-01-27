@@ -51,7 +51,11 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 
 *Why?* Because it can be customized in order to improve browsing speed, privacy, user interface, etc.
 
-\**How?* Type this in your address (URL) bar: *<code>about:config</code>*<br>
+\**How?* Type this in your address (URL) bar:
+
+<code>about:config</code><br>
+
+
 Hit enter and confirm a Firefox warning message. Then find the following preference names by pasting each one of them to search bar. Double-click on each preference name and change its value to:
 
 |   | PREFERENCE NAME                      | VALUE |

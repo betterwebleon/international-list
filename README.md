@@ -90,7 +90,7 @@ Hit enter and confirm a Firefox warning message. Then find the following prefere
 
 **At paragraphs *11.* and *12.* there are indeed no values. Just delete the existing values and confirm.** :)
 
-**After you enable the Firefox Tracking Protection (at paragraph *8.*), Facebook/Twitter videos or Facebook widgets/comments will not appear on some websites.** If you want to see them, just click on the "shield" icon while on website (the icon is in address bar (left to the URL in the browser) and disable the Tracking Protection for that website. The browser will save your settings for that specific website, so you won't need to do anything next time you visit it.
+**After you enable the Firefox Tracking Protection (at paragraph *8.*), Facebook/Twitter videos or Facebook widgets/comments will not appear on some websites.** If you want to see them, just click on the "shield" icon while on website (the icon is in address bar: left to the URL in the browser) and then click the button to disable Tracking Protection for that website. The browser will save your settings for that specific website, so you won't need to do anything next time you visit it.
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 

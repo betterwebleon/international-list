@@ -69,18 +69,24 @@ Hit enter and confirm a Firefox warning message. Then find the following prefere
 
 |   | PREFERENCE NAME                           | VALUE |
 |---|:------------------------------------------|:-----:|
-|9. | full-screen-api.transition-duration.enter |       |
-|10.| full-screen-api.transition-duration.leave |       |
-|11.| full-screen-api.warning.timeout           |   0   |
-|12.| memory.free_dirty_pages                   |  true |
-|13.| network.http.keep-alive.timeout           |   60  |
-|14.| network.http.pipelining                   |  true |
-|15.| network.http.pipelining.aggressive        |  true |
-|16.| network.http.pipelining.maxrequests       |   8   |
-|17.| network.http.pipelining.ssl               |  true |
-|18.| network.http.proxy.pipelining             |  true |
-|19.| network.http.request.max-start-delay      |   3   |
-|20.| network.websocket.delay-failed-reconnects | false |
+|9. | browser.fullscreen.animate                | false |
+|10.| browser.fullscreen.autohide               | false |
+|11.| full-screen-api.transition-duration.enter |       |
+|12.| full-screen-api.transition-duration.leave |       |
+|13.| full-screen-api.warning.timeout           |   0   |
+|14.| memory.free_dirty_pages                   |  true |
+|15.| network.http.keep-alive.timeout           |   60  |
+|16.| network.http.pipelining                   |  true |
+|17.| network.http.pipelining.aggressive        |  true |
+|18.| network.http.pipelining.maxrequests       |   8   |
+|19.| network.http.pipelining.ssl               |  true |
+|20.| network.http.proxy.pipelining             |  true |
+|21.| network.http.request.max-start-delay      |   3   |
+|22.| network.websocket.delay-failed-reconnects | false |
+
+**At paragraphs *11.* and *12.* there are indeed no values. Just delete the existing values and confirm.** :)
+
+**After you enable the Firefox Tracking Protection (at paragraph *8.*), Facebook/Twitter videos or Facebook widgets/comments will not appear on some websites.** If you want to see them, just click on the "shield" icon while on website (the icon is in address bar (left to the URL in the browser) and disable the Tracking Protection for that website. The browser will save your settings for that specific website, so you won't need to do anything next time you visit it.
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 

@@ -17,7 +17,7 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 ###1. Recommended content-filtering software
 **uBlock Origin**
 
-*Why?* Because it's efficient, lightweight, simple and free.
+*Why?* Because it's efficient, lightweight, simple and free. For Firefox, you can [get it here](https://addons.mozilla.org/en/firefox/addon/ublock-origin/).
 
 ###2. Recommended complementary filter lists
 **A) following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party filters" tab]**
@@ -35,7 +35,7 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 
 (*Many of them may already be turned on.*)
 
-**B) various custom filter lists can be added by copying the following URLs to the "Custom" field in uBlock Origin<br>["3rd-party filters" tab]**
+**B) various custom filter lists can be added by copying the following six URLs to the "Custom" field in uBlock Origin<br>["3rd-party filters" tab]**
 
 1. https://easylist-downloads.adblockplus.org/adwarefilters.txt
 2. https://raw.githubusercontent.com/metaphoricgiraffe/behind-the-scenes-filters/master/filters.txt

@@ -56,7 +56,7 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 <code>about:config</code><br>
 
 
-Hit enter and confirm a Firefox warning message. Then find the following preference names by pasting each one of them to search bar. Double-click on each preference name and change its value to:
+Hit enter and confirm a Firefox warning message. Then find the following preference names by copy-pasting each one to the "Search" bar. Double-click on each preference name and change its value to:
 
 |   | PREFERENCE NAME                      | VALUE |
 |---|:-------------------------------------|:-----:|

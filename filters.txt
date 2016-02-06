@@ -91,7 +91,6 @@ tech.co#@#.addthis_toolbox
 ||cruftexcision.xyz
 ||eu-st.*.com/js/analytics.js
 ||eu-st.*.com/js/track.min.js
-||fastly.net
 ||fbcdn-profile-a.akamaihd.net$domain=~facebook.com|~fbcdn.net
 ||fbcdn.net$domain=~facebook.com|~fbcdn.net,third-party
 ||fbstatic-a.akamaihd.net^$domain=~facebook.com,third-party
@@ -134,6 +133,7 @@ tech.co#@#.addthis_toolbox
 ||www.facebook.com/ajax/bz$first-party,xmlhttprequest
 ||www.huffingtonpost.com/_uac/2014adpage.html
 ||ziffstatic.com^$third-party
+9gag.com###jsid-entry-entity-a8M31R1 > .full-width.in-post-bot.post-afterbar-a
 arstechnica.com###article-sidebar > .column > .thick-divide-bottom.thick-divide-top
 arstechnica.com###content > .standalone > header > .post-meta > .corner-info
 arstechnica.com###outbrain-recs
@@ -150,6 +150,8 @@ diycozyhome.com###inner-wrap > .td-footer-wrap
 diycozyhome.com###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4 > .widget_text.widget
 eprints.lse.ac.uk##.ep_noprint.ep_tm_header > div:nth-of-type(1)
 events.redditmedia.com
+filehippo.com###root-content > div > .advert-center-left
+filehippo.com###root-content > div > .left-hand-col > .advert-center-left
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .article-image-figcaption
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
@@ -163,6 +165,7 @@ imgur.com###cta-container
 krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
 m.bestvideo.pub###ads-back
 m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
+metro.co.uk###post-5642470 > header > .share-buttons-top.share-buttons
 monova.org###lightbox_loading
 motherboard.vice.com###yw1
 pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
@@ -320,8 +323,11 @@ www.nytimes.com###TopAd1
 www.pcadvisor.co.uk###mainContent > .articleBd > .revProduct > .metaArticleContainer
 www.pcmag.com###outbrain_widget_1 > .AR_2.ob_dual_container > .ob_dual_right
 www.pcmag.com###primarybanner
+www.pcworld.com###side > .promo
 www.pcworld.com###taboola-below-article-thumbnails
 www.pcworld.com###toaster
+www.petri.com###post > .single.article > .article-content > .ad.freestyle > span
+www.petri.com###post > .single.article > .article-content > .in-content.ad
 www.petri.com###simplemodal-container
 www.petri.com###simplemodal-overlay
 www.petri.com###text-42
@@ -350,6 +356,7 @@ www.securityweek.com###simplemodal-overlay
 www.smbc-comics.com###boxbeat
 www.smbc-comics.com###towerarea
 www.softpoint.in##.us_mobile_hide.us_floating
+www.stern.de###main-wrapper > .m-sharing-toolbar-vertical
 www.technologyreview.com##.hp-content > .wrapper > .right.scroll-wrapper > .region-homepage-right-col.region > .partner-network
 www.techradar.com###main > .news-article > .parsed.dynamic.hawk-widget-insert
 www.techradar.com###sidebar > .newsletter-signup.box
@@ -378,7 +385,9 @@ www.thehindu.com###fun-games
 www.thurrott.com###pageWrapper > .container > .primary > .clearfix.wrap > .sidebar1
 www.tickld.com###main-container > .page-wrapper > .content-wrapper > .articles.row.tickld-body-main > .main-page > .article-body > .article-footer
 www.ucsusa.org###interrupt
+www.washingtonpost.com###fZW5Gi2W0O3CBp > .posttv-sticky-player-video
 www.webofdebt.com##body > .skiptranslate
+www.webtech360.com###fadecream
 www.westernjournalism.com###be-newsletter-widget-2
 www.westernjournalism.com###respond > h3
 www.westernjournalism.com###respond > p

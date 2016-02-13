@@ -6,11 +6,11 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 _______________________________________________________________________
 ***What is the difference between this list and other ad blocking filter lists?***
 
-International List is a **complementary list** to basic ad blocking filter lists (for more info see chapter 2 below). It blocks various subscription and social pop-ups, as well as doubled social buttons. **For example:** EasyList filter list sometimes blocks adverts only. International List often removes the frame where advert was placed initially. The complete ad frame removal often leaves more space for useful content. This list is therefore not meant only for aesthetics but also for practical reasons to keep the page neat and rather clear.
+International List is a **complementary list** to basic ad blocking filter lists (for more info see chapter 2 below). It blocks various subscription and social pop-ups, as well as doubled social buttons. *For example:* EasyList filter list sometimes blocks adverts only. International List often removes the frame where advert was placed initially. The complete ad frame removal often leaves more space for useful content. This list is therefore not meant only for aesthetics but also for practical reasons to keep the page neat and rather clear.
 
 ***What is the difference between this list and other advanced privacy filter lists?***
 
-International List is a **very light (mostly cosmetic)** version of Fanboy Annoyances List. This means it does not block most of the social content. For example: if there are social buttons on top and bottom of a webpage, this filter list will remove only social buttons on the top. The others on the bottom remain in order to keep the website functional in terms of social networks.
+International List is a **very light (mostly cosmetic)** version of Fanboy Annoyances List. This means it does not block most of the social content. *For example:* if there are social buttons on top and bottom of a webpage, this filter list will remove only social buttons on the top. The others on the bottom remain in order to keep the website functional in terms of social networks.
 
 *So a basic rule here is: first content, then other unobtrusive social crap.*
 _______________________________________________________________________
@@ -52,8 +52,9 @@ After you paste the link(s), first click on the "Parse" button below the text ar
 
 *Why?* Because it can be customized in order to improve browsing speed, privacy, user interface, etc.
 
-\**How?* Type this in your address (URL) bar:<br>
-<code>about:config</code><br>
+\* *How?* Type this in your address (URL) bar:<br>
+<code>about:config</code>
+
 Hit enter and confirm a Firefox warning message. Then find the following preference names by copy-pasting each one to the "Search" bar. Double-click on each preference name and change its value to:
 
 |   | PREFERENCE NAME                                               | VALUE |
@@ -108,13 +109,13 @@ In other words, <code>hosts</code> works on a system level and takes care of all
 
 After you are done, the easiest way is to restart the computer. Or you can also do it faster:
 
-- in **Windows**, open the Command Prompt window (cmd.exe) as an Administrator: Then run <code>ipconfig /flushdns</code>
-- in **Mac OS X**, open the Terminal and run: <code>sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder</code>
-- in **Linux Debian/Ubuntu**, open the Terminal and run with root privileges: <code>sudo /etc/rc.d/init.d/nscd restart</code>
-- in **Linux with systemd**, open the Terminal and run with root privileges: <code>sudo systemctl restart network.service</code>
-- in **Fedora Linux** or **Arch Linux/Manjaro**, open the Terminal and run with root privileges:<br><code>sudo systemctl restart NetworkManager.service</code>
+- in *Windows*, open the Command Prompt window (cmd.exe) as an Administrator. Then run <code>ipconfig /flushdns</code>
+- in *Mac OS X*, open the Terminal and run: <code>sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder</code>
+- in *Linux Debian/Ubuntu*, open the Terminal and run with root privileges: <code>sudo /etc/rc.d/init.d/nscd restart</code>
+- in *Linux with systemd*, open the Terminal and run with root privileges: <code>sudo systemctl restart network.service</code>
+- in *Fedora Linux* or *Arch Linux/Manjaro*, open the Terminal and run with root privileges:<br><code>sudo systemctl restart NetworkManager.service</code>
 
-Close the window and restart your browser, if it has been opened. That's all. Enjoy browsing :)
+Close the window and restart your browser, if it has been opened. That's all. Enjoy your browsing :)
 
 ###5. License
 This is free and unencumbered software released into the public domain.

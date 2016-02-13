@@ -3,7 +3,7 @@
 International List consists **mostly of static cosmetic filters**. English and few German websites are included. As regards tracking filters, they have been partly copied from other privacy filter lists.
 
 The list is **intended for simple users** with a set-and-forget approach. Copy the raw URL to your content-filtering software's custom filter list (see chapter 2.B below for more info). If you have any suggestions or issues to report, please do it [here](https://github.com/betterwebleon/international-list/issues) or write an [e-mail](mailto:betterweb.leon@outlook.com).
-_______________________________________________________________________
+
 ***What is the difference between this list and other ad blocking filter lists?***
 
 International List is a **complementary list** to basic ad blocking filter lists (for more info see chapter 2 below). It blocks various subscription and social pop-ups, as well as doubled social buttons. *For example:* EasyList filter list sometimes blocks adverts only. International List often removes the frame where advert was placed initially. The complete ad frame removal often leaves more space for useful content. This list is therefore not meant only for aesthetics but also for practical reasons to keep the page neat and rather clear.
@@ -13,7 +13,8 @@ International List is a **complementary list** to basic ad blocking filter lists
 International List is a **very light (mostly cosmetic)** version of Fanboy Annoyances List. This means it does not block most of the social content. *For example:* if there are social buttons on top and bottom of a webpage, this filter list will remove only social buttons on the top. The others on the bottom remain in order to keep the website functional in terms of social networks.
 
 *So a basic rule here is: first content, then other unobtrusive social crap.*
-_______________________________________________________________________
+
+-------------
 ###1. Recommended content-filtering software
 **uBlock Origin**
 
@@ -117,7 +118,8 @@ After you are done, the easiest way is to restart the computer. Or you can also 
 
 Close the window and restart your browser, if it has been opened. That's all. Enjoy your browsing :)
 
-###5. License
+-------------
+###License
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or

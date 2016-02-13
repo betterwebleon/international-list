@@ -55,7 +55,7 @@ After you paste the link(s), first click on the "Parse" button below the text ar
 \* *How?* Type this in your address (URL) bar:<br>
 <code>about:config</code>
 
-Hit enter and confirm a Firefox warning message. Then find the following preference names by copy-pasting each one to the "Search" bar. Double-click on each preference name and change its value to:
+Hit enter and confirm a Firefox warning message. Then find the following preference names by copy-pasting each one to the "*Search*" bar. Double-click on each preference name and change its value to:
 
 |   | PREFERENCE NAME                                               | VALUE |
 |---|:--------------------------------------------------------------|:-----:|
@@ -95,12 +95,12 @@ Hit enter and confirm a Firefox warning message. Then find the following prefere
 **At some paragraphs you need to enter the corresponding values manually.**<br>
 **At paragraphs *15.* and *16.* there are indeed no values. Just delete the existing ones and confirm.**
 
-After you enable the Firefox Tracking Protection (at paragraph *12.*), Facebook/Twitter videos or Facebook widgets/comments *will not load* on some websites. *If you want to see them*, just click on the "shield" icon while on website (the icon is in address bar - left to the URL in browser) and then click the button "Disable protection for this session". The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red crossed (while browsing on these websites).
+After you enable the Firefox Tracking Protection (at paragraph *12.*), Facebook/Twitter videos or Facebook widgets/comments **will not load** on some websites. **If you want to see them**, just click on the "shield" icon while on website (the icon is in address bar - left to the URL in browser) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red crossed (while browsing on these websites).
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 
 ###4. Hosts file
-Another very important and useful tweak is the file named "hosts". It is highly recommended to set it up **together** with all aforementioned tweaks. According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), <code>hosts</code> is a plain-text file used by all operating systems to map hostnames to IP addresses. The <code>hosts</code> is not bound to any browser, so it should work all the time irrespective of the browser or program.
+Another very important and useful tweak is the file named "*hosts*". It is highly recommended to set it up **together** with all aforementioned tweaks. According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), <code>hosts</code> is a plain-text file used by all operating systems to map hostnames to IP addresses. The <code>hosts</code> is not bound to any browser, so it should work all the time irrespective of the browser or program.
 
 In other words, <code>hosts</code> works on a system level and takes care of all the junk before it even "reaches" a browser. It blocks the whole website and therefore protects user from getting into contact with dangerous websites, full of malware. Further, it greatly improves browsing speed and privacy by blocking access to various known ad servers and data collecting systems. StevenBlack's version of <code>hosts</code> file has been amalgamated with various sources. You can download the file from [here](https://github.com/StevenBlack/hosts/archive/master.zip) (you will find it within the downloaded zip file). Then:
 

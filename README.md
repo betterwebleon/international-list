@@ -18,7 +18,7 @@ International List is a **very light (mostly cosmetic)** version of Fanboy Annoy
 ###1. Recommended content-filtering software
 **uBlock Origin**
 
-*Why?* Because it's efficient, lightweight, simple and free. For Firefox, you can [get it here](https://addons.mozilla.org/en/firefox/addon/ublock-origin/).
+*Why?* Because it is efficient, lightweight, simple and free. For Firefox, you can [get it here](https://addons.mozilla.org/en/firefox/addon/ublock-origin/).
 
 ###2. Recommended complementary filter lists
 **A) Following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party filters" tab]**
@@ -46,7 +46,7 @@ International List is a **very light (mostly cosmetic)** version of Fanboy Annoy
 <code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt</code><br>
 
 *International List is in the fourth row, however it is recommended to add all of the URL's to uBlock Origin.*<br>
-After you paste the link(s), first click on the "Parse" button below the text area. Then click on "Apply changes" button (in the upper right corner). After that click on "Update now" button (on the top left).
+After you paste the link(s), first click on the "*Parse*" button below the text area. Then click on "*Apply changes*" button in the upper right corner. After that click on "*Update now*" button on the top left.
 
 ###3. Recommended browser
 **[Mozilla Firefox](https://www.mozilla.org/firefox/new/)**

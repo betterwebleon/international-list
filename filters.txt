@@ -5,64 +5,12 @@
 ! License: http://unlicense.org
 
 ! Filters:
-###avatar-template-copyright
-###FbLike
-###fan-exit
-###fanback
-###js-aside > .aside-ad-container
-###js-top-fb-block
-###share-track-tw
-###supportAds
-###trackSocialBuzzSection
-##.follow-appeal-container
-##.follow-bar
-##.follow-bar-wrapper
-##.follow-widget
-##.follow-widget-facebook
-##.follow-widget-instagram
-##.follow-widget-twitter
-##.follow-widget-youtube
-##.followUsBox
-##.followUsContainer
-##.followUsDiv
-##.followUsModule
-##.follow__item
-##.follow_author_twitter
-##.follow_block
-##.follow_box
-##.follow_container
-##.follow_icons_container
-##.follow_links
-##.follow_right_block
-##.follow_us
-##.follow_us_heading
-##.follow_widget
-##.followandshare
-##.followbl
-##.followbox
-##.followscreen
-##.followus
-##.followus-footer
-##.followus-links
-##.followus-static
-##.followus_net
-##.js-fixed-like-box-new.js-fixed-like-box.fixed-like-box-blue
-##.like-iframe
-##.megaads
-##.place_for_ad
-##.track-action-Facebook
-##.track-action-LinkedIn
-##.track-action-Twitter
-##.track-click
-##.tracking_article_social
-##.utils_social_tracking
-##[class^="show_"][class$="_ads"]
-##[id="WIX_ADS"]
 @@||cloudflare.com/ajax/libs/require.js
 @@||connect.facebook.net/*/sdk.js
 @@||facebook.com/connect
 @@||facebook.com/plugins/comments
 @@||facebook.com/v2.*/plugins/video.php
+@@||notebooksbilliger.de
 @@||www.googletagservices.com/tag/js/gpt.js
 tech.co#@#.addthis_toolbox
 ||2o7.net
@@ -84,7 +32,6 @@ tech.co#@#.addthis_toolbox
 ||assets.tumblr.com/assets/html/iframe/o.html$third-party
 ||assets.tumblr.com/assets/html/iframe/teaser.html?$third-party
 ||bit.ly/TweetAndTrack.js
-||cdn.jquerytools.org/*/jquery.tools.min.js
 ||chartbeat.com
 ||chartbeat.net
 ||cityam.com/assets/js/*1.11.1.min.js
@@ -113,10 +60,11 @@ tech.co#@#.addthis_toolbox
 ||plusone.google.com
 ||realtime.services.disqus.com/api/*/thread/
 ||rp-api.com/rjs/repostus.js
-||safebrowsing-cache.google.com^
+||s-cdn.phonearena.com/images/adblock-awareness.png
+||safebrowsing-cache.google.com
 ||safebrowsing-cache.google.com^$other,domain=behind-the-scene
-||safebrowsing.google.com^
-||safebrowsing.google.com^$other,domain=behind-the-scene
+||safebrowsing.google.com
+||safebrowsing.google.com$other,domain=behind-the-scene
 ||spot.im/embed/scripts/launcher.js$third-party
 ||spotilocal.com$domain=~spotify.com
 ||static.addtoany.com/menu/page.js
@@ -143,11 +91,14 @@ blog.sfgate.com###ctpl-fullbanner1
 brightside.me###js-article-content > div:nth-of-type(1) > .article-yandex-direct
 brightside.me##.js-dialog.js-fixed-like-box.dialog-social-fb.dialog-social-bottom.dialog-social
 businessinsider.com###main-content > .container > .siteskin-dropshadow > .primary-row.row > .span8 > .post.content > .clear-both.clearfix.bottom-share-module
+chronicle.com###maincontent > .content-item__container--article.clearfix > .content-item__story > .media-pull-left.media-width-half
 cpuboss.com###facebook-widget
 cpuboss.com###side-fb-likes > h3
 csglobe.com###post-14512 > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid:nth-of-type(2) > .td-post-sidebar.column_container.span4 > .widget_text.widget
 diycozyhome.com###inner-wrap > .td-footer-wrap
 diycozyhome.com###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4 > .widget_text.widget
+edition.cnn.com###gigyaShareBar_1_gig_containerParent
+edition.cnn.com###sponsored-outbrain-1
 eprints.lse.ac.uk##.ep_noprint.ep_tm_header > div:nth-of-type(1)
 events.redditmedia.com
 filehippo.com###root-content > div > .advert-center-left
@@ -166,8 +117,11 @@ krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
 m.bestvideo.pub###ads-back
 m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
 metro.co.uk###post-5642470 > header > .share-buttons-top.share-buttons
+monova.org##.container-other.theme-showcase.container.main-container > div:nth-of-type(1)
 monova.org###lightbox_loading
 motherboard.vice.com###yw1
+nymag.com###primary > .share-mini
+nymag.com###tertiary > .ad-repeat
 pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .alternative
@@ -318,6 +272,8 @@ www.livescience.com###side_nav > .sidebar.sidebar-module
 www.livescience.com###sticky_social
 www.logitech.com###splash-bar
 www.maximumpc.com###center_content > .center_content_bottom > .special.section_header:nth-of-type(1)
+www.mindfactory.de/templates/mindfactory/images/backgrounds/background_*.jpg
+www.mindfactory.de/templates/mindfactory/images/spacer.gif
 www.monova.org###lightbox_socials
 www.nytimes.com###TopAd1
 www.pcadvisor.co.uk###mainContent > .articleBd > .revProduct > .metaArticleContainer
@@ -353,6 +309,8 @@ www.scientificamerican.com###shareFloat
 www.scientificamerican.com##.bodyWrap > .toasterAd
 www.securityweek.com###simplemodal-container
 www.securityweek.com###simplemodal-overlay
+www.slate.com###plus-upsell-adblock
+www.slate.com###socialbanners_announcement
 www.smbc-comics.com###boxbeat
 www.smbc-comics.com###towerarea
 www.softpoint.in##.us_mobile_hide.us_floating
@@ -385,6 +343,7 @@ www.thehindu.com###fun-games
 www.thurrott.com###pageWrapper > .container > .primary > .clearfix.wrap > .sidebar1
 www.tickld.com###main-container > .page-wrapper > .content-wrapper > .articles.row.tickld-body-main > .main-page > .article-body > .article-footer
 www.ucsusa.org###interrupt
+www.upi.com###share_ico_c > .bottom_sh_in_x
 www.washingtonpost.com###fZW5Gi2W0O3CBp > .posttv-sticky-player-video
 www.webofdebt.com##body > .skiptranslate
 www.webtech360.com###fadecream

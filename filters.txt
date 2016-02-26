@@ -5,11 +5,6 @@
 ! License: http://unlicense.org
 
 ! Filters:
-@@||cloudflare.com/ajax/libs/require.js
-@@||connect.facebook.net/*/sdk.js
-@@||facebook.com/connect
-@@||facebook.com/plugins/comments
-@@||facebook.com/v2.*/plugins/video.php
 @@||notebooksbilliger.de
 @@||www.googletagservices.com/tag/js/gpt.js
 tech.co#@#.addthis_toolbox
@@ -124,6 +119,7 @@ nymag.com###primary > .share-mini
 nymag.com###tertiary > .ad-repeat
 pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
+q13fox.com##[id^="post"] > .clearfix > .entry-share
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .alternative
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .b-follow-us
 rt.com##.page > .col-high-simple.aside > .aside-wp > .editable_widget.cont-wp

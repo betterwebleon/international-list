@@ -77,6 +77,9 @@ tech.co#@#.addthis_toolbox
 ||www.huffingtonpost.com/_uac/2014adpage.html
 ||ziffstatic.com^$third-party
 9gag.com###jsid-entry-entity-a8M31R1 > .full-width.in-post-bot.post-afterbar-a
+aeon.co##.wrapper > div:nth-of-type(1) > .cf.fixed-header
+aeon.co##[id^="essay"] > .article__body > .article__body__meta > .sticky-wrapper > .article__actions
+aeon.co##[id^="essay"] > .article__body > .entry-content > .has-dropcap > .shortcode-inline-newsletter
 arstechnica.com###article-sidebar > .column > .thick-divide-bottom.thick-divide-top
 arstechnica.com###content > .standalone > header > .post-meta > .corner-info
 arstechnica.com###outbrain-recs
@@ -209,6 +212,7 @@ www.cnet.com##.container > .row > .row > .col-12 > .tocNav
 www.cnet.com##.container > .row > .row:nth-of-type(1) > .col-12 > .row > .col-8 > .tocNav > ul
 www.cnet.com##[id^="leader-top"]
 www.cnet.com##[id^="sponsored-feed-top"]
+www.computeruniverse.net###MegaBanner
 www.computerworld.com###page-wrapper > section > .bodee > .col-wrapper > .news-promos > .right-rail > .brandposts-wrapper.promo-wrapper
 www.computerworld.com###page-wrapper > section > .bodee > .col-wrapper > .news-promos > .right-rail > .partner-hub-wrapper.promo-wrapper
 www.computerworld.com###reading-tools-wrapper > .tools > .social
@@ -244,6 +248,8 @@ www.howtogeek.com###htgHeader > .logo > .logo2
 www.howtogeek.com##.overlay-bg
 www.huffingtonpost.com###wrapper > .content > .group.main > .fix.rail > .no-ad.follow-huffpost
 www.huffingtonpost.com###wrapper > .content > .group.main > .fix.rail > span
+www.huffingtonpost.com##.main > div > .nav-sticky
+www.huffingtonpost.com##[id^="adsDiv"]
 www.ibtimes.co.uk##body > .hidden-print:nth-of-type(1) > .container > .w100 > ul > .icon-sns
 www.ibtimes.co.uk###article-social-wrap
 www.icann.org##.js-site-change-banner.site-change-banner
@@ -267,6 +273,9 @@ www.livescience.com###side_nav > .rnav_spacer
 www.livescience.com###side_nav > .sidebar.sidebar-module
 www.livescience.com###sticky_social
 www.logitech.com###splash-bar
+www.mangofeed.com##.et_social_sidebar_networks > .et_social_icons_container
+www.mangofeed.com##.state-fb-pop-up > .state-fb-pop-up-wrap
+www.mangofeed.com##[id^="post"] > .td-pb-row:nth-of-type(2) > .td-main-content.td-pb-span8 > .td-ss-main-content > .td-post-sharing-top.td-post-sharing
 www.maximumpc.com###center_content > .center_content_bottom > .special.section_header:nth-of-type(1)
 www.mindfactory.de/templates/mindfactory/images/backgrounds/background_*.jpg
 www.mindfactory.de/templates/mindfactory/images/spacer.gif
@@ -287,6 +296,7 @@ www.petri.com##[id^="post"] > .ad.freestyle
 www.petri.com##[id^="post"] > .in-content-lower.ad
 www.pocket-lint.com###article > .nolinks.norewrite.extras > .comments > div > .block-mpu.block
 www.pocket-lint.com###pl-id-1
+www.politico.com###globalWrapper > .super-duper > .super > .super-inner > .story-main-content > .content > .content-groupset > .content-group > .story-text > .story-share > .social-share-btns
 www.popularmechanics.com###share-sticky-bar
 www.psychologytoday.com###pt-social-media
 www.ptleader.com###in-story

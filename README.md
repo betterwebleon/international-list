@@ -62,7 +62,7 @@ Hit enter and confirm a Firefox warning message. Then find the following prefere
 
 *At paragraph* ***14.*** *you need to enter the corresponding values manually.*<br>*At paragraphs* ***15.*** *and* ***16.*** *there are indeed no values. Just delete the existing ones and confirm.*
 
-After you enable the Firefox Tracking Protection (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets/comments **will not load** on some websites. **If you want to see them**, just click on the "shield" icon while on website (the icon is in address bar - left to the URL in browser) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red crossed (while browsing on these websites).
+After you enable the Firefox Tracking Protection (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets/comments **will not load** on some websites. **If you want to see them**, just click on the "shield" icon while on website (the icon is shown in browser's address bar - left to the URL) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red crossed (while browsing on these websites).
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 
@@ -71,7 +71,7 @@ After you enable the Firefox Tracking Protection (at paragraph ***12.***), Faceb
 
 *Why?* Because it is efficient, lightweight, simple and free. For Firefox, you can **[get it here](https://addons.mozilla.org/en/firefox/addon/ublock-origin/)**, by clicking the green button *<code>Add to Firefox</code>*. It is better than any other alternative content-blocking solution. It uses much less resources from inefficient addon *AdBlock Plus* as well, as is evident from [this comparison](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) and also from [this comprehensive test](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/).
 
-####2a) Recommended complementary filter lists
+####2.a) Recommended complementary filter lists
 
 Following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party filters" tab]:
 - uBlock filters
@@ -88,7 +88,7 @@ Following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party 
 
 Many of them should already be enabled. Enable the rest and then click on the upper right button *<code>Apply changes</code>*. After that click the button *<code>Update now</code>* on the top left. Wait for a few moments until the button turns gray.
 
-####2b) Recommended custom filter lists
+####2.b) Recommended additional complementary filter lists
 
 There are also many additional (custom) lists. They can be added manually, by copying the following four URLs and pasting them to the "Custom" text area in uBlock Origin. The text area can be found at the bottom of pane ["3rd-party filters" tab].
 
@@ -97,8 +97,8 @@ There are also many additional (custom) lists. They can be added manually, by co
 <code>https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt</code><br>
 
-*International List is in the fourth row, however it is recommended to add all of the URL's to uBlock Origin.*<br>
-After you paste the link(s), first click on the *<code>Parse</code>* button below the text area. Then click on *<code>Apply changes</code>* button in the upper right corner. After that click on *<code>Update now</code>* button on the top left.
+It is recommended to add all the URL's to uBlock Origin in order to maximize filtering scope.*<br>
+After you paste link(s), first click on the *<code>Parse</code>* button below the text area. Then click on *<code>Apply changes</code>* button in the upper right corner. After that click on *<code>Update now</code>* button on the top left.
 
 ###3. Various recommended add-ons for Mozilla Firefox
 

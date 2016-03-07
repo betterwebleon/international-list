@@ -60,9 +60,10 @@ Hit enter and confirm a Firefox warning message. Then find the following prefere
 |26.| network.websocket.delay-failed-reconnects | false |
 |27.| security.dialog_enable_delay              |   0   |
 
-*At paragraph* ***14.*** *you need to enter the corresponding values manually.*<br>*At paragraphs* ***15.*** *and* ***16.*** *there are indeed no values. Just delete the existing ones and confirm.*
+*At paragraph* ***14.*** *you need to enter the corresponding values manually.*<br>*At paragraphs* ***15.*** *and* ***16.*** *there are indeed no values. Just delete the existing ones and confirm.*<br>
+*When you finish tweaking, simply close the tab with Firefox settings.*
 
-After you enable the Firefox Tracking Protection (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets/comments **will not load** on some websites. **If you want to see them**, just click on the "shield" icon while on website (the icon is shown in browser's address bar - left to the URL) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red crossed (while browsing on these websites).
+After you enable the *Firefox Tracking Protection* (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets/comments **will not load** on some websites. **If you want to see them**, just click on the "shield" icon while on website (the icon is shown in browser's address bar - left to the URL) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red-crossed (while such websites are opened).
 
 \* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
 
@@ -97,7 +98,7 @@ There are also many additional (custom) lists. They can be added manually, by co
 <code>https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt</code><br>
 
-It is recommended to add all the URL's to uBlock Origin in order to maximize filtering scope.*<br>
+It is recommended to add all the URL's to uBlock Origin in order to maximize filtering scope.<br>
 After you paste link(s), first click on the *<code>Parse</code>* button below the text area. Then click on *<code>Apply changes</code>* button in the upper right corner. After that click on *<code>Update now</code>* button on the top left.
 
 ###3. Various recommended add-ons for Mozilla Firefox
@@ -135,7 +136,7 @@ After you are done, the easiest way is to restart the computer. Or you can also 
 - in ***Linux with systemd***, open the Terminal and run with root privileges:<br><code>sudo systemctl restart network.service</code>
 - in ***Fedora Linux*** or ***Arch Linux/Manjaro***, open the Terminal and run with root privileges:<br><code>sudo systemctl restart NetworkManager.service</code>
 
-Close the window and restart your browser, if it has been opened. That's all.<br>Enjoy your browsing :)
+Close the window and restart your browser, if it has been opened. That's all.<br>Enjoy your browsing! :)
 
 -------------
 ###License

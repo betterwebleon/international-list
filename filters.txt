@@ -303,6 +303,7 @@ www.ptleader.com###in-story
 www.reddit.com##.content > .newsletter-container.newsletterbar.infobar
 www.rethinkrobotics.com###main > .l-main > .l-container > .blog > .row > .blog-main > .post > .m-sharing
 www.reuters.com###content > .section:nth-of-type(4) > .sectionContent > .wrap.group > .grid-inside.grid8.column1 > .reuters-share-sticky.reuters-share > .horizontal-list
+www.rollingstone.com##.page-container > .columns > .primary > .list-container > .list-item-container > div > .list-item > .has-bulleted-list > .social-icons-container > .social-bar
 www.rt.com###extension-browser
 www.sciencedaily.com###contents > .row > .less-padding-right.main.col-sm-8 > hr:nth-of-type(2)
 www.sciencedaily.com###contents > .row > .sidebar.less-padding-left.col-sm-4 > .tools-bottom.btn-group-sm.btn-group.pull-right
@@ -320,6 +321,7 @@ www.slate.com###socialbanners_announcement
 www.smbc-comics.com###boxbeat
 www.smbc-comics.com###towerarea
 www.softpoint.in##.us_mobile_hide.us_floating
+www.spiegel.de###js-article-column > .clearfix > .article-function-social-media > .social-bar-wrapper > .social-bar
 www.stern.de###main-wrapper > .m-sharing-toolbar-vertical
 www.technologyreview.com##.hp-content > .wrapper > .right.scroll-wrapper > .region-homepage-right-col.region > .partner-network
 www.techradar.com###main > .news-article > .parsed.dynamic.hawk-widget-insert

@@ -6,6 +6,7 @@
 
 ! Filters:
 @@||notebooksbilliger.de
+@@||wer-weiss-was.de/assets/javascripts/ads/ads-$script
 @@||www.googletagservices.com/tag/js/gpt.js
 tech.co#@#.addthis_toolbox
 ||2o7.net
@@ -48,6 +49,7 @@ tech.co#@#.addthis_toolbox
 ||gplusapi.$domain=~googleplus.com|~plus.google.com
 ||gplusapi.appspot.com$third-party
 ||hit.gemius.pl
+||i.mol.im/i/furniture/*skin_coffee*.png
 ||i.po.st/share/script/post-widget.js
 ||intextad.net
 ||livefyre.com/wjs
@@ -76,6 +78,7 @@ tech.co#@#.addthis_toolbox
 ||www.facebook.com/ajax/bz$first-party,xmlhttprequest
 ||www.huffingtonpost.com/_uac/2014adpage.html
 ||ziffstatic.com^$third-party
+9gag.com##[id^="jsid-entry-entity"] > .post-afterbar-a > .share > ul
 9gag.com###jsid-entry-entity-a8M31R1 > .full-width.in-post-bot.post-afterbar-a
 aeon.co##.wrapper > div:nth-of-type(1) > .cf.fixed-header
 aeon.co##[id^="essay"] > .article__body > .article__body__meta > .sticky-wrapper > .article__actions
@@ -111,6 +114,8 @@ fstoppers.com###block-fs_helpers-fs_helpers_connect
 fstoppers.com###header-region > .social
 idioms.thefreedictionary.com###content > .content-holder > aside > .share-block
 imgur.com###cta-container
+imgur.com###fixed-side-footer-links > .sidebar-footerlinks-social-icons
+imgur.com###wrapper-pop_sky
 krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
 m.bestvideo.pub###ads-back
 m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
@@ -187,8 +192,11 @@ www.avclub.com###topshare > .unstyled
 www.bbc.com###share-tools-top
 www.bbc.com###story-page > .standalone-parallax-wrapper
 www.bdlive.co.za###article-finished
-www.bloomberg.com###content > .transporter > .transporter-item--current.transporter-item > .supports-inline-slideshow.with-standard-lede.article > .article__content-well-boundary > div:nth-of-type(2) > .article-rail > .article-rail__social.article-rail-container > div
-www.bloomberg.com###content > .transporter > .transporter-item--current.transporter-item > .supports-inline-slideshow.with-standard-lede.article > .article__content-well-boundary > div:nth-of-type(4) > .article-body > .article-body__social-container > .sticky-social-share > div
+www.bloomberg.com###content > .bb-transporter > .bb-transporter-item > .bb-article > .article-content-boundary > .article-rail > .article-rail-module-container > .article-rail-module > .dont-miss-out > .dont-miss-out__just-for-tabling
+www.bloomberg.com###content > .bb-transporter > .bb-transporter-item > .bb-article > .article-content-boundary > .article-rail > .article-rail-module-container > .sticky.article-rail-module
+www.bloomberg.com###content > .bb-transporter > .bb-transporter-item > .with-standard-lede > .article-content-boundary > div > .article-body > .article-body__social-container
+www.bloomberg.com###content > .transporter > .transporter-item > .article > .article__content-well-boundary > div > .article-body > .article-body__social-container > .sticky-social-share > div
+www.bloomberg.com###content > .transporter > .transporter-item > .article > .article__content-well-boundary > div > .article-rail > .article-rail__social.article-rail-container > div
 www.brighthubpm.com###ez-search
 www.brighthubpm.com###ez-sidebar > .ezCSS.html5aside.ez-search-container > .ezCSS.title
 www.brighthubpm.com###footer > .ezCSS.container > .ezCSS.bottom-social.row > .ezCSS.social-grid
@@ -217,6 +225,8 @@ www.computerworld.com###page-wrapper > section > .bodee > .col-wrapper > .news-p
 www.computerworld.com###page-wrapper > section > .bodee > .col-wrapper > .news-promos > .right-rail > .partner-hub-wrapper.promo-wrapper
 www.computerworld.com###reading-tools-wrapper > .tools > .social
 www.computerworld.com###taboola
+www.dailymail.co.uk##[id^="p-"] > .linkro-wocc > li > iframe
+www.dailymail.co.uk###articleIconLinksContainer
 www.digitaltrends.com##.h-bartender.m-bartender > .m-pint-wrap:nth-of-type(1)
 www.digitaltrends.com##.l-main-container > .dtads-group.l-page > .l-block-wrap > .is-enabled.l-sidebar_smart.l-sidebar > .h-register-newsletter.m-widget_news-reg.m-widget
 www.digitaltrends.com##.l-main-container > .dtads-group.l-page > .l-block-wrap > .l-sidebar_smart.l-sidebar > .h-register-newsletter.m-widget_news-reg.m-widget

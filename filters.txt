@@ -35,7 +35,6 @@ tech.co#@#.addthis_toolbox
 ||eu-st.*.com/js/analytics.js
 ||eu-st.*.com/js/track.min.js
 ||fbcdn-profile-a.akamaihd.net$domain=~facebook.com|~fbcdn.net
-||fbcdn.net$domain=~facebook.com|~fbcdn.net,third-party
 ||fbstatic-a.akamaihd.net^$domain=~facebook.com,third-party
 ||flappyhamster.net/dt.adsafeprotected.com$image,domain=behind-the-scene
 ||gather.*/scripts/visittrack.js
@@ -88,6 +87,7 @@ arstechnica.com###content > .standalone > header > .post-meta > .corner-info
 arstechnica.com###outbrain-recs
 arstechnica.com###outbrain-recs-wrap > hr
 arstechnica.com###stories-features > .thick-divide-bottom.thick-divide-top
+bigthink.com###fixed-social-wrapper
 blog.sfgate.com###ctpl-fullbanner1
 brightside.me###js-article-content > div:nth-of-type(1) > .article-yandex-direct
 brightside.me##.js-dialog.js-fixed-like-box.dialog-social-fb.dialog-social-bottom.dialog-social
@@ -104,6 +104,7 @@ eprints.lse.ac.uk##.ep_noprint.ep_tm_header > div:nth-of-type(1)
 events.redditmedia.com
 filehippo.com###root-content > div > .advert-center-left
 filehippo.com###root-content > div > .left-hand-col > .advert-center-left
+finance.yahoo.com###mediacontentsharebuttons
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .article-image-figcaption
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
@@ -112,6 +113,7 @@ fortune.com###content > .content-well > div > .ranking-layout-float.full-article
 fstoppers.com###block-block-12
 fstoppers.com###block-fs_helpers-fs_helpers_connect
 fstoppers.com###header-region > .social
+icreatived.com##[id^="post"] > .td-post-sharing-top
 idioms.thefreedictionary.com###content > .content-holder > aside > .share-block
 imgur.com###cta-container
 imgur.com###fixed-side-footer-links > .sidebar-footerlinks-social-icons
@@ -127,6 +129,7 @@ nymag.com###primary > .share-mini
 nymag.com###tertiary > .ad-repeat
 pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
+priceonomics.com###social-share
 q13fox.com##[id^="post"] > .clearfix > .entry-share
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .alternative
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .b-follow-us
@@ -202,6 +205,8 @@ www.brighthubpm.com###ez-sidebar > .ezCSS.html5aside.ez-search-container > .ezCS
 www.brighthubpm.com###footer > .ezCSS.container > .ezCSS.bottom-social.row > .ezCSS.social-grid
 www.brighthubpm.com###wrapper > .ezCSS.container:nth-of-type(2) > .ezCSS.ezoic-top-partition.ezoic-wrapper
 www.brighthubpm.com###wrapper > .ezCSS.container:nth-of-type(2) > .ezCSS.ezoic-top-partition-space:nth-of-type(1)
+www.businessdictionary.com##.black_overlay
+www.businessdictionary.com##[id^="popup-element"]
 www.businessinsider.com###main-content > .subnav-container
 www.buzzfeed.com###cute_or_not_out
 www.buzzfeed.com###page_container > .bf_dom.section.page-content.PageContent > .Column2 > .connect-widget
@@ -234,6 +239,7 @@ www.economist.com###block-ec_components-print_sub
 www.economist.com###block-ec_components-share_inline_footer
 www.economist.com###page > footer > .footer-stripe-top
 www.engadget.com###rail-collection-main > .rail-latest.module:nth-of-type(2) > .green.hed
+www.euractiv.com##body > .container > .ea-color-white > .ea-columns-same-height > .col-lg-8 > .ea-article-header > .clearfix > .pull-right
 www.expertreviews.co.uk###block-system-main > .content > .node-full.odd.node-promoted.node-article.node > .content > .sharerich-1.sharerich-expert-reviews-wrapper.sharerich-wrapper > .item-list > .rrssb-1.clearfix.rrssb-buttons.sharerich-buttons
 www.extremetech.com###intelliTXT > .article-image > .social-share
 www.extremetech.com###TopBanner
@@ -253,6 +259,10 @@ www.ft.com###page-container > .middleSection.master-column > .contentSection.mas
 www.ghacks.net###main > .adslot_1.adsbygoogle
 www.ghacks.net##[id^="pgloggedouttext-"]
 www.gsmarena.com###subHeader
+www.hindustantimes.com##.site-wrapper > .story_page_wrapper > .story_left_pnl > .theiaStickySidebar > .story_page_content_bg > .story_content > .sty_txt > .share-icons-box:nth-of-type(1)
+www.hindustantimes.com##.site-wrapper > .story_page_wrapper > .story_left_pnl > .theiaStickySidebar > .story_page_content_bg > .story_content > .sty_txt > p:nth-of-type(1)
+www.hindustantimes.com##.site-wrapper > .story_page_wrapper > .story_left_pnl > .theiaStickySidebar > .story_taboola
+www.hindustantimes.com##.site-wrapper > header > .ggl_ads_row
 www.hollywoodreporter.com###js__stories-wrapper > .social-container
 www.howtogeek.com###htgHeader > .logo > .logo2
 www.howtogeek.com##.overlay-bg
@@ -273,6 +283,7 @@ www.inc.com###leaderboard-container
 www.inc.com###topnav-placeholder
 www.inc.com##[id^="adInPattern"]
 www.investopedia.com###abkoverlay
+www.itpro.co.uk###block-system-main > .content > .node > .content > .sharerich-1
 www.kitguru.net###facebooklikebox-3
 www.latimes.com##.trb_allContentWrapper > .trb_article_panelWrapper > div > .trb_article > .trb_article_articleHeader > .trb_socialize
 www.latimes.com##.trb_bnn
@@ -291,6 +302,7 @@ www.mindfactory.de/templates/mindfactory/images/backgrounds/background_*.jpg
 www.mindfactory.de/templates/mindfactory/images/spacer.gif
 www.monova.org###lightbox_socials
 www.nytimes.com###TopAd1
+www.pcadvisor.co.uk###mainContent > .articleBd > .metaArticleContainer
 www.pcadvisor.co.uk###mainContent > .articleBd > .revProduct > .metaArticleContainer
 www.pcmag.com###outbrain_widget_1 > .AR_2.ob_dual_container > .ob_dual_right
 www.pcmag.com###primarybanner
@@ -311,6 +323,7 @@ www.popularmechanics.com###share-sticky-bar
 www.psychologytoday.com###pt-social-media
 www.ptleader.com###in-story
 www.reddit.com##.content > .newsletter-container.newsletterbar.infobar
+www.researchgate.net##[id^="rgw78"]
 www.rethinkrobotics.com###main > .l-main > .l-container > .blog > .row > .blog-main > .post > .m-sharing
 www.reuters.com###content > .section:nth-of-type(4) > .sectionContent > .wrap.group > .grid-inside.grid8.column1 > .reuters-share-sticky.reuters-share > .horizontal-list
 www.rollingstone.com##.page-container > .columns > .primary > .list-container > .list-item-container > div > .list-item > .has-bulleted-list > .social-icons-container > .social-bar

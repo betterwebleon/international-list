@@ -23,7 +23,11 @@ International List is a **very light (mostly cosmetic)** version of Fanboy Annoy
 \* *How?* Type this in your address (URL) bar:<br>
 <code>about:config</code>
 
-Hit enter and confirm a Firefox warning message. Then find the following preference names by copy-pasting each one to the "*Search*" bar. Double-click on each preference name and change its value to:
+Hit enter and confirm a Firefox warning message. You will see the settings panel.<br>
+Then find the following preference names by copy-pasting each one to the "*Search*" bar.
+
+**--- In order to increase PRIVACY ---**<br>
+Double-click on each preference name and change its value to:
 
 |   | PREFERENCE NAME                                               | VALUE |
 |---|:--------------------------------------------------------------|:-----:|
@@ -40,32 +44,77 @@ Hit enter and confirm a Firefox warning message. Then find the following prefere
 |11.| media.peerconnection.turn.disable                             |  true |
 |12.| privacy.trackingprotection.enabled                            |  true |
 
-*The upper settings are* ***privacy-related only****.* *If you want more* ***speed and better UI*** *as well, keep on tweaking:*
+**--- In order to increase SPEED ---**<br>
+Double-click on each preference name and change its value to:
 
 |   | PREFERENCE NAME                           | VALUE |
 |---|:------------------------------------------|:-----:|
-|13.| browser.fullscreen.animate                | false |
+|13.| browser.cache.use_new_backend             |   1   |
 |14.| browser.newtab.url                        | Reset |
-|15.| full-screen-api.transition-duration.enter |       |
-|16.| full-screen-api.transition-duration.leave |       |
+|15.| full-screen-api.transition-duration.enter |  0 0  |
+|16.| full-screen-api.transition-duration.leave |  0 0  |
 |17.| full-screen-api.warning.timeout           |   0   |
-|18.| memory.free_dirty_pages                   |  true |
-|19.| network.http.keep-alive.timeout           |   60  |
-|20.| network.http.pipelining                   |  true |
-|21.| network.http.pipelining.aggressive        |  true |
-|22.| network.http.pipelining.maxrequests       |   8   |
-|23.| network.http.pipelining.ssl               |  true |
-|24.| network.http.proxy.pipelining             |  true |
-|25.| network.http.request.max-start-delay      |   3   |
-|26.| network.websocket.delay-failed-reconnects | false |
-|27.| security.dialog_enable_delay              |   0   |
+|18.| image.mem.max_decoded_image_kb            | 51200 |
+|19.| javascript.options.mem.high_water_mark    |   30  |
+|20.| javascript.options.mem.max                | 51200 |
+|21.| layout.frame_rate.precise                 |  true |
+|22.| memory.free_dirty_pages                   |  true |
+|23.| network.http.keep-alive.timeout           |   60  |
+|24.| network.http.pipelining                   |  true |
+|25.| network.http.pipelining.aggressive        |  true |
+|26.| network.http.pipelining.maxrequests       |   8   |
+|27.| network.http.pipelining.ssl               |  true |
+|28.| network.http.proxy.pipelining             |  true |
+|29.| network.http.request.max-start-delay      |   3   |
+|30.| network.websocket.delay-failed-reconnects | false |
+|31.| security.dialog_enable_delay              |   0   |
 
-*At paragraph* ***14.*** *you need to enter the corresponding values manually.*<br>*At paragraphs* ***15.*** *and* ***16.*** *there are indeed no values. Just delete the existing ones and confirm.*<br>
-*When you finish tweaking, simply close the tab with Firefox settings.*
+**--- Additional tweaks for BATTERY SAVING and/or SLOW COMPUTERS ---**<br>
+Double-click on each preference name and change its value to:
+
+|   | PREFERENCE NAME                      | VALUE |
+|---|:-------------------------------------|:-----:|
+|32.|browser.download.animateNotifications | false |
+|33.|browser.fullscreen.animate            | false |
+|34.|browser.panorama.animate_zoom         | false |
+|35.|browser.sessionhistory.max_entries    |  25   |
+|36.|browser.sessionstore.max_tabs_undo    |   8   |
+|37.|browser.tabs.animate                  | false |
+
+*At paragraph* ***14.*** *you need to enter the corresponding values manually.*<br>*At paragraphs* ***15.*** *and* ***16.*** *there are indeed two values (zeroes).*
 
 After you enable the *Firefox Tracking Protection* (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets/comments **will not load** on some websites. **If you want to see them**, just click on the "shield" icon while on website (the icon is shown in browser's address bar - left to the URL) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red-crossed (while such websites are opened).
 
-\* ***Take advantage of this valuable information at your own risk - if there is any. It is possible to revert the changes anytime. Be fearless, padawan!***
+#####ALSO IMPORTANT
+######a) To save battery and increase safety [*ask to activate* Flash]:
+Type this in your address bar:<br>
+<code>about:addons</code><br>
+Hit enter and click on **Plugins** on the left panel. Then find **Shockwave Flash** on the right side.<br>
+Set it to: ***Ask to Activate***.
+
+When necessary (to enable videos, etc.) you will still be able to choose *Allow and Remember*<br>
+([see this picture on how to enable Flash by default](http://cdn3.jasonsamuel.com/wp-content/uploads/2014/07/3.jpg)).
+
+######b) To optimize the graphics performance [Hardware acceleration]:
+If your graphics card (GPU) is not too slow, enable hardware acceleration. Type this in your address bar:<br>
+<code>about:preferences#advanced</code><br>
+Hit enter. In *General* tab enable the following option:
+***Use hardware acceleration when available***<br>
+([see this picture](http://www.clonefileschecker.com/blog/wp-content/uploads/2015/10/Disabling-Hardware-Acceleration-in-Mozilla-Firefox.png)).
+
+**Notes:**
+
+1. To see the effect of enabled/disabled hardware acceleration, you need to restart the browser.<br>
+2. **Test both options** on slower computers to see the difference! If Firefox lags more when hardware acceleration is enabled, then disable it.<br>
+
+######c) Miscellaneous:
+- If you want to **disable** ***Firefox Hello*** feature, set the following value in <code>about:config</code>:<br>
+<code>loop.enabled</code> ---> **false**
+
+- If you have very **slow disk**, reduce the size of disk cache. Set the following value in <code>about:config</code>:<br>
+<code>browser.cache.offline.capacity</code> ---> **250000**
+
+*When you finish tweaking, simply close the tab with Firefox settings.*
 
 ###2. Recommended content-filtering software
 **uBlock Origin**
@@ -111,7 +160,7 @@ The following add-ons can be installed optionally. However every (simple) user w
 4. [**FindBar Tweak**](https://addons.mozilla.org/en/firefox/addon/findbar-tweak/)
 5. [**I don't care about cookies**](https://addons.mozilla.org/en/firefox/addon/i-dont-care-about-cookies/)
 6. [**Pocket**](https://mega.nz/#!T5RjHZyb!yXz5Wj-x7lWdRKbcCaMQ0_lZfpI828spmIm_sOEX5Ng)
-7. [**Pure URL**](https://addons.mozilla.org/en/firefox/addon/pure-url/)
+7. [**Pure URL**](https://addons.mozilla.org/en/firefox/addon/pure-url/) \*
 8. [**uBlock Origin**](https://addons.mozilla.org/en/firefox/addon/ublock-origin/)
 9. [**Undo Close Tab Replacement**](https://addons.mozilla.org/en/firefox/addon/undo-close-tab-replacement/)
 10. [**UnMHT**](https://addons.mozilla.org/en/firefox/addon/unmht/)
@@ -119,6 +168,9 @@ The following add-ons can be installed optionally. However every (simple) user w
 12. [**X-notifier**](https://addons.mozilla.org/en/firefox/addon/xnotifier/)
 13. [**YouTube High Definition**](https://addons.mozilla.org/en/firefox/addon/youtube-high-definition/)
 14. [**ZenMate Security, Privacy & Unblock VPN**](https://addons.mozilla.org/en/firefox/addon/zenmate-security-privacy-vpn/)
+
+\* If you encounter with a problem of some blank websites (very rare), use the lighter version (instead of *Pure URL*):<br>
+[**au-revoir-utm**](https://addons.mozilla.org/en/firefox/addon/au-revoir-utm/)
 
 ###4. Hosts file
 Another very important and useful tweak is the file named "*hosts*". It is highly recommended to set it up **together with all aforementioned tweaks**. According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), *hosts* is a plain-text file used by all operating systems to map hostnames to IP addresses. The *hosts* is not bound to any browser, so it should work all the time irrespective of the browser or program.

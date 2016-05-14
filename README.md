@@ -29,7 +29,7 @@ Then find the following preference names by copy-pasting each one to the "*Searc
 **--- In order to increase PRIVACY ---**<br>
 Double-click on each preference name and change its value to:
 
-|   | PREFERENCE NAME                                               | VALUE |
+|   | Preference name                                               | Value |
 |---|:--------------------------------------------------------------|:-----:|
 |1. | beacon.enabled                                                | false |
 |2. | browser.safebrowsing.downloads.enabled                        | false |
@@ -47,7 +47,7 @@ Double-click on each preference name and change its value to:
 **--- In order to increase SPEED ---**<br>
 Double-click on each preference name and change its value to:
 
-|   | PREFERENCE NAME                           | VALUE |
+|   | Preference name                           | Value |
 |---|:------------------------------------------|:-----:|
 |13.| browser.cache.use_new_backend             |   1   |
 |14.| browser.newtab.url                        | Reset |
@@ -72,7 +72,7 @@ Double-click on each preference name and change its value to:
 **--- Additional tweaks for BATTERY SAVING and/or SLOW COMPUTERS ---**<br>
 Double-click on each preference name and change its value to:
 
-|   | PREFERENCE NAME                      | VALUE |
+|   | Preference name                      | Value |
 |---|:-------------------------------------|:-----:|
 |32.|browser.download.animateNotifications | false |
 |33.|browser.fullscreen.animate            | false |
@@ -81,9 +81,10 @@ Double-click on each preference name and change its value to:
 |36.|browser.sessionstore.max_tabs_undo    |   8   |
 |37.|browser.tabs.animate                  | false |
 
-*At paragraph* ***14.*** *you need to enter the corresponding values manually.*<br>*At paragraphs* ***15.*** *and* ***16.*** *there are indeed two values (zeroes).*
-
-After you enable the *Firefox Tracking Protection* (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets/comments **will not load** on some websites. **If you want to see them**, just click on the "shield" icon while on website (the icon is shown in browser's address bar - left to the URL) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red-crossed (while such websites are opened).
+<br>
+- At paragraph ***14.*** you need to enter the corresponding values manually.
+- At paragraphs ***15.*** and ***16.*** there are indeed two values (zeroes).
+- After you enable the *Firefox Tracking Protection* (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets/comments **will not load** on some websites. **If you want to see them**, just click on the "shield" icon while on website (the icon is shown in browser's address bar - left to the URL) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red-crossed (while such websites are opened).
 
 #####ALSO IMPORTANT
 ######a) To save battery and increase safety [*ask to activate* Flash]:
@@ -93,14 +94,14 @@ Hit enter and click on **Plugins** on the left panel. Then find **Shockwave Flas
 Set it to: ***Ask to Activate***.
 
 When necessary (to enable videos, etc.) you will still be able to choose *Allow and Remember*<br>
-([see this picture on how to enable Flash by default](http://cdn3.jasonsamuel.com/wp-content/uploads/2014/07/3.jpg)).
+([**see this picture on how to enable Flash by default**](http://cdn3.jasonsamuel.com/wp-content/uploads/2014/07/3.jpg)).
 
 ######b) To optimize the graphics performance [Hardware acceleration]:
 If your graphics card (GPU) is not too slow, enable hardware acceleration. Type this in your address bar:<br>
 <code>about:preferences#advanced</code><br>
 Hit enter. In *General* tab enable the following option:
 ***Use hardware acceleration when available***<br>
-([see this picture](http://www.clonefileschecker.com/blog/wp-content/uploads/2015/10/Disabling-Hardware-Acceleration-in-Mozilla-Firefox.png)).
+([**see this picture**](http://www.clonefileschecker.com/blog/wp-content/uploads/2015/10/Disabling-Hardware-Acceleration-in-Mozilla-Firefox.png)).
 
 **Notes:**
 

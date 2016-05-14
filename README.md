@@ -6,11 +6,11 @@ The list is **intended for simple users** with a set-and-forget approach. Copy t
 
 ***What is the difference between this list and other ad blocking filter lists?***
 
-International List is a **complementary list** to basic ad blocking filter lists (for more info see chapter 2 below). It blocks various subscription and social pop-ups, as well as doubled social buttons. *For example:* EasyList filter list sometimes blocks adverts only. International List often removes the frame where advert was placed initially. The complete ad frame removal often leaves more space for useful content. This list is therefore not meant only for aesthetics but also for practical reasons to keep the page neat and rather clear.
+International List is a **complementary list** to basic ad blocking filter lists (for more info see chapter 2 below). It blocks various subscription and social pop-ups as well as doubled social buttons. *For example:* EasyList filter list sometimes blocks adverts only. International List often removes the frame where advert was placed initially. The complete ad frame removal often leaves more space for useful content. This list is therefore not meant only for aesthetics but also for practical reasons to keep the page neat and rather clear.
 
 ***What is the difference between this list and other advanced privacy filter lists?***
 
-International List is a **very light (mostly cosmetic)** version of Fanboy Annoyances List. This means it does not block most of the social content. *For example:* if there are social buttons on top and bottom of a webpage, this filter list will remove only social buttons on the top. The others on the bottom remain in order to keep the website functional in terms of social networks.
+International List is sort of a **very light (mostly cosmetic)** version of Fanboy Annoyances List. This means it does not block most of the social content. *For example:* if there are social buttons on top and bottom of a webpage, this filter list will remove only social buttons on the top. The others on the bottom remain in order to keep the website functional in terms of social networks.
 
 *So a basic rule here is: first content, then other unobtrusive social crap.*
 
@@ -20,7 +20,7 @@ International List is a **very light (mostly cosmetic)** version of Fanboy Annoy
 
 *Why?* Because it can be customized in order to improve browsing speed, privacy, user interface, etc.
 
-\* *How?* Type this in your address (URL) bar:<br>
+*How?* Type this in your address (URL) bar:<br>
 <code>about:config</code>
 
 Hit enter and confirm a Firefox warning message. You will see the settings panel.<br>
@@ -77,50 +77,48 @@ Double-click on each preference name and change its value to:
 |32.|browser.download.animateNotifications | false |
 |33.|browser.fullscreen.animate            | false |
 |34.|browser.panorama.animate_zoom         | false |
-|35.|browser.sessionhistory.max_entries    |  25   |
+|35.|browser.sessionhistory.max_entries    |  15   |
 |36.|browser.sessionstore.max_tabs_undo    |   8   |
 |37.|browser.tabs.animate                  | false |
 
-<br>
+
 - At paragraph ***14.*** you need to enter the corresponding values manually.
 - At paragraphs ***15.*** and ***16.*** there are indeed two values (zeroes).
-- After you enable the *Firefox Tracking Protection* (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets/comments **will not load** on some websites. **If you want to see them**, just click on the "shield" icon while on website (the icon is shown in browser's address bar - left to the URL) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red-crossed (while such websites are opened).
+- After you enable the *Firefox Tracking Protection* (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets/comments **will not load** on some websites.<br>**If you want to see them**, just click on the "shield" icon while on website (the icon is shown in browser's address bar - left to the URL) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red-crossed (while such websites are opened).
 
-#####ALSO IMPORTANT
-######a) To save battery and increase safety [*ask to activate* Flash]:
+#####ALSO IMPORTANT:
+######a) To save battery and increase safety [ask to activate Flash]
 Type this in your address bar:<br>
 <code>about:addons</code><br>
 Hit enter and click on **Plugins** on the left panel. Then find **Shockwave Flash** on the right side.<br>
 Set it to: ***Ask to Activate***.
 
 When necessary (to enable videos, etc.) you will still be able to choose *Allow and Remember*<br>
-([**see this picture on how to enable Flash by default**](http://cdn3.jasonsamuel.com/wp-content/uploads/2014/07/3.jpg)).
+([**see this picture on how to enable Flash by default on specific websites**](http://cdn3.jasonsamuel.com/wp-content/uploads/2014/07/3.jpg)).
 
-######b) To optimize the graphics performance [Hardware acceleration]:
+######b) To optimize the graphics performance [Hardware acceleration]
 If your graphics card (GPU) is not too slow, enable hardware acceleration. Type this in your address bar:<br>
 <code>about:preferences#advanced</code><br>
-Hit enter. In *General* tab enable the following option:
-***Use hardware acceleration when available***<br>
+Hit enter. In *General* tab enable this option: ***Use hardware acceleration when available***<br>
 ([**see this picture**](http://www.clonefileschecker.com/blog/wp-content/uploads/2015/10/Disabling-Hardware-Acceleration-in-Mozilla-Firefox.png)).
 
 **Notes:**
 
-1. To see the effect of enabled/disabled hardware acceleration, you need to restart the browser.<br>
-2. **Test both options** on slower computers to see the difference! If Firefox lags more when hardware acceleration is enabled, then disable it.<br>
+1. To test the effect of enabled/disabled hardware acceleration, you need to **restart the browser**.<br>
+2. **Test both options** (with enabled as well as disabled value) on slower computers to see the difference!<br>If Firefox lags more while hardware acceleration is enabled, disable the setting.<br>
 
-######c) Miscellaneous:
-- If you want to **disable** ***Firefox Hello*** feature, set the following value in <code>about:config</code>:<br>
+######c) Miscellaneous
+- If you want to **disable** built-in feature ***Firefox Hello***, set the following value (in *about:config*):<br>
 <code>loop.enabled</code> ---> **false**
+- If you want to **disable** built-in feature ***Pocket*** (not an addon), set the following value (in *about:config*):<br><code>browser.pocket.enabled</code> ---> **false**
+- If you have very **slow disk**, reduce the size of disk cache. Set the following value (in *about:config*):<br><code>browser.cache.offline.capacity</code> ---> **250000**
 
-- If you have very **slow disk**, reduce the size of disk cache. Set the following value in <code>about:config</code>:<br>
-<code>browser.cache.offline.capacity</code> ---> **250000**
-
-*When you finish tweaking, simply close the tab with Firefox settings.*
+*After you finish tweaking, simply close the tab with Firefox settings.*
 
 ###2. Recommended content-filtering software
 **uBlock Origin**
 
-*Why?* Because it is efficient, lightweight, simple and free. For Firefox, you can **[get it here](https://addons.mozilla.org/en/firefox/addon/ublock-origin/)**, by clicking the green button *<code>Add to Firefox</code>*. It is better than any other alternative content-blocking solution. It uses much less resources from inefficient addon *AdBlock Plus* as well, as is evident from [this comparison](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) and also from [this comprehensive test](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/).
+*Why?* Because it is efficient, lightweight, simple and free. For Firefox, you can **[get it here](https://addons.mozilla.org/en/firefox/addon/ublock-origin/)** by clicking the green button:<br>*<code>Add to Firefox</code>*. It is better than any other alternative content-blocking solution. It uses much less resources from inefficient addon *AdBlock Plus* as well, as is evident from [this comparison](https://github.com/gorhill/uBlock/wiki/uBlock-vs.-ABP:-efficiency-compared) and also from [this comprehensive test](https://www.raymond.cc/blog/10-ad-blocking-extensions-tested-for-best-performance/view-all/).
 
 ####2.a) Recommended complementary filter lists
 
@@ -170,7 +168,7 @@ The following add-ons can be installed optionally. However every (simple) user w
 13. [**YouTube High Definition**](https://addons.mozilla.org/en/firefox/addon/youtube-high-definition/)
 14. [**ZenMate Security, Privacy & Unblock VPN**](https://addons.mozilla.org/en/firefox/addon/zenmate-security-privacy-vpn/)
 
-\* If you encounter with a problem of some blank websites (very rare), use the lighter version (instead of *Pure URL*):<br>
+\* If you encounter a problem of some blank websites (very rarely), use less rigorous addon (instead of *Pure URL*):<br>
 [**au-revoir-utm**](https://addons.mozilla.org/en/firefox/addon/au-revoir-utm/)
 
 ###4. Hosts file

@@ -57,34 +57,33 @@ Double-click on each preference name and change its value to:
 |18.| image.mem.max_decoded_image_kb            | 51200 |
 |19.| javascript.options.mem.high_water_mark    |   30  |
 |20.| javascript.options.mem.max                | 51200 |
-|21.| layout.frame_rate.precise                 |  true |
-|22.| memory.free_dirty_pages                   |  true |
-|23.| network.http.keep-alive.timeout           |   60  |
-|24.| network.http.pipelining                   |  true |
-|25.| network.http.pipelining.aggressive        |  true |
-|26.| network.http.pipelining.maxrequests       |   8   |
-|27.| network.http.pipelining.ssl               |  true |
-|28.| network.http.proxy.pipelining             |  true |
-|29.| network.http.request.max-start-delay      |   3   |
-|30.| network.websocket.delay-failed-reconnects | false |
-|31.| security.dialog_enable_delay              |   0   |
+|21.| memory.free_dirty_pages                   |  true |
+|22.| network.http.keep-alive.timeout           |   60  |
+|23.| network.http.pipelining                   |  true |
+|24.| network.http.pipelining.aggressive        |  true |
+|25.| network.http.pipelining.maxrequests       |   8   |
+|26.| network.http.pipelining.ssl               |  true |
+|27.| network.http.proxy.pipelining             |  true |
+|28.| network.http.request.max-start-delay      |   3   |
+|29.| network.websocket.delay-failed-reconnects | false |
+|30.| security.dialog_enable_delay              |   0   |
 
 **--- Additional tweaks for BATTERY SAVING and/or SLOW COMPUTERS ---**<br>
 Double-click on each preference name and change its value to:
 
 |   | Preference name                      | Value |
 |---|:-------------------------------------|:-----:|
-|32.|browser.download.animateNotifications | false |
-|33.|browser.fullscreen.animate            | false |
-|34.|browser.panorama.animate_zoom         | false |
-|35.|browser.sessionhistory.max_entries    |  15   |
-|36.|browser.sessionstore.max_tabs_undo    |   8   |
-|37.|browser.tabs.animate                  | false |
+|31.|browser.download.animateNotifications | false |
+|32.|browser.fullscreen.animate            | false |
+|33.|browser.panorama.animate_zoom         | false |
+|34.|browser.sessionhistory.max_entries    |  15   |
+|35.|browser.sessionstore.max_tabs_undo    |   8   |
+|36.|browser.tabs.animate                  | false |
 
 
 - At paragraph ***14.*** you need to enter the corresponding values manually.
 - At paragraphs ***15.*** and ***16.*** there are indeed two values (zeroes).
-- After you enable the *Firefox Tracking Protection* (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets/comments **will not load** on some websites.<br>**If you want to see them**, just click on the "shield" icon while on website (the icon is shown in browser's address bar - left to the URL) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red-crossed (while such websites are opened).
+- After you enable the *Firefox Tracking Protection* (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets and comments **will not load** on some websites.<br>**If you want to see them**, just click on the "shield" icon while on website (the icon is shown in browser's address bar - left to the URL) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red-crossed (while such websites are opened).
 
 #####ALSO IMPORTANT:
 ######a) To save battery and increase safety [ask to activate Flash]
@@ -96,7 +95,14 @@ Set it to: ***Ask to Activate***.
 When necessary (to enable videos, etc.) you will still be able to choose *Allow and Remember*<br>
 ([**see this picture on how to enable Flash by default on specific websites**](http://cdn3.jasonsamuel.com/wp-content/uploads/2014/07/3.jpg)).
 
-######b) To optimize the graphics performance [Hardware acceleration]
+######b) To optimize scrolling [animation speed]
+If you are facing choppy and lagging scrolling in Firefox, increase the animation speed.<br>
+Set the following value (in *about:config*):<br>
+<code>layout.frame_rate.precise</code> ---> **true**
+
+**Note:** If your scrolling performance is already okay, it may get worse after changing the upper value. In that case, reset the value to default.
+
+######c) To optimize graphics performance [hardware acceleration]
 If your graphics card (GPU) is not too slow, enable hardware acceleration. Type this in your address bar:<br>
 <code>about:preferences#advanced</code><br>
 Hit enter. In *General* tab enable this option: ***Use hardware acceleration when available***<br>
@@ -107,7 +113,7 @@ Hit enter. In *General* tab enable this option: ***Use hardware acceleration whe
 1. To test the effect of enabled/disabled hardware acceleration, you need to **restart the browser**.<br>
 2. **Test both options** (with enabled as well as disabled value) on slower computers to see the difference!<br>If Firefox lags more while hardware acceleration is enabled, disable the setting.<br>
 
-######c) Miscellaneous
+######d) Miscellaneous
 - If you want to **disable** built-in feature ***Firefox Hello***, set the following value (in *about:config*):<br>
 <code>loop.enabled</code> ---> **false**
 - If you want to **disable** built-in feature ***Pocket*** (not an addon), set the following value (in *about:config*):<br><code>browser.pocket.enabled</code> ---> **false**

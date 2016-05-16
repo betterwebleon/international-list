@@ -50,39 +50,37 @@ Double-click on each preference name and change its value to:
 |   | Preference name                           | Value |
 |---|:------------------------------------------|:-----:|
 |13.| browser.cache.use_new_backend             |   1   |
-|14.| browser.newtab.url                        | Reset |
-|15.| full-screen-api.transition-duration.enter |  0 0  |
-|16.| full-screen-api.transition-duration.leave |  0 0  |
-|17.| full-screen-api.warning.timeout           |   0   |
-|18.| image.mem.max_decoded_image_kb            | 51200 |
-|19.| javascript.options.mem.high_water_mark    |   30  |
-|20.| javascript.options.mem.max                | 51200 |
-|21.| memory.free_dirty_pages                   |  true |
-|22.| network.http.keep-alive.timeout           |   60  |
-|23.| network.http.pipelining                   |  true |
-|24.| network.http.pipelining.aggressive        |  true |
-|25.| network.http.pipelining.maxrequests       |   8   |
-|26.| network.http.pipelining.ssl               |  true |
-|27.| network.http.proxy.pipelining             |  true |
-|28.| network.http.request.max-start-delay      |   3   |
-|29.| network.websocket.delay-failed-reconnects | false |
-|30.| security.dialog_enable_delay              |   0   |
+|14.| full-screen-api.transition-duration.enter |  0 0  |
+|15.| full-screen-api.transition-duration.leave |  0 0  |
+|16.| full-screen-api.warning.timeout           |   0   |
+|17.| image.mem.max_decoded_image_kb            | 51200 |
+|18.| javascript.options.mem.high_water_mark    |   30  |
+|19.| javascript.options.mem.max                | 51200 |
+|20.| memory.free_dirty_pages                   |  true |
+|21.| network.http.keep-alive.timeout           |   60  |
+|22.| network.http.pipelining                   |  true |
+|23.| network.http.pipelining.aggressive        |  true |
+|24.| network.http.pipelining.maxrequests       |   8   |
+|25.| network.http.pipelining.ssl               |  true |
+|26.| network.http.proxy.pipelining             |  true |
+|27.| network.http.request.max-start-delay      |   3   |
+|28.| network.websocket.delay-failed-reconnects | false |
+|29.| security.dialog_enable_delay              |   0   |
 
 **--- Additional tweaks for BATTERY SAVING and/or SLOW COMPUTERS ---**<br>
 Double-click on each preference name and change its value to:
 
 |   | Preference name                      | Value |
 |---|:-------------------------------------|:-----:|
-|31.|browser.download.animateNotifications | false |
-|32.|browser.fullscreen.animate            | false |
-|33.|browser.panorama.animate_zoom         | false |
-|34.|browser.sessionhistory.max_entries    |  15   |
-|35.|browser.sessionstore.max_tabs_undo    |   8   |
-|36.|browser.tabs.animate                  | false |
+|30.|browser.download.animateNotifications | false |
+|31.|browser.fullscreen.animate            | false |
+|32.|browser.panorama.animate_zoom         | false |
+|33.|browser.sessionhistory.max_entries    |  15   |
+|34.|browser.sessionstore.max_tabs_undo    |   8   |
+|35.|browser.tabs.animate                  | false |
 
 
-- At paragraph ***14.*** you need to enter the corresponding values manually.
-- At paragraphs ***15.*** and ***16.*** there are indeed two values (zeroes).
+- At paragraphs ***14.*** and ***15.*** there are indeed two values (zeroes).
 - After you enable the *Firefox Tracking Protection* (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets and comments **will not load** on some websites.<br>**If you want to see them**, just click on the "shield" icon while on website (the icon is shown in browser's address bar - left to the URL) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red-crossed (while such websites are opened).
 
 #####ALSO IMPORTANT:
@@ -114,10 +112,10 @@ Hit enter. In *General* tab enable this option: ***Use hardware acceleration whe
 2. **Test both options** (with enabled as well as disabled value) on slower computers to see the difference!<br>If Firefox lags more while hardware acceleration is enabled, disable the setting.<br>
 
 ######d) Miscellaneous
-- If you want to **disable** built-in feature ***Firefox Hello***, set the following value (in *about:config*):<br>
+- If you want to *disable* built-in feature ***Firefox Hello***, set the following value (in *about:config*):<br>
 <code>loop.enabled</code> ---> **false**
-- If you want to **disable** built-in feature ***Pocket*** (not an addon), set the following value (in *about:config*):<br><code>browser.pocket.enabled</code> ---> **false**
-- If you have very **slow disk**, reduce the size of disk cache. Set the following value (in *about:config*):<br><code>browser.cache.offline.capacity</code> ---> **250000**
+- If you want to *disable* built-in feature ***Pocket*** (not an addon), set the following value (in *about:config*):<br><code>browser.pocket.enabled</code> ---> **false**
+- If you have **very slow disk**, reduce the size of disk cache. Set the following value (in *about:config*):<br><code>browser.cache.offline.capacity</code> ---> **250000**<br>The latter setting applies only to some very old computers (10+ years), since modern drives are usually fast enough.
 
 *After you finish tweaking, simply close the tab with Firefox settings.*
 
@@ -156,22 +154,23 @@ After you paste link(s), first click on the *<code>Parse</code>* button below th
 
 ###3. Various recommended add-ons for Mozilla Firefox
 
-The following add-ons can be installed optionally. However every (simple) user will find add-ons no. **5.**, **7.**, **8.**, **9.**, **11.**, and **13.** very useful, because they optimize browsing significantly and do not require much time to set them up.
+The following add-ons can be installed optionally. However every (simple) user will find add-ons no. **5.**, **6**, **8.**, **9.**, **10.**, **12.**, and **14.** very useful, because they optimize browsing significantly and do not require much time to set them up.
 
 1. [**Classic Theme Restorer**](https://addons.mozilla.org/en/firefox/addon/classicthemerestorer/)
 2. [**Click&Clean**](https://addons.mozilla.org/en/firefox/addon/clickclean/)
 3. [**Download Panel Tweaks**](https://addons.mozilla.org/en/firefox/addon/download-panel-tweaks/)
 4. [**FindBar Tweak**](https://addons.mozilla.org/en/firefox/addon/findbar-tweak/)
-5. [**I don't care about cookies**](https://addons.mozilla.org/en/firefox/addon/i-dont-care-about-cookies/)
-6. [**Pocket**](https://mega.nz/#!T5RjHZyb!yXz5Wj-x7lWdRKbcCaMQ0_lZfpI828spmIm_sOEX5Ng)
-7. [**Pure URL**](https://addons.mozilla.org/en/firefox/addon/pure-url/) \*
-8. [**uBlock Origin**](https://addons.mozilla.org/en/firefox/addon/ublock-origin/)
-9. [**Undo Close Tab Replacement**](https://addons.mozilla.org/en/firefox/addon/undo-close-tab-replacement/)
-10. [**UnMHT**](https://addons.mozilla.org/en/firefox/addon/unmht/)
-11. [**Webmail Ad Blocker**](https://addons.mozilla.org/en/firefox/addon/webmail-ad-blocker/)
-12. [**X-notifier**](https://addons.mozilla.org/en/firefox/addon/xnotifier/)
-13. [**YouTube High Definition**](https://addons.mozilla.org/en/firefox/addon/youtube-high-definition/)
-14. [**ZenMate Security, Privacy & Unblock VPN**](https://addons.mozilla.org/en/firefox/addon/zenmate-security-privacy-vpn/)
+5. [**Google search link fix**](https://addons.mozilla.org/en/firefox/addon/google-search-link-fix/)
+6. [**I don't care about cookies**](https://addons.mozilla.org/en/firefox/addon/i-dont-care-about-cookies/)
+7. [**Pocket**](https://mega.nz/#!T5RjHZyb!yXz5Wj-x7lWdRKbcCaMQ0_lZfpI828spmIm_sOEX5Ng)
+8. [**Pure URL**](https://addons.mozilla.org/en/firefox/addon/pure-url/) \*
+9. [**uBlock Origin**](https://addons.mozilla.org/en/firefox/addon/ublock-origin/)
+10. [**Undo Close Tab Replacement**](https://addons.mozilla.org/en/firefox/addon/undo-close-tab-replacement/)
+11. [**UnMHT**](https://addons.mozilla.org/en/firefox/addon/unmht/)
+12. [**Webmail Ad Blocker**](https://addons.mozilla.org/en/firefox/addon/webmail-ad-blocker/)
+13. [**X-notifier**](https://addons.mozilla.org/en/firefox/addon/xnotifier/)
+14. [**YouTube High Definition**](https://addons.mozilla.org/en/firefox/addon/youtube-high-definition/)
+15. [**ZenMate Security, Privacy & Unblock VPN**](https://addons.mozilla.org/en/firefox/addon/zenmate-security-privacy-vpn/)
 
 \* If you encounter a problem of some blank websites (very rarely), use less rigorous addon instead of *Pure URL*:<br>
 [**au-revoir-utm**](https://addons.mozilla.org/en/firefox/addon/au-revoir-utm/)

@@ -131,7 +131,6 @@ Hit enter. In *General* tab enable this option: ***Use hardware acceleration whe
 Following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party filters" tab]:
 - uBlock filters
 - uBlock filters – Badware risks
-- uBlock filters – Block-then-redirect
 - uBlock filters – Privacy
 - uBlock filters – Unbreak
 - Adblock Warning Removal List
@@ -141,7 +140,7 @@ Following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party 
 - Malware domains
 - Spam404
 
-Many of them should already be enabled. Enable the rest and then click on the upper right button *<code>Apply changes</code>*. After that click the button *<code>Update now</code>* on the top left. Wait for a few moments until the button turns gray.
+**Many of them should already be enabled**. Enable the rest and then click on the upper right button *<code>Apply changes</code>*. After that click the button *<code>Update now</code>* on the top left. Wait for a few moments until the button turns gray.
 
 ####2.b) Recommended additional complementary filter lists
 
@@ -174,7 +173,7 @@ The following add-ons can be installed optionally. However every (simple) user w
 13. [**YouTube High Definition**](https://addons.mozilla.org/en/firefox/addon/youtube-high-definition/)
 14. [**ZenMate Security, Privacy & Unblock VPN**](https://addons.mozilla.org/en/firefox/addon/zenmate-security-privacy-vpn/)
 
-\* If you encounter a problem of some blank websites (very rarely), use less rigorous addon (instead of *Pure URL*):<br>
+\* If you encounter a problem of some blank websites (very rarely), use less rigorous addon instead of *Pure URL*:<br>
 [**au-revoir-utm**](https://addons.mozilla.org/en/firefox/addon/au-revoir-utm/)
 
 ###4. Hosts file

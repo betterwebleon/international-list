@@ -67,7 +67,7 @@ Double-click on each preference name and change its value to:
 |28.| network.websocket.delay-failed-reconnects | false |
 |29.| security.dialog_enable_delay              |   0   |
 
-**--- Additional tweaks for BATTERY SAVING and/or SLOW COMPUTERS ---**<br>
+**--- Additional tweaks for BATTERY SAVING and/or LOW-PERFORMANCE COMPUTERS ---**<br>
 Double-click on each preference name and change its value to:
 
 |   | Preference name                      | Value |
@@ -138,7 +138,7 @@ Following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party 
 - Malware domains
 - Spam404
 
-**Many of them should already be enabled**. Enable the rest and then click on the upper right button *<code>Apply changes</code>*. After that click the button *<code>Update now</code>* on the top left. Wait for a few moments until the button turns gray.
+**Many of them (including potential regional lists for your country) should already be enabled**. Enable the rest and then click on the upper right button *<code>Apply changes</code>*. After that click the button *<code>Update now</code>* on the top left. Wait for a few moments until the button turns gray.
 
 ####2.b) Recommended additional complementary filter lists
 

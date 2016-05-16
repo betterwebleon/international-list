@@ -142,7 +142,7 @@ Following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party 
 
 ####2.b) Recommended additional complementary filter lists
 
-There are also many additional (custom) lists. They can be added manually, by copying the following four URLs and pasting them to the "Custom" text area in uBlock Origin. The text area can be found at the bottom of pane ["3rd-party filters" tab].
+There are also many additional (custom) lists, we will name only three. They can be added manually, by copying the following three URLs and pasting them to the "Custom" text area in uBlock Origin. The text area can be found at the bottom of pane ["3rd-party filters" tab].
 
 <code>https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt</code><br>

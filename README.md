@@ -78,7 +78,7 @@ Double-click on each preference name and change its value to:
 |33.|browser.sessionhistory.max_entries    |  15   |
 |34.|browser.sessionstore.max_tabs_undo    |   8   |
 |35.|browser.tabs.animate                  | false |
-
+|36.|toolkit.scrollbox.smoothScroll        | false |
 
 - At paragraphs ***14.*** and ***15.*** there are indeed two values (zeroes).
 - After you enable the *Firefox Tracking Protection* (at paragraph ***12.***), Facebook/Twitter videos or Facebook widgets and comments **will not load** on some websites.<br>**If you want to see them**, just click on the "shield" icon while on website (the icon is shown in browser's address bar - left to the URL) and then click the button "*Disable protection for this session*" in pop-up panel. The browser will save your setting for corresponding domain name, so you will not have to block it again next time you visit any website from that domain name. Whenever Firefox tracking protection is disabled, the "shield" icon is red-crossed (while such websites are opened).
@@ -144,12 +144,20 @@ Following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party 
 
 There are also many additional (custom) lists, we will name only three. They can be added manually, by copying the following three URLs and pasting them to the "Custom" text area in uBlock Origin. The text area can be found at the bottom of pane ["3rd-party filters" tab].
 
+<code>https://<i></i>adguard.com/en/filter-rules.html?id=2</code><br>
+<code>https://<i></i>adguard.com/en/filter-rules.html?id=3</code><br>
 <code>https://<i></i>easylist-downloads.adblockplus.org/adwarefilters.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/betterwebleon/international-list/master/filters.txt</code><br>
 <code>https://<i></i>raw.githubusercontent.com/metaphoricgiraffe/tracking-filters/master/trackingfilters.txt</code><br>
 
 It is recommended to add all the URL's to uBlock Origin in order to maximize filtering scope.<br>
 After you paste link(s), first click on the *<code>Parse</code>* button below the text area. Then click on *<code>Apply changes</code>* button in the upper right corner. After that click on *<code>Update now</code>* button on the top left.
+
+***Optional***: Disquis comment system is integrated in many websites. It noticeably slows down loading of every such website.<br>If you don't want to load Disquis comments without your consent and show it only with a click on [corresponding button](https://cloud.githubusercontent.com/assets/585534/13646631/492e27f4-e5fe-11e5-9bbf-a880571ae743.png), you can add the following rule to your custom list as well:
+
+<code>https://<i></i>gist.githubusercontent.com/gorhill/ef1b62d606473c68d524/raw/90edb7864ee40d49c8f29ad4f2f1aded08e60c6c/gistfile1.txt</code>
+
+This tweak will *speed up loading* on all corresponding websites.
 
 ###3. Various recommended add-ons for Mozilla Firefox
 

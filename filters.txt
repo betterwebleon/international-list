@@ -85,6 +85,10 @@ ziffstatic.com^$third-party
 ! Site-specific filters
 9gag.com##[id^="jsid-entry-entity"] > .post-afterbar-a > .share > ul
 9gag.com###jsid-entry-entity-a8M31R1 > .full-width.in-post-bot.post-afterbar-a
+accuweather.com##.sidebar-telmet-promo
+accuweather.com###aadTop300
+accuweather.com###header-davek
+accuweather.com###offers
 aeon.co##.wrapper > div:nth-of-type(1) > .cf.fixed-header
 aeon.co##[id^="essay"] > .article__body > .article__body__meta > .sticky-wrapper > .article__actions
 aeon.co##[id^="essay"] > .article__body > .entry-content > .has-dropcap > .shortcode-inline-newsletter
@@ -100,17 +104,23 @@ brightside.me###js-article-content > div:nth-of-type(1) > .article-yandex-direct
 brightside.me##.js-dialog.js-fixed-like-box.dialog-social-fb.dialog-social-bottom.dialog-social
 businessinsider.com###main-content > .container > .siteskin-dropshadow > .primary-row.row > .span8 > .post.content > .clear-both.clearfix.bottom-share-module
 chronicle.com###maincontent > .content-item__container--article.clearfix > .content-item__story > .media-pull-left.media-width-half
+cpu-world.com##[id^="AB_W"]
 cpubenchmark.net###blocker > td
 cpuboss.com###facebook-widget
 cpuboss.com###side-fb-likes > h3
 csglobe.com###post-14512 > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid:nth-of-type(2) > .td-post-sidebar.column_container.span4 > .widget_text.widget
+custompcreview.com###pushengage_confirm
+custompcreview.com##.textwidget
+davidwolfe.com###text-31
 digitalcitizen.life###dont-block-our-ads-popup
 diycozyhome.com###inner-wrap > .td-footer-wrap
 diycozyhome.com###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4 > .widget_text.widget
 driverzone.com##[id^="block-block"]
+ebay.com##.me-rtm
 edition.cnn.com###gigyaShareBar_1_gig_containerParent
 edition.cnn.com###sponsored-outbrain-1
 eprints.lse.ac.uk##.ep_noprint.ep_tm_header > div:nth-of-type(1)
+euractiv.com##[id^="ea_gat"]
 file-extensions.org###socialbuttonsbox
 filehippo.com###root-content > div > .advert-center-left
 filehippo.com###root-content > div > .left-hand-col > .advert-center-left
@@ -120,6 +130,7 @@ flvto.biz##.content > .primary-screen > .container > .col-slim > .banner
 flvto.biz##.download-page > .container > .banner
 flvto.biz##.progress > .container > .hidden-mobile > a > .flvto-player-banner
 flvto.biz##header > .container > .wide.banner
+forbes.com##.vestpocket
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .article-image-figcaption
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
@@ -131,6 +142,8 @@ fstoppers.com###header-region > .social
 geekwire.com##.container > .content > .main > .post > header > .row
 gfi.com##[id^="ulp-inline"]
 gfi.com##[id^="ulp-layer"]
+heise.de##.teaser_adliste
+heise.de##.us_ad
 howtogeek.com##.overlay-bg
 howtogeek.com##.relateditemwrap
 howtogeek.com##.relatedtext
@@ -147,6 +160,7 @@ krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
 listverse.com##.wrapper > .main > .the-article > article > div:nth-of-type(2)
 m.bestvideo.pub###ads-back
 m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
+mckinsey.com##.disruptor
 metro.co.uk###post-5642470 > header > .share-buttons-top.share-buttons
 monova.org##.container-other.theme-showcase.container.main-container > div:nth-of-type(1)
 monova.org##.section-b.container-bt
@@ -161,6 +175,8 @@ play.spotify.com###desktop > .show.mft.upsell-background.content
 priceonomics.com###social-share
 psychcentral.com###jadsq
 q13fox.com##[id^="post"] > .clearfix > .entry-share
+rp-online.de###banneroben
+rp-online.de###main > .wide-header
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .alternative
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .b-follow-us
 rt.com##.page > .col-high-simple.aside > .aside-wp > .editable_widget.cont-wp
@@ -222,8 +238,6 @@ worldtruth.tv##.clearfix.container > .clearfix.row > .span4 > .widget:nth-of-typ
 worldtruth.tv##.clearfix.container > .clearfix.row > .span4 > .widget:nth-of-type(37)
 worldtruth.tv##.clearfix.container > .clearfix.row > .span4 > .widget:nth-of-type(38) > .title-block
 worldtruth.tv##.clearfix.container > .clearfix.row > .span8 > .textwidget:nth-of-type(6) > center
-www.accuweather.com###content > .clearfix.column-2-world.column-2
-www.accuweather.com###social-connect
 www.agame.com###sgAdLb2Hp728x90
 www.agame.com###sgAdLbHp728x90
 www.agame.com###sgAdScHp160x600
@@ -440,4 +454,6 @@ www.wired.com###rad-card-small
 www.wired.com###sidebar-wrap > .sidebar-rad.marg-b-med.box.rad > a[href="javascript:;"] > .fallback-tall.fallback
 www.youtube.com###masthead-positioner > .clearfix.yt-consent-banner.yt-consent
 www.youtube.com###page > .alerts-wrapper
-www.zdnet.com###mantle_skin > .contentWrapper > .container > .row > .row > .col-12 > .row > .row:nth-of-type(1) > .col-12 > .row > .col-8 > article > .shareBar:nth-of-type(1)
+zdnet.com##.alignLeft.relatedContent
+zdnet.com##.shareBar:nth-of-type(1)
+zdnet.com###content-top-leaderboard

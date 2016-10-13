@@ -117,10 +117,16 @@ diycozyhome.com###inner-wrap > .td-footer-wrap
 diycozyhome.com###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4 > .widget_text.widget
 driverzone.com##[id^="block-block"]
 ebay.com##.me-rtm
+economist.com###block-ec_components-print_sub
+economist.com###block-ec_components-share_inline_footer
+economist.com###page > footer > .footer-stripe-top
+economist.com###simplemodal-container
+economist.com###simplemodal-overlay
 edition.cnn.com###gigyaShareBar_1_gig_containerParent
 edition.cnn.com###sponsored-outbrain-1
 eprints.lse.ac.uk##.ep_noprint.ep_tm_header > div:nth-of-type(1)
 euractiv.com##[id^="ea_gat"]
+facebook.com###pagelet_growth_expanding_cta
 file-extensions.org###socialbuttonsbox
 filehippo.com###root-content > div > .advert-center-left
 filehippo.com###root-content > div > .left-hand-col > .advert-center-left
@@ -130,7 +136,10 @@ flvto.biz##.content > .primary-screen > .container > .col-slim > .banner
 flvto.biz##.download-page > .container > .banner
 flvto.biz##.progress > .container > .hidden-mobile > a > .flvto-player-banner
 flvto.biz##header > .container > .wide.banner
+forbes.com##.article-gallery-embedded
 forbes.com##.vestpocket
+forbes.com###abovefold > aside > .ad.block
+forbes.com###article-page > .article-background-wrapper > .main-article > .main-article-padding > .ng-scope.article-header > .ng-scope.top-ad-sticky
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .article-image-figcaption
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
@@ -142,8 +151,13 @@ fstoppers.com###header-region > .social
 geekwire.com##.container > .content > .main > .post > header > .row
 gfi.com##[id^="ulp-inline"]
 gfi.com##[id^="ulp-layer"]
+gottabemobile.com##.cb-itemprop > .code-block > center
+gottabemobile.com##.cb-itemprop > p:nth-of-type(3)
+gottabemobile.com##.cb-itemprop > p:nth-of-type(8)
+gottabemobile.com###cb-logo-box
 heise.de##.teaser_adliste
 heise.de##.us_ad
+hollywoodreporter.com##.readmore
 howtogeek.com##.overlay-bg
 howtogeek.com##.relateditemwrap
 howtogeek.com##.relatedtext
@@ -161,7 +175,10 @@ listverse.com##.wrapper > .main > .the-article > article > div:nth-of-type(2)
 m.bestvideo.pub###ads-back
 m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
 mckinsey.com##.disruptor
+medianama.com##.entry-content > div:nth-of-type(3)
 metro.co.uk###post-5642470 > header > .share-buttons-top.share-buttons
+money.cnn.com##.inStoryHeading
+money.cnn.com###medianet
 monova.org##.container-other.theme-showcase.container.main-container > div:nth-of-type(1)
 monova.org##.section-b.container-bt
 monova.org###lightbox_loading
@@ -180,6 +197,8 @@ rp-online.de###main > .wide-header
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .alternative
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .b-follow-us
 rt.com##.page > .col-high-simple.aside > .aside-wp > .editable_widget.cont-wp
+sciencebusiness.net##.newsarticleMPUbox
+sciencebusiness.net###main > .row > .hidden-xs
 statista.com###statisticSlideIn
 techaeris.com###dat-menu > .dat-menu-container > .dat-menu-padding.dat-menu-wrapper > .active.boxed > .content > .wrapper > .has-sidebar.main-content > .left.left-content > .banner.article-body-banner
 techaeris.com###essb_displayed_both1607151333 > .essb_links_list
@@ -194,6 +213,8 @@ techcrunch.com##.header-context-null.cf.header > .nav-bar > .lc > .lc > .cf.head
 techcrunch.com##.homepage.split.flush.fluid > .lc-island.flush.lc > .l-two-col > .lc-padding.l-sidebar > .flush.section > .block.collapse-adjacent.collapse.newsletters-signup.aside.section
 techjourney.net##.et_social_animated.et_social_visible.et_social_mobile_on.et_social_trigger_bottom.et_social_slideup.et_social_flyin_bottom_right.et_social_resize.et_social_flyin
 techtarget.com###download-offer
+tekrevue.com##.share-box-1
+tekrevue.com##.sponsor-blurb
 thefinancialbrand.com###content > .entry.tag-watson.tag-robots.tag-papper.tag-nao.tag-mizuho-bank.tag-ibm.tag-david-brear.tag-chris-skinner.tag-brett-king.tag-bank-of-tokyo-mitsubishi-ufj.tag-bank-of-japan.tag-artificial-intelligence.tag-ai.category-technology-strategies.category-branches.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-52735 > .entry-content > .sd-sharing-enabled.sharedaddy:nth-of-type(1)
 thefinancialbrand.com###dym-sidebar-single-19 > .widget-wrap
 thefreethoughtproject.com###ajax_indicator
@@ -298,9 +319,6 @@ www.dailymail.co.uk###articleIconLinksContainer
 www.digitaltrends.com##.h-bartender.m-bartender > .m-pint-wrap:nth-of-type(1)
 www.digitaltrends.com##.l-main-container > .dtads-group.l-page > .l-block-wrap > .is-enabled.l-sidebar_smart.l-sidebar > .h-register-newsletter.m-widget_news-reg.m-widget
 www.digitaltrends.com##.l-main-container > .dtads-group.l-page > .l-block-wrap > .l-sidebar_smart.l-sidebar > .h-register-newsletter.m-widget_news-reg.m-widget
-www.economist.com###block-ec_components-print_sub
-www.economist.com###block-ec_components-share_inline_footer
-www.economist.com###page > footer > .footer-stripe-top
 www.engadget.com###rail-collection-main > .rail-latest.module:nth-of-type(2) > .green.hed
 www.euractiv.com##body > .container > .ea-color-white > .ea-columns-same-height > .col-lg-8 > .ea-article-header > .clearfix > .pull-right
 www.expertreviews.co.uk###block-system-main > .content > .node-full.odd.node-promoted.node-article.node > .content > .sharerich-1.sharerich-expert-reviews-wrapper.sharerich-wrapper > .item-list > .rrssb-1.clearfix.rrssb-buttons.sharerich-buttons
@@ -313,8 +331,6 @@ www.finanzen100.de###NEWS_ARTICLE > .sticky.social-sharing
 www.flvto.biz##.content > .middle-content > .wrapper > .h-placeholder
 www.flvto.biz##.content > .wrapper > .h-placeholder
 www.flvto.biz##.form > .wrapper > .top-placeholder
-www.forbes.com###abovefold > aside > .ad.block
-www.forbes.com###article-page > .article-background-wrapper > .main-article > .main-article-padding > .ng-scope.article-header > .ng-scope.top-ad-sticky
 www.fudzilla.com###Mod123
 www.fudzilla.com###Mod152
 www.fudzilla.com###t3-mainnav > .navbar.container > .navbar-inner > .head-social > .nav > .nav-connect.parent.dropdown

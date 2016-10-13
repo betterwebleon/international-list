@@ -162,7 +162,7 @@ This tweak will *speed up loading* on all corresponding websites.
 
 ###3. Various recommended add-ons for Mozilla Firefox
 
-The following add-ons can be installed optionally. However every (simple) user will find add-ons no. **5.**, **6**, **8.**, **9.**, **10.**, **12.**, and **14.** very useful, because they optimize browsing significantly and do not require much time to set them up.
+The following add-ons can be installed optionally. However every (simple) user will find add-ons no. **5**, **6**, **8**, **9**, **10**, **12**, and **14** very useful, because they optimize browsing significantly and do not require much time to set them up.
 
 1. [**Classic Theme Restorer**](https://addons.mozilla.org/en/firefox/addon/classicthemerestorer/)
 2. [**Click&Clean**](https://addons.mozilla.org/en/firefox/addon/clickclean/)
@@ -180,7 +180,7 @@ The following add-ons can be installed optionally. However every (simple) user w
 14. [**YouTube High Definition**](https://addons.mozilla.org/en/firefox/addon/youtube-high-definition/)
 15. [**Hotspot Shield Free VPN Proxy – Unblock Sites**](https://addons.mozilla.org/en/firefox/addon/hotspot-shield-free-vpn-proxy-/)
 
-\* If you encounter problems of blank websites by using Pure URL (very rarely), use:
+\* If you encounter problems of blank websites by using Pure URL (very rarely), rather use:
 - [**au-revoir-utm**](https://addons.mozilla.org/en/firefox/addon/au-revoir-utm/) (less rigorous alternative) or
 - [**URL Manager**](https://addons.mozilla.org/en/firefox/addon/url-manager/), if you want to have complete control by adding your own (custom) URL filters.
 

@@ -127,6 +127,7 @@ Hit enter. In *General* tab enable this option: ***Use hardware acceleration whe
 ####2.a) Recommended complementary filter lists
 
 Following lists can be turned on by *ticking* them in uBlock Origin ["3rd-party filters" tab]:
+- My filters
 - uBlock filters
 - uBlock filters – Badware risks
 - uBlock filters – Privacy
@@ -177,10 +178,11 @@ The following add-ons can be installed optionally. However every (simple) user w
 12. [**Webmail Ad Blocker**](https://addons.mozilla.org/en/firefox/addon/webmail-ad-blocker/)
 13. [**X-notifier**](https://addons.mozilla.org/en/firefox/addon/xnotifier/)
 14. [**YouTube High Definition**](https://addons.mozilla.org/en/firefox/addon/youtube-high-definition/)
-15. [**ZenMate Security, Privacy & Unblock VPN**](https://addons.mozilla.org/en/firefox/addon/zenmate-security-privacy-vpn/)
+15. [**Hotspot Shield Free VPN Proxy – Unblock Sites**](https://addons.mozilla.org/en/firefox/addon/hotspot-shield-free-vpn-proxy-/)
 
-\* If you encounter a problem of some blank websites (very rarely), use less rigorous addon instead of *Pure URL*:<br>
-[**au-revoir-utm**](https://addons.mozilla.org/en/firefox/addon/au-revoir-utm/)
+\* If you encounter problems of blank websites by using Pure URL (very rarely), use:
+- [**au-revoir-utm**](https://addons.mozilla.org/en/firefox/addon/au-revoir-utm/) (less rigorous alternative) or
+- [**URL Manager**](https://addons.mozilla.org/en/firefox/addon/url-manager/), if you want to have complete control by adding your own (custom) URL filters.
 
 ###4. Hosts file
 Another very important and useful tweak is the file named "*hosts*". It is highly recommended to set it up **together with all aforementioned tweaks**. According to [StevenBlack](https://github.com/StevenBlack/hosts/blob/master/readme.md), *hosts* is a plain-text file used by all operating systems to map hostnames to IP addresses. The *hosts* is not bound to any browser, so it should work all the time irrespective of the browser or program.

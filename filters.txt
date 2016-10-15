@@ -50,8 +50,6 @@ tech.co#@#.addthis_toolbox
 ||telemetry-experiment^$xmlhttprequest
 ||telemetry.mozilla.org/submit/telemetry
 ||thefinancialbrand.com/wp-content/*/*/*_*.*
-||twimg.com^$domain=~24ur.com|~gov.si|~iflscience.com|~mediaspeed.net|~radio1.si|~twimg.com|~twitter.com
-||twitter.com^$domain=~24ur.com|~gov.si|~iflscience.com|~mediaspeed.net|~radio1.si|~twimg.com|~twitter.com
 ||twitter.com/intent
 ||www5.pcmag.com/media/images/368286-slideout-subscribe.png
 ||www.anandtech.com/Content/images/twitter_down_arrow.png

@@ -12,6 +12,7 @@ tech.co#@#.addthis_toolbox
 ||2o7.net
 ||ad.doubleclick.net^$domain=behind-the-scene
 ||bit.ly/TweetAndTrack.js
+||cdn.billiger.com/billiger/marketing/$image
 ||chartbeat.com
 ||chartbeat.net
 ||cityam.com/assets/js/*1.11.1.min.js
@@ -72,7 +73,6 @@ assets.pinterest.com/js/pinit.js$third-party
 assets.pinterest.com/pidget.html$third-party
 assets.tumblr.com/assets/html/iframe/o.html$third-party
 assets.tumblr.com/assets/html/iframe/teaser.html?$third-party
-atlasobscura.com###social-siderails-btns
 fbstatic-a.akamaihd.net^$domain=~facebook.com,third-party
 gemius.pl^$third-party
 google.com/js/plusone.js$third-party
@@ -96,9 +96,14 @@ arstechnica.com###content > .standalone > header > .post-meta > .corner-info
 arstechnica.com###outbrain-recs
 arstechnica.com###outbrain-recs-wrap > hr
 arstechnica.com###stories-features > .thick-divide-bottom.thick-divide-top
+arstechnica.com##.pullbox
+atlasobscura.com###social-siderails-btns
 bigthink.com###fixed-social-wrapper
+billiger.de##.promotion-campaign
 blog.sfgate.com###ctpl-fullbanner1
+bloomberg.com##.inline-newsletter
 brightside.me###js-article-content > div:nth-of-type(1) > .article-yandex-direct
+brightside.me###js-article-share-top
 brightside.me##.js-dialog.js-fixed-like-box.dialog-social-fb.dialog-social-bottom.dialog-social
 businessinsider.com###main-content > .container > .siteskin-dropshadow > .primary-row.row > .span8 > .post.content > .clear-both.clearfix.bottom-share-module
 chronicle.com###maincontent > .content-item__container--article.clearfix > .content-item__story > .media-pull-left.media-width-half
@@ -120,9 +125,13 @@ economist.com###block-ec_components-share_inline_footer
 economist.com###page > footer > .footer-stripe-top
 economist.com###simplemodal-container
 economist.com###simplemodal-overlay
+ecowatch.com##.article-image > .newsletter-post-page
+ecowatch.com##.fb-like
+ecowatch.com##.js-scroll-trigger.post-share
 edition.cnn.com###gigyaShareBar_1_gig_containerParent
 edition.cnn.com###sponsored-outbrain-1
 eprints.lse.ac.uk##.ep_noprint.ep_tm_header > div:nth-of-type(1)
+eteknix.com###wrapper > header
 euractiv.com##[id^="ea_gat"]
 facebook.com###pagelet_growth_expanding_cta
 file-extensions.org###socialbuttonsbox
@@ -146,6 +155,8 @@ fortune.com###content > .content-well > div > .ranking-layout-float.full-article
 fstoppers.com###block-block-12
 fstoppers.com###block-fs_helpers-fs_helpers_connect
 fstoppers.com###header-region > .social
+ft.com##.o-email-only-signup
+gazetaexpress.com##.leaderboard
 geekwire.com##.container > .content > .main > .post > header > .row
 gfi.com##[id^="ulp-inline"]
 gfi.com##[id^="ulp-layer"]
@@ -153,6 +164,7 @@ gottabemobile.com##.cb-itemprop > .code-block > center
 gottabemobile.com##.cb-itemprop > p:nth-of-type(3)
 gottabemobile.com##.cb-itemprop > p:nth-of-type(8)
 gottabemobile.com###cb-logo-box
+hbr.org##.article-promo
 heise.de##.teaser_adliste
 heise.de##.us_ad
 hollywoodreporter.com##.readmore
@@ -168,7 +180,12 @@ iflscience.com##.topad
 imgur.com###cta-container
 imgur.com###fixed-side-footer-links > .sidebar-footerlinks-social-icons
 imgur.com###wrapper-pop_sky
+independent.co.uk##.dnd-widget-wrapper
+independent.co.uk##.partner-slots
+independent.co.uk##.relatedlinkslist
 krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
+laptopmag.com###rightcol_top
+laptopmag.com##.leaderBoard
 listverse.com##.wrapper > .main > .the-article > article > div:nth-of-type(2)
 m.bestvideo.pub###ads-back
 m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
@@ -184,9 +201,12 @@ motherboard.vice.com###yw1
 mspoweruser.com###shunno_widget_sidebar_msft-4
 nymag.com###primary > .share-mini
 nymag.com###tertiary > .ad-repeat
+nytimes.com###newsletter-promo
+nytimes.com###TopAd1
 pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
 play.spotify.com###desktop > .show.mft.upsell-background.content
+pmlive.com###pm-top-banner
 priceonomics.com###social-share
 psychcentral.com###jadsq
 q13fox.com##[id^="post"] > .clearfix > .entry-share
@@ -197,6 +217,9 @@ rt.com##.main-header > .main-header-wp > .head-nav > .center > .b-follow-us
 rt.com##.page > .col-high-simple.aside > .aside-wp > .editable_widget.cont-wp
 sciencebusiness.net##.newsarticleMPUbox
 sciencebusiness.net###main > .row > .hidden-xs
+searchenginejournal.com##.right-bottom-inner
+searchenginejournal.com##.summitad-wrap
+searchenginejournal.com##.top-share-buttons
 statista.com###statisticSlideIn
 techaeris.com###dat-menu > .dat-menu-container > .dat-menu-padding.dat-menu-wrapper > .active.boxed > .content > .wrapper > .has-sidebar.main-content > .left.left-content > .banner.article-body-banner
 techaeris.com###essb_displayed_both1607151333 > .essb_links_list
@@ -226,6 +249,7 @@ thinkinghumanity.com###facebook_2_popup
 time.com##[id^="article"] > .article-footer > .article-footer__share-tools
 tomshardware.com##[id^="OTIz"]
 uk.eonline.com###cc-tag
+upliftconnect.com###ubam-article-mobile-banner-container
 useconomy.about.com###main > .container > .row > .article-content.col-tablet-8.col-11.col > .col-push-tablet-1.col-push-2 > .js-share.s-btns-eoc.s-btns
 useconomy.about.com###main > .lb-s.container > .row > .article-content.col-tablet-8.col-11.col > .col-push-tablet-1.col-push-2 > .js-share.s-btns-eoc.s-btns
 wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar > .widget_momizattabber.widget
@@ -332,7 +356,6 @@ www.flvto.biz##.form > .wrapper > .top-placeholder
 www.fudzilla.com###Mod123
 www.fudzilla.com###Mod152
 www.fudzilla.com###t3-mainnav > .navbar.container > .navbar-inner > .head-social > .nav > .nav-connect.parent.dropdown
-www.ft.com###page-container > .middleSection.master-column > .contentSection.master-row > .marketingSection.master-row
 www.ghacks.net###main > .adslot_1.adsbygoogle
 www.ghacks.net##[id^="pgloggedouttext-"]
 www.gsmarena.com###subHeader
@@ -376,7 +399,6 @@ www.maximumpc.com###center_content > .center_content_bottom > .special.section_h
 www.mindfactory.de/templates/mindfactory/images/backgrounds/background_*.jpg
 www.mindfactory.de/templates/mindfactory/images/spacer.gif
 www.monova.org###lightbox_socials
-www.nytimes.com###TopAd1
 www.pcadvisor.co.uk###mainContent > .articleBd > .metaArticleContainer
 www.pcadvisor.co.uk###mainContent > .articleBd > .revProduct > .metaArticleContainer
 www.pcmag.com###outbrain_widget_1 > .AR_2.ob_dual_container > .ob_dual_right
@@ -466,8 +488,7 @@ www.wired.com###grid > .site-container.clearfix:nth-of-type(1) > .float-r-med.fl
 www.wired.com###grid > .site-container.clearfix:nth-of-type(4) > .med-order-1.items-2.items.flex-row > .med-col-8.col.marg-b-med.box.rad.mob-center
 www.wired.com###rad-card-small
 www.wired.com###sidebar-wrap > .sidebar-rad.marg-b-med.box.rad > a[href="javascript:;"] > .fallback-tall.fallback
-www.youtube.com###masthead-positioner > .clearfix.yt-consent-banner.yt-consent
-www.youtube.com###page > .alerts-wrapper
+xda-developers.com##.et_social_sidebar_networks
 zdnet.com##.alignLeft.relatedContent
 zdnet.com##.shareBar:nth-of-type(1)
 zdnet.com###content-top-leaderboard

@@ -25,7 +25,6 @@ tech.co#@#.addthis_toolbox
 ||flappyhamster.net/dt.adsafeprotected.com$image,domain=behind-the-scene
 ||gather.*/scripts/visittrack.js
 ||giurn.co.uk
-||google.com/js/bg
 ||googleadservices.com
 ||googletagmanager.com/*.js
 ||googletagservices.com/tag/js
@@ -36,7 +35,6 @@ tech.co#@#.addthis_toolbox
 ||i.po.st/share/script/post-widget.js
 ||livefyre.com/wjs
 ||monova.org/ajax/get_lightbox_content$xmlhttprequest,first-party
-||plusone.google.com
 ||realtime.services.disqus.com/api/*/thread/
 ||rp-api.com/rjs/repostus.js
 ||s-cdn.phonearena.com/images/adblock-awareness.png
@@ -58,31 +56,33 @@ tech.co#@#.addthis_toolbox
 ||www.huffingtonpost.com/_uac/2014adpage.html
 !
 ! Third-party filters
-api-read.facebook.com/restserver.php?api_key=$third-party
-api.groupon.com^$third-party
-api.oneall.com^$third-party
-api.starsmp.com^$third-party
-apis.google.com/*/socialgraph/$third-party
-apis.google.com/_/apps-static/_/js/gapi/*plusone/$third-party
-apis.google.com/_/scs/apps-static/*=page,plusone/$third-party
-apis.google.com/js/platform.js$third-party
-apis.google.com/*/widget/render/follow?$third-party
-apis.google.com/*/widget/render/page?$third-party
-apis.google.com/*/widget/render/person?$third-party
-assets.pinterest.com/js/pinit.js$third-party
-assets.pinterest.com/pidget.html$third-party
-assets.tumblr.com/assets/html/iframe/o.html$third-party
-assets.tumblr.com/assets/html/iframe/teaser.html?$third-party
-fbstatic-a.akamaihd.net^$domain=~facebook.com,third-party
-gemius.pl^$third-party
-google.com/js/plusone.js$third-party
-gplusapi.appspot.com$third-party
-spot.im/embed/scripts/launcher.js$third-party
-ziffstatic.com^$third-party
+||api-read.facebook.com/restserver.php?api_key=$third-party
+||api.groupon.com^$third-party
+||api.oneall.com^$third-party
+||api.starsmp.com^$third-party
+||apis.google.com/*/socialgraph/$third-party
+||apis.google.com/_/apps-static/_/js/gapi/*plusone/$third-party
+||apis.google.com/_/scs/apps-static/*=page,plusone/$third-party
+||apis.google.com/js/platform.js$third-party
+||apis.google.com/*/widget/render/follow?$third-party
+||apis.google.com/*/widget/render/page?$third-party
+||apis.google.com/*/widget/render/person?$third-party
+||assets.pinterest.com/js/pinit.js$third-party
+||assets.pinterest.com/pidget.html$third-party
+||assets.tumblr.com/assets/html/iframe/o.html$third-party
+||assets.tumblr.com/assets/html/iframe/teaser.html?$third-party
+||fbstatic-a.akamaihd.net^$domain=~facebook.com,third-party
+||gemius.pl^$third-party
+||google.com/js/plusone.js$third-party
+||gplusapi.appspot.com$third-party
+||spot.im/embed/scripts/launcher.js$third-party
+||ziffstatic.com^$third-party
 !
 ! Site-specific filters
 9gag.com##[id^="jsid-entry-entity"] > .post-afterbar-a > .share > ul
 9gag.com###jsid-entry-entity-a8M31R1 > .full-width.in-post-bot.post-afterbar-a
+accountingweb.com##.mpu-1
+accountingweb.com##.mpu-2
 accuweather.com##.sidebar-telmet-promo
 accuweather.com###aadTop300
 accuweather.com###header-davek
@@ -189,6 +189,7 @@ laptopmag.com##.leaderBoard
 listverse.com##.wrapper > .main > .the-article > article > div:nth-of-type(2)
 m.bestvideo.pub###ads-back
 m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
+matadornetwork.com##.social-box
 mckinsey.com##.disruptor
 medianama.com##.entry-content > div:nth-of-type(3)
 metro.co.uk###post-5642470 > header > .share-buttons-top.share-buttons
@@ -489,6 +490,8 @@ www.wired.com###grid > .site-container.clearfix:nth-of-type(4) > .med-order-1.it
 www.wired.com###rad-card-small
 www.wired.com###sidebar-wrap > .sidebar-rad.marg-b-med.box.rad > a[href="javascript:;"] > .fallback-tall.fallback
 xda-developers.com##.et_social_sidebar_networks
+youtube.com##.alerts-wrapper
+youtube.com##.ytd-consent-bump-renderer-0
 zdnet.com##.alignLeft.relatedContent
 zdnet.com##.shareBar:nth-of-type(1)
 zdnet.com###content-top-leaderboard

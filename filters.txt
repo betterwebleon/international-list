@@ -30,6 +30,7 @@ tech.co#@#.addthis_toolbox
 ||googletagservices.com/tag/js
 ||googleusercontent.com/gadgets/js
 ||gplusapi.$domain=~googleplus.com|~plus.google.com
+||i.mol.im/*/*skin_beach*.png$image
 ||i.mol.im/*/*skin_picnic*.png$image
 ||i.mol.im/i/furniture/*skin_coffee*.png
 ||i.po.st/share/script/post-widget.js
@@ -114,6 +115,10 @@ cpuboss.com###side-fb-likes > h3
 csglobe.com###post-14512 > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid:nth-of-type(2) > .td-post-sidebar.column_container.span4 > .widget_text.widget
 custompcreview.com###pushengage_confirm
 custompcreview.com##.textwidget
+dailymail.co.uk##[id^="p-"] > .linkro-wocc > li > iframe
+dailymail.co.uk##div > iframe
+dailymail.co.uk###articleIconLinksContainer
+dailymail.co.uk###js-article-text > div:nth-of-type(2) > div:nth-of-type(2)
 davidwolfe.com###text-31
 digitalcitizen.life###dont-block-our-ads-popup
 diycozyhome.com###inner-wrap > .td-footer-wrap
@@ -164,9 +169,12 @@ gottabemobile.com##.cb-itemprop > .code-block > center
 gottabemobile.com##.cb-itemprop > p:nth-of-type(3)
 gottabemobile.com##.cb-itemprop > p:nth-of-type(8)
 gottabemobile.com###cb-logo-box
+hardwarezone.com.sg##.nm-sub-dialog-overlay
+hardwarezone.com.sg##.nm-sub-dialog-wrapper
 hbr.org##.article-promo
 heise.de##.teaser_adliste
 heise.de##.us_ad
+heise.de###bannerzone
 hollywoodreporter.com##.readmore
 howtogeek.com##.overlay-bg
 howtogeek.com##.relateditemwrap
@@ -183,9 +191,14 @@ imgur.com###wrapper-pop_sky
 independent.co.uk##.dnd-widget-wrapper
 independent.co.uk##.partner-slots
 independent.co.uk##.relatedlinkslist
+influencive.com##.swp_one
+investopedia.com##.ad-leaderboard
+investopedia.com##.ad-textlink
+investopedia.com###abkoverlay
 krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
 laptopmag.com###rightcol_top
 laptopmag.com##.leaderBoard
+lesnumeriques.com###pub-banner
 listverse.com##.wrapper > .main > .the-article > article > div:nth-of-type(2)
 m.bestvideo.pub###ads-back
 m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
@@ -209,8 +222,10 @@ pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
 play.spotify.com###desktop > .show.mft.upsell-background.content
 pmlive.com###pm-top-banner
 priceonomics.com###social-share
+progress.org##[id^="ad"]
 psychcentral.com###jadsq
 q13fox.com##[id^="post"] > .clearfix > .entry-share
+qz.com###marquee
 rp-online.de###banneroben
 rp-online.de###main > .wide-header
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .alternative
@@ -237,10 +252,20 @@ techjourney.net##.et_social_animated.et_social_visible.et_social_mobile_on.et_so
 techtarget.com###download-offer
 tekrevue.com##.share-box-1
 tekrevue.com##.sponsor-blurb
+teslarati.com##.social-sharing-top
 thefinancialbrand.com###content > .entry.tag-watson.tag-robots.tag-papper.tag-nao.tag-mizuho-bank.tag-ibm.tag-david-brear.tag-chris-skinner.tag-brett-king.tag-bank-of-tokyo-mitsubishi-ufj.tag-bank-of-japan.tag-artificial-intelligence.tag-ai.category-technology-strategies.category-branches.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-52735 > .entry-content > .sd-sharing-enabled.sharedaddy:nth-of-type(1)
 thefinancialbrand.com###dym-sidebar-single-19 > .widget-wrap
 thefreethoughtproject.com###ajax_indicator
 thefreethoughtproject.com###WFWrapper
+theguardian.com###article > .tonal__main--tone-news.tonal__main.content__main > .gs-container > .js-content-main-column.content__main-column--article.content__main-column > .submeta > .u-cf
+theguardian.com###footer-nav > .u-cf.l-footer__navigation-wrapper > .navigation-container--collapsed.navigation-container.js-navigation-footer > .navigation.gs-container
+theguardian.com##.js-site-message
+theguardian.com##.l-side-margins > .content-footer > .fc-container--commercial-high.fc-container
+theguardian.com##.site-message--adblock.site-message--banner.js-site-message.site-message
+theguardian.com##.site-message--adblock-message.site-message--banner.js-site-message.site-message
+theguardian.com##.site-message--international-with-survey-new.site-message--banner.js-site-message.site-message
+theguardian.com##.site-message--membership-message-variants.site-message--banner.js-site-message.site-message
+theguardian.com##[id] > .fc-container__inner > .fc-show-more--hidden.fc-container__body.fc-container--rolled-up-hide > .fc-slice-wrapper > .fc-slice--t-tl-mpu.fc-slice.l-row--cols-3.l-row.u-unstyled > .fc-slice__item--mpu-candidate.js-fc-slice-mpu-candidate.l-row__item--span-1.l-row__item.fc-slice__item
 thepiratebay.*###social
 thespiritscience.net###shr_canvas4
 thinkinghumanity.com##.__b-popup1__
@@ -272,6 +297,7 @@ wimp.com###sidebar
 winbeta.org###header > .group > .container-inner > .pad
 winbeta.org###page > .container-inner > .main > .group.main-inner > .content > .group.pad > .post > .group.post-inner > .entry > .entry-inner > .mashsb-main.mashsb-container:nth-of-type(1)
 windows.ittoolbox.com###popupdiv
+windowscentral.com###Leaderboard_Header_ATF-wrap
 windowssecrets.com###sidebar > li:nth-of-type(1) > .smaller.block
 windowssecrets.com###sidebar > li:nth-of-type(2)
 wirtschaftsblatt.at###section-main > .fl > .contentBlockHome > .Advertisiment.ContentMedium
@@ -337,8 +363,6 @@ www.computerworld.com###page-wrapper > section > .bodee > .col-wrapper > .news-p
 www.computerworld.com###page-wrapper > section > .bodee > .col-wrapper > .news-promos > .right-rail > .partner-hub-wrapper.promo-wrapper
 www.computerworld.com###reading-tools-wrapper > .tools > .social
 www.computerworld.com###taboola
-www.dailymail.co.uk##[id^="p-"] > .linkro-wocc > li > iframe
-www.dailymail.co.uk###articleIconLinksContainer
 www.digitaltrends.com##.h-bartender.m-bartender > .m-pint-wrap:nth-of-type(1)
 www.digitaltrends.com##.l-main-container > .dtads-group.l-page > .l-block-wrap > .is-enabled.l-sidebar_smart.l-sidebar > .h-register-newsletter.m-widget_news-reg.m-widget
 www.digitaltrends.com##.l-main-container > .dtads-group.l-page > .l-block-wrap > .l-sidebar_smart.l-sidebar > .h-register-newsletter.m-widget_news-reg.m-widget
@@ -381,7 +405,6 @@ www.imdb.com###maindetails_sidebar_bottom > .aux-content-widget-2:nth-of-type(10
 www.inc.com###leaderboard-container
 www.inc.com###topnav-placeholder
 www.inc.com##[id^="adInPattern"]
-www.investopedia.com###abkoverlay
 www.itpro.co.uk###block-system-main > .content > .node > .content > .sharerich-1
 www.kitguru.net###facebooklikebox-3
 www.latimes.com##.trb_allContentWrapper > .trb_article_panelWrapper > div > .trb_article > .trb_article_articleHeader > .trb_socialize
@@ -462,14 +485,6 @@ www.thefreedictionary.com###sy1
 www.thefreedictionary.com###sy2
 www.thefreedictionary.com###w1 > .w2 > div:nth-of-type(1)
 www.thefreedictionary.com###yj1
-www.theguardian.com###article > .tonal__main--tone-news.tonal__main.content__main > .gs-container > .js-content-main-column.content__main-column--article.content__main-column > .submeta > .u-cf
-www.theguardian.com###footer-nav > .u-cf.l-footer__navigation-wrapper > .navigation-container--collapsed.navigation-container.js-navigation-footer > .navigation.gs-container
-www.theguardian.com##.l-side-margins > .content-footer > .fc-container--commercial-high.fc-container
-www.theguardian.com##.site-message--adblock.site-message--banner.js-site-message.site-message
-www.theguardian.com##.site-message--adblock-message.site-message--banner.js-site-message.site-message
-www.theguardian.com##.site-message--international-with-survey-new.site-message--banner.js-site-message.site-message
-www.theguardian.com##.site-message--membership-message-variants.site-message--banner.js-site-message.site-message
-www.theguardian.com##[id] > .fc-container__inner > .fc-show-more--hidden.fc-container__body.fc-container--rolled-up-hide > .fc-slice-wrapper > .fc-slice--t-tl-mpu.fc-slice.l-row--cols-3.l-row.u-unstyled > .fc-slice__item--mpu-candidate.js-fc-slice-mpu-candidate.l-row__item--span-1.l-row__item.fc-slice__item
 www.thehindu.com###fun-games
 www.thurrott.com###pageWrapper > .container > .primary > .clearfix.wrap > .sidebar1
 www.tickld.com###main-container > .page-wrapper > .content-wrapper > .articles.row.tickld-body-main > .main-page > .article-body > .article-footer

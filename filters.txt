@@ -6,6 +6,7 @@
 !
 ! Network filters:
 @@||notebooksbilliger.de
+@@||p.d.1enm.com^$script,domain=nymag.com
 @@||wer-weiss-was.de/assets/javascripts/ads/ads-$script
 @@||www.googletagservices.com/tag/js/gpt.js$domain=~zdnet.com
 tech.co#@#.addthis_toolbox
@@ -13,8 +14,6 @@ tech.co#@#.addthis_toolbox
 ||ad.doubleclick.net^$domain=behind-the-scene
 ||bit.ly/TweetAndTrack.js
 ||cdn.billiger.com/billiger/marketing/$image
-||chartbeat.com
-||chartbeat.net
 ||cityam.com/assets/js/*1.11.1.min.js
 ||cruftexcision.xyz
 ||eu-st.*.com/js/analytics.js
@@ -101,6 +100,7 @@ arstechnica.com##.pullbox
 atlasobscura.com###social-siderails-btns
 bigthink.com###fixed-social-wrapper
 billiger.de##.promotion-campaign
+blog.capterra.com##.half-margin-bottom:nth-of-type(2)
 blog.sfgate.com###ctpl-fullbanner1
 bloomberg.com##.inline-newsletter
 brightside.me###js-article-content > div:nth-of-type(1) > .article-yandex-direct
@@ -149,6 +149,7 @@ flvto.biz##.download-page > .container > .banner
 flvto.biz##.progress > .container > .hidden-mobile > a > .flvto-player-banner
 flvto.biz##header > .container > .wide.banner
 forbes.com##.article-gallery-embedded
+forbes.com##.gallery-fbs-ad-wrapper
 forbes.com##.vestpocket
 forbes.com###abovefold > aside > .ad.block
 forbes.com###article-page > .article-background-wrapper > .main-article > .main-article-padding > .ng-scope.article-header > .ng-scope.top-ad-sticky
@@ -192,14 +193,15 @@ independent.co.uk##.dnd-widget-wrapper
 independent.co.uk##.partner-slots
 independent.co.uk##.relatedlinkslist
 influencive.com##.swp_one
-investopedia.com##.ad-leaderboard
-investopedia.com##.ad-textlink
+investopedia.com##.ad.box
 investopedia.com###abkoverlay
 krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
 laptopmag.com###rightcol_top
 laptopmag.com##.leaderBoard
 lesnumeriques.com###pub-banner
 listverse.com##.wrapper > .main > .the-article > article > div:nth-of-type(2)
+livingtraditionally.com##.code-block
+lyricsfreak.com##.js-ab-partners
 m.bestvideo.pub###ads-back
 m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
 matadornetwork.com##.social-box
@@ -213,10 +215,14 @@ monova.org##.section-b.container-bt
 monova.org###lightbox_loading
 motherboard.vice.com###yw1
 mspoweruser.com###shunno_widget_sidebar_msft-4
+noexperiencenecessarybook.com##.in.fade
+noexperiencenecessarybook.com###adBlockerPopup
+nymag.com##.ad-repeat
 nymag.com###primary > .share-mini
 nymag.com###tertiary > .ad-repeat
 nytimes.com###newsletter-promo
 nytimes.com###TopAd1
+pcadvisor.co.uk##.criteo-div
 pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
 play.spotify.com###desktop > .show.mft.upsell-background.content
@@ -233,6 +239,7 @@ rt.com##.main-header > .main-header-wp > .head-nav > .center > .b-follow-us
 rt.com##.page > .col-high-simple.aside > .aside-wp > .editable_widget.cont-wp
 sciencebusiness.net##.newsarticleMPUbox
 sciencebusiness.net###main > .row > .hidden-xs
+sciencenewsforstudents.org##.sns-sidebar-ad
 searchenginejournal.com##.right-bottom-inner
 searchenginejournal.com##.summitad-wrap
 searchenginejournal.com##.top-share-buttons
@@ -257,8 +264,6 @@ thefinancialbrand.com###content > .entry.tag-watson.tag-robots.tag-papper.tag-na
 thefinancialbrand.com###dym-sidebar-single-19 > .widget-wrap
 thefreethoughtproject.com###ajax_indicator
 thefreethoughtproject.com###WFWrapper
-theguardian.com###article > .tonal__main--tone-news.tonal__main.content__main > .gs-container > .js-content-main-column.content__main-column--article.content__main-column > .submeta > .u-cf
-theguardian.com###footer-nav > .u-cf.l-footer__navigation-wrapper > .navigation-container--collapsed.navigation-container.js-navigation-footer > .navigation.gs-container
 theguardian.com##.js-site-message
 theguardian.com##.l-side-margins > .content-footer > .fc-container--commercial-high.fc-container
 theguardian.com##.site-message--adblock.site-message--banner.js-site-message.site-message
@@ -266,6 +271,8 @@ theguardian.com##.site-message--adblock-message.site-message--banner.js-site-mes
 theguardian.com##.site-message--international-with-survey-new.site-message--banner.js-site-message.site-message
 theguardian.com##.site-message--membership-message-variants.site-message--banner.js-site-message.site-message
 theguardian.com##[id] > .fc-container__inner > .fc-show-more--hidden.fc-container__body.fc-container--rolled-up-hide > .fc-slice-wrapper > .fc-slice--t-tl-mpu.fc-slice.l-row--cols-3.l-row.u-unstyled > .fc-slice__item--mpu-candidate.js-fc-slice-mpu-candidate.l-row__item--span-1.l-row__item.fc-slice__item
+theguardian.com###article > .tonal__main--tone-news.tonal__main.content__main > .gs-container > .js-content-main-column.content__main-column--article.content__main-column > .submeta > .u-cf
+theguardian.com###footer-nav > .u-cf.l-footer__navigation-wrapper > .navigation-container--collapsed.navigation-container.js-navigation-footer > .navigation.gs-container
 thepiratebay.*###social
 thespiritscience.net###shr_canvas4
 thinkinghumanity.com##.__b-popup1__
@@ -507,6 +514,7 @@ www.wired.com###sidebar-wrap > .sidebar-rad.marg-b-med.box.rad > a[href="javascr
 xda-developers.com##.et_social_sidebar_networks
 youtube.com##.alerts-wrapper
 youtube.com##.ytd-consent-bump-renderer-0
+youtube.com###ticker
 zdnet.com##.alignLeft.relatedContent
 zdnet.com##.shareBar:nth-of-type(1)
 zdnet.com###content-top-leaderboard

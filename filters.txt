@@ -1,8 +1,11 @@
+[Adblock Plus 2.0]
+! Version: 79
 ! Title: International List
 ! Expires: 3 days
-! Issue tracker: https://github.com/betterwebleon/international-list/issues
-! More information: https://github.com/betterwebleon/international-list
-! License: http://unlicense.org
+! Homepage: https://github.com/betterwebleon/
+! Licence: http://unlicense.org/
+!
+! GitHub issues: https://github.com/betterwebleon/international-list/issues
 !
 ! Network filters:
 @@||notebooksbilliger.de
@@ -16,6 +19,7 @@ tech.co#@#.addthis_toolbox
 ||cdn.billiger.com/billiger/marketing/$image
 ||cityam.com/assets/js/*1.11.1.min.js
 ||cruftexcision.xyz
+||detectportal.firefox.com/success.txt$domain=behind-the-scene
 ||eu-st.*.com/js/analytics.js
 ||eu-st.*.com/js/track.min.js
 ||facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button$inline-script
@@ -98,15 +102,18 @@ arstechnica.com###outbrain-recs-wrap > hr
 arstechnica.com###stories-features > .thick-divide-bottom.thick-divide-top
 arstechnica.com##.pullbox
 atlasobscura.com###social-siderails-btns
+auto-data.net##.overtitle
 bigthink.com###fixed-social-wrapper
 billiger.de##.promotion-campaign
 blog.capterra.com##.half-margin-bottom:nth-of-type(2)
 blog.sfgate.com###ctpl-fullbanner1
 bloomberg.com##.inline-newsletter
+bostonreview.net##.promotop
 brightside.me###js-article-content > div:nth-of-type(1) > .article-yandex-direct
 brightside.me###js-article-share-top
 brightside.me##.js-dialog.js-fixed-like-box.dialog-social-fb.dialog-social-bottom.dialog-social
 businessinsider.com###main-content > .container > .siteskin-dropshadow > .primary-row.row > .span8 > .post.content > .clear-both.clearfix.bottom-share-module
+cbsnews.com###smart-banner
 chronicle.com###maincontent > .content-item__container--article.clearfix > .content-item__story > .media-pull-left.media-width-half
 cpu-world.com##[id^="AB_W"]
 cpubenchmark.net###blocker > td
@@ -194,8 +201,13 @@ independent.co.uk##.partner-slots
 independent.co.uk##.relatedlinkslist
 influencive.com##.swp_one
 investopedia.com##.ad.box
+investopedia.com##.ad-leaderboard
+investopedia.com##.ad-textlink
 investopedia.com###abkoverlay
 krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
+kurier.at##.grid-block:nth-of-type(3) > .edge-left > .h275.w320
+kurier.at##.grid-block:nth-of-type(4) > .edge-left > .boxpart
+kurier.at##.specila-4er.h100.boxpart:nth-of-type(1)
 laptopmag.com###rightcol_top
 laptopmag.com##.leaderBoard
 lesnumeriques.com###pub-banner
@@ -222,6 +234,8 @@ nymag.com###primary > .share-mini
 nymag.com###tertiary > .ad-repeat
 nytimes.com###newsletter-promo
 nytimes.com###TopAd1
+office.com###epb
+parkers.co.uk##.top-ad__sticky-wrapper
 pcadvisor.co.uk##.criteo-div
 pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
@@ -237,6 +251,7 @@ rp-online.de###main > .wide-header
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .alternative
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .b-follow-us
 rt.com##.page > .col-high-simple.aside > .aside-wp > .editable_widget.cont-wp
+sciencealert.com##.advert
 sciencebusiness.net##.newsarticleMPUbox
 sciencebusiness.net###main > .row > .hidden-xs
 sciencenewsforstudents.org##.sns-sidebar-ad
@@ -514,6 +529,8 @@ www.wired.com###sidebar-wrap > .sidebar-rad.marg-b-med.box.rad > a[href="javascr
 xda-developers.com##.et_social_sidebar_networks
 youtube.com##.alerts-wrapper
 youtube.com##.ytd-consent-bump-renderer-0
+youtube.com##.ytp-pause-overlay
+youtube.com##div[class*="ytp-ce-element"]
 youtube.com###ticker
 zdnet.com##.alignLeft.relatedContent
 zdnet.com##.shareBar:nth-of-type(1)

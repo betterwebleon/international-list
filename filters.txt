@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 79
+! Version: 80
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -19,7 +19,7 @@ tech.co#@#.addthis_toolbox
 ||cdn.billiger.com/billiger/marketing/$image
 ||cityam.com/assets/js/*1.11.1.min.js
 ||cruftexcision.xyz
-||detectportal.firefox.com/success.txt$domain=behind-the-scene
+||detectportal.firefox.com/success.txt$xmlhttprequest,domain=behind-the-scene
 ||eu-st.*.com/js/analytics.js
 ||eu-st.*.com/js/track.min.js
 ||facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button$inline-script
@@ -59,6 +59,10 @@ tech.co#@#.addthis_toolbox
 ||www.facebook.com/ajax/bz$first-party,xmlhttprequest
 ||www.huffingtonpost.com/_uac/2014adpage.html
 !
+! General element filters
+##.ytp-pause-overlay
+##div[class*="ytp-ce-element"]
+!
 ! Third-party filters
 ||api-read.facebook.com/restserver.php?api_key=$third-party
 ||api.groupon.com^$third-party
@@ -75,6 +79,7 @@ tech.co#@#.addthis_toolbox
 ||assets.pinterest.com/pidget.html$third-party
 ||assets.tumblr.com/assets/html/iframe/o.html$third-party
 ||assets.tumblr.com/assets/html/iframe/teaser.html?$third-party
+||browser-update.org^$third-party
 ||fbstatic-a.akamaihd.net^$domain=~facebook.com,third-party
 ||gemius.pl^$third-party
 ||google.com/js/plusone.js$third-party
@@ -87,6 +92,7 @@ tech.co#@#.addthis_toolbox
 9gag.com###jsid-entry-entity-a8M31R1 > .full-width.in-post-bot.post-afterbar-a
 accountingweb.com##.mpu-1
 accountingweb.com##.mpu-2
+accounts.google.com###glifPromo
 accuweather.com##.sidebar-telmet-promo
 accuweather.com###aadTop300
 accuweather.com###header-davek
@@ -115,6 +121,9 @@ brightside.me##.js-dialog.js-fixed-like-box.dialog-social-fb.dialog-social-botto
 businessinsider.com###main-content > .container > .siteskin-dropshadow > .primary-row.row > .span8 > .post.content > .clear-both.clearfix.bottom-share-module
 cbsnews.com###smart-banner
 chronicle.com###maincontent > .content-item__container--article.clearfix > .content-item__story > .media-pull-left.media-width-half
+cleantechnica.com###crestashareicon
+cleantechnica.com###crestashareiconincontent
+cleantechnica.com###text-127
 cpu-world.com##[id^="AB_W"]
 cpubenchmark.net###blocker > td
 cpuboss.com###facebook-widget
@@ -127,6 +136,7 @@ dailymail.co.uk##div > iframe
 dailymail.co.uk###articleIconLinksContainer
 dailymail.co.uk###js-article-text > div:nth-of-type(2) > div:nth-of-type(2)
 davidwolfe.com###text-31
+dealbook.nytimes.com##.entry-related.entry
 digitalcitizen.life###dont-block-our-ads-popup
 diycozyhome.com###inner-wrap > .td-footer-wrap
 diycozyhome.com###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4 > .widget_text.widget
@@ -165,6 +175,7 @@ fortune.com###content > .content-well > div > .ranking-layout-float.full-article
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-divider > .two_ad
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-header > .article-byline > .article-social.article-byline-social.social-icons
+fox2now.com##.entry-header > .entry-share
 fstoppers.com###block-block-12
 fstoppers.com###block-fs_helpers-fs_helpers_connect
 fstoppers.com###header-region > .social
@@ -229,6 +240,7 @@ motherboard.vice.com###yw1
 mspoweruser.com###shunno_widget_sidebar_msft-4
 noexperiencenecessarybook.com##.in.fade
 noexperiencenecessarybook.com###adBlockerPopup
+npr.org##.img.bucket
 nymag.com##.ad-repeat
 nymag.com###primary > .share-mini
 nymag.com###tertiary > .ad-repeat
@@ -258,6 +270,7 @@ sciencenewsforstudents.org##.sns-sidebar-ad
 searchenginejournal.com##.right-bottom-inner
 searchenginejournal.com##.summitad-wrap
 searchenginejournal.com##.top-share-buttons
+socialblade.com##div[style^="width: 950px; padding: 10px 20px;"]
 statista.com###statisticSlideIn
 techaeris.com###dat-menu > .dat-menu-container > .dat-menu-padding.dat-menu-wrapper > .active.boxed > .content > .wrapper > .has-sidebar.main-content > .left.left-content > .banner.article-body-banner
 techaeris.com###essb_displayed_both1607151333 > .essb_links_list
@@ -529,9 +542,8 @@ www.wired.com###sidebar-wrap > .sidebar-rad.marg-b-med.box.rad > a[href="javascr
 xda-developers.com##.et_social_sidebar_networks
 youtube.com##.alerts-wrapper
 youtube.com##.ytd-consent-bump-renderer-0
-youtube.com##.ytp-pause-overlay
-youtube.com##div[class*="ytp-ce-element"]
 youtube.com###ticker
+zasve.info##.fright.sidebar > .widget_text.widget
 zdnet.com##.alignLeft.relatedContent
 zdnet.com##.shareBar:nth-of-type(1)
 zdnet.com###content-top-leaderboard

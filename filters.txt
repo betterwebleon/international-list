@@ -60,7 +60,9 @@ tech.co#@#.addthis_toolbox
 ||www.huffingtonpost.com/_uac/2014adpage.html
 !
 ! General element filters
+##.b_pos.bc_promo
 ##.ytp-pause-overlay
+##.ytp-title-channel
 ##div[class*="ytp-ce-element"]
 !
 ! Third-party filters
@@ -201,6 +203,7 @@ howtogeek.com##.relatedtext
 howtogeek.com##[id^="post"] > .thecontent > .relatedside
 howtogeek.com###div-thetop1
 howtogeek.com###htgHeader > .logo > .logo2
+hrpayrollsystems.net##.callout
 icreatived.com##[id^="post"] > .td-post-sharing-top
 idioms.thefreedictionary.com###content > .content-holder > aside > .share-block
 iflscience.com##.topad
@@ -208,6 +211,7 @@ imgur.com###cta-container
 imgur.com###fixed-side-footer-links > .sidebar-footerlinks-social-icons
 imgur.com###wrapper-pop_sky
 independent.co.uk##.dnd-widget-wrapper
+independent.co.uk##.inline-block
 independent.co.uk##.partner-slots
 independent.co.uk##.relatedlinkslist
 influencive.com##.swp_one
@@ -258,6 +262,7 @@ progress.org##[id^="ad"]
 psychcentral.com###jadsq
 q13fox.com##[id^="post"] > .clearfix > .entry-share
 qz.com###marquee
+readwrite.com##blockquote
 rp-online.de###banneroben
 rp-online.de###main > .wide-header
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .alternative
@@ -303,6 +308,7 @@ theguardian.com###article > .tonal__main--tone-news.tonal__main.content__main > 
 theguardian.com###footer-nav > .u-cf.l-footer__navigation-wrapper > .navigation-container--collapsed.navigation-container.js-navigation-footer > .navigation.gs-container
 thepiratebay.*###social
 thespiritscience.net###shr_canvas4
+thewindowsclub.com###searchbox
 thinkinghumanity.com##.__b-popup1__
 thinkinghumanity.com##body > div:nth-of-type(10)
 thinkinghumanity.com###bar_popup
@@ -316,6 +322,8 @@ useconomy.about.com###main > .lb-s.container > .row > .article-content.col-table
 wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar > .widget_momizattabber.widget
 wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar > .clearfix.momizat-ads.widget:nth-of-type(14)
 wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar > .clearfix.momizat-ads.widget:nth-of-type(15)
+washingtonpost.com##.newsletter-inline-unit
+washingtonpost.com###fZW5Gi2W0O3CBp > .posttv-sticky-player-video
 wccftech.com###banner
 wccftech.com###content > .clear.single > .body > div:nth-of-type(3)
 wccftech.com###content > .clear.single > .meta > .share
@@ -525,7 +533,6 @@ www.thurrott.com###pageWrapper > .container > .primary > .clearfix.wrap > .sideb
 www.tickld.com###main-container > .page-wrapper > .content-wrapper > .articles.row.tickld-body-main > .main-page > .article-body > .article-footer
 www.ucsusa.org###interrupt
 www.upi.com###share_ico_c > .bottom_sh_in_x
-www.washingtonpost.com###fZW5Gi2W0O3CBp > .posttv-sticky-player-video
 www.webofdebt.com##body > .skiptranslate
 www.webtech360.com###fadecream
 www.westernjournalism.com###be-newsletter-widget-2

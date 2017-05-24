@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 80
+! Version: 82
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/

@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 82
+! Version: 83
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -59,12 +59,6 @@ tech.co#@#.addthis_toolbox
 ||www.facebook.com/ajax/bz$first-party,xmlhttprequest
 ||www.huffingtonpost.com/_uac/2014adpage.html
 !
-! General element filters
-##.b_pos.bc_promo
-##.ytp-pause-overlay
-##.ytp-title-channel
-##div[class*="ytp-ce-element"]
-!
 ! Third-party filters
 ||api-read.facebook.com/restserver.php?api_key=$third-party
 ||api.groupon.com^$third-party
@@ -89,6 +83,13 @@ tech.co#@#.addthis_toolbox
 ||spot.im/embed/scripts/launcher.js$third-party
 ||ziffstatic.com^$third-party
 !
+! General element filters
+##.b_pos.bc_promo
+##.ytp-ce-element
+##.ytp-pause-overlay
+##.ytp-title-channel
+##div[class*="ytp-ce-element"]
+!
 ! Site-specific filters
 9gag.com##[id^="jsid-entry-entity"] > .post-afterbar-a > .share > ul
 9gag.com###jsid-entry-entity-a8M31R1 > .full-width.in-post-bot.post-afterbar-a
@@ -102,6 +103,8 @@ accuweather.com###offers
 aeon.co##.wrapper > div:nth-of-type(1) > .cf.fixed-header
 aeon.co##[id^="essay"] > .article__body > .article__body__meta > .sticky-wrapper > .article__actions
 aeon.co##[id^="essay"] > .article__body > .entry-content > .has-dropcap > .shortcode-inline-newsletter
+alzashop.com##.leftBanner
+alzashop.com##.rightBanner
 archive.is###CONTENT > .html1 > .html > .body > div > div > div > div > div > div > div > div > div:nth-of-type(1)
 arstechnica.com###article-sidebar > .column > .thick-divide-bottom.thick-divide-top
 arstechnica.com###content > .standalone > header > .post-meta > .corner-info
@@ -177,6 +180,7 @@ fortune.com###content > .content-well > div > .ranking-layout-float.full-article
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-divider > .two_ad
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-header > .article-byline > .article-social.article-byline-social.social-icons
+fount.artequalswork.com###advertisement
 fox2now.com##.entry-header > .entry-share
 fstoppers.com###block-block-12
 fstoppers.com###block-fs_helpers-fs_helpers_connect

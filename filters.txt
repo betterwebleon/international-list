@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 83
+! Version: 84
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -218,11 +218,15 @@ independent.co.uk##.dnd-widget-wrapper
 independent.co.uk##.inline-block
 independent.co.uk##.partner-slots
 independent.co.uk##.relatedlinkslist
+indianexpress.com##.dnews
 influencive.com##.swp_one
 investopedia.com##.ad.box
 investopedia.com##.ad-leaderboard
 investopedia.com##.ad-textlink
 investopedia.com###abkoverlay
+ipwatchdog.com##.ad
+ipwatchdog.com##.advertise
+ipwatchdog.com##center
 krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
 kurier.at##.grid-block:nth-of-type(3) > .edge-left > .h275.w320
 kurier.at##.grid-block:nth-of-type(4) > .edge-left > .boxpart
@@ -275,6 +279,7 @@ rt.com##.page > .col-high-simple.aside > .aside-wp > .editable_widget.cont-wp
 sciencealert.com##.advert
 sciencebusiness.net##.newsarticleMPUbox
 sciencebusiness.net###main > .row > .hidden-xs
+sciencedirect.com##.login-message-container
 sciencenewsforstudents.org##.sns-sidebar-ad
 searchenginejournal.com##.right-bottom-inner
 searchenginejournal.com##.summitad-wrap
@@ -301,6 +306,7 @@ thefinancialbrand.com###content > .entry.tag-watson.tag-robots.tag-papper.tag-na
 thefinancialbrand.com###dym-sidebar-single-19 > .widget-wrap
 thefreethoughtproject.com###ajax_indicator
 thefreethoughtproject.com###WFWrapper
+theguardian.com##.element-rich-link--upgraded
 theguardian.com##.js-site-message
 theguardian.com##.l-side-margins > .content-footer > .fc-container--commercial-high.fc-container
 theguardian.com##.site-message--adblock.site-message--banner.js-site-message.site-message
@@ -318,6 +324,7 @@ thinkinghumanity.com##body > div:nth-of-type(10)
 thinkinghumanity.com###bar_popup
 thinkinghumanity.com###facebook_2_popup
 time.com##[id^="article"] > .article-footer > .article-footer__share-tools
+timeanddate.com###ad300
 tomshardware.com##[id^="OTIz"]
 uk.eonline.com###cc-tag
 upliftconnect.com###ubam-article-mobile-banner-container
@@ -327,6 +334,7 @@ wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar
 wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar > .clearfix.momizat-ads.widget:nth-of-type(14)
 wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar > .clearfix.momizat-ads.widget:nth-of-type(15)
 washingtonpost.com##.newsletter-inline-unit
+washingtonpost.com##.nl-top-hairline
 washingtonpost.com###fZW5Gi2W0O3CBp > .posttv-sticky-player-video
 wccftech.com###banner
 wccftech.com###content > .clear.single > .body > div:nth-of-type(3)
@@ -552,6 +560,7 @@ www.wired.com###rad-card-small
 www.wired.com###sidebar-wrap > .sidebar-rad.marg-b-med.box.rad > a[href="javascript:;"] > .fallback-tall.fallback
 xda-developers.com##.et_social_sidebar_networks
 youtube.com##.alerts-wrapper
+youtube.com##.yt-consent-banner
 youtube.com##.ytd-consent-bump-renderer-0
 youtube.com###ticker
 zasve.info##.fright.sidebar > .widget_text.widget

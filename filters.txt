@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 84
+! Version: 85
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -58,6 +58,7 @@ tech.co#@#.addthis_toolbox
 ||www.anandtech.com/Content/images/twitter_down_arrow.png
 ||www.facebook.com/ajax/bz$first-party,xmlhttprequest
 ||www.huffingtonpost.com/_uac/2014adpage.html
+||youtube.com/api/stats$xmlhttprequest
 !
 ! Third-party filters
 ||api-read.facebook.com/restserver.php?api_key=$third-party
@@ -123,6 +124,8 @@ bostonreview.net##.promotop
 brightside.me###js-article-content > div:nth-of-type(1) > .article-yandex-direct
 brightside.me###js-article-share-top
 brightside.me##.js-dialog.js-fixed-like-box.dialog-social-fb.dialog-social-bottom.dialog-social
+businessdictionary.com##.deep-2
+businessdictionary.com##.wfi-ad-slot-in-content
 businessinsider.com###main-content > .container > .siteskin-dropshadow > .primary-row.row > .span8 > .post.content > .clear-both.clearfix.bottom-share-module
 cbsnews.com###smart-banner
 chronicle.com###maincontent > .content-item__container--article.clearfix > .content-item__story > .media-pull-left.media-width-half
@@ -172,6 +175,8 @@ flvto.biz##.progress > .container > .hidden-mobile > a > .flvto-player-banner
 flvto.biz##header > .container > .wide.banner
 forbes.com##.article-gallery-embedded
 forbes.com##.gallery-fbs-ad-wrapper
+forbes.com##.ntv-rail-ad
+forbes.com##.top-ad-container
 forbes.com##.vestpocket
 forbes.com###abovefold > aside > .ad.block
 forbes.com###article-page > .article-background-wrapper > .main-article > .main-article-padding > .ng-scope.article-header > .ng-scope.top-ad-sticky
@@ -190,6 +195,7 @@ gazetaexpress.com##.leaderboard
 geekwire.com##.container > .content > .main > .post > header > .row
 gfi.com##[id^="ulp-inline"]
 gfi.com##[id^="ulp-layer"]
+ghacks.net###sidebar > strong:nth-of-type(3)
 gottabemobile.com##.cb-itemprop > .code-block > center
 gottabemobile.com##.cb-itemprop > p:nth-of-type(3)
 gottabemobile.com##.cb-itemprop > p:nth-of-type(8)
@@ -261,6 +267,8 @@ nytimes.com###TopAd1
 office.com###epb
 parkers.co.uk##.top-ad__sticky-wrapper
 pcadvisor.co.uk##.criteo-div
+pcgamer.com##body > div:nth-of-type(2)
+pcgamer.com###sidebar > div
 pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
 play.spotify.com###desktop > .show.mft.upsell-background.content
@@ -286,6 +294,7 @@ searchenginejournal.com##.summitad-wrap
 searchenginejournal.com##.top-share-buttons
 socialblade.com##div[style^="width: 950px; padding: 10px 20px;"]
 statista.com###statisticSlideIn
+statnews.com##.standard.read-more
 techaeris.com###dat-menu > .dat-menu-container > .dat-menu-padding.dat-menu-wrapper > .active.boxed > .content > .wrapper > .has-sidebar.main-content > .left.left-content > .banner.article-body-banner
 techaeris.com###essb_displayed_both1607151333 > .essb_links_list
 techaeris.com###sidebar > .sidebar-fixed
@@ -298,10 +307,12 @@ techcrunch.com##.header-context-news.cf.header > .nav-bar > .lc > .lc > .cf.head
 techcrunch.com##.header-context-null.cf.header > .nav-bar > .lc > .lc > .cf.header-logo-bar > .header-social > .sprite-social.social-list.inline-list
 techcrunch.com##.homepage.split.flush.fluid > .lc-island.flush.lc > .l-two-col > .lc-padding.l-sidebar > .flush.section > .block.collapse-adjacent.collapse.newsletters-signup.aside.section
 techjourney.net##.et_social_animated.et_social_visible.et_social_mobile_on.et_social_trigger_bottom.et_social_slideup.et_social_flyin_bottom_right.et_social_resize.et_social_flyin
+techradar.com##body > div:nth-of-type(2)
 techtarget.com###download-offer
 tekrevue.com##.share-box-1
 tekrevue.com##.sponsor-blurb
 teslarati.com##.social-sharing-top
+theatlantic.com###action-bar
 thefinancialbrand.com###content > .entry.tag-watson.tag-robots.tag-papper.tag-nao.tag-mizuho-bank.tag-ibm.tag-david-brear.tag-chris-skinner.tag-brett-king.tag-bank-of-tokyo-mitsubishi-ufj.tag-bank-of-japan.tag-artificial-intelligence.tag-ai.category-technology-strategies.category-branches.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-52735 > .entry-content > .sd-sharing-enabled.sharedaddy:nth-of-type(1)
 thefinancialbrand.com###dym-sidebar-single-19 > .widget-wrap
 thefreethoughtproject.com###ajax_indicator
@@ -346,9 +357,7 @@ wccftech.com###sidebar > div:nth-of-type(6)
 wccftech.com###sidebar > div:nth-of-type(7)
 webopedia.com###homepage_main_column > .imu
 websearch.about.com##[id^="inArticleVideo"]
-wimp.com##.dual-ad-300
-wimp.com##.rev-headline
-wimp.com###sidebar
+wimp.com##.ad-headline
 winbeta.org###header > .group > .container-inner > .pad
 winbeta.org###page > .container-inner > .main > .group.main-inner > .content > .group.pad > .post > .group.post-inner > .entry > .entry-inner > .mashsb-main.mashsb-container:nth-of-type(1)
 windows.ittoolbox.com###popupdiv

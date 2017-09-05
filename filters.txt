@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 85
+! Version: 86
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -38,6 +38,7 @@ tech.co#@#.addthis_toolbox
 ||i.mol.im/i/furniture/*skin_coffee*.png
 ||i.po.st/share/script/post-widget.js
 ||livefyre.com/wjs
+||maps.googleapis.com/*/stats.js
 ||monova.org/ajax/get_lightbox_content$xmlhttprequest,first-party
 ||realtime.services.disqus.com/api/*/thread/
 ||rp-api.com/rjs/repostus.js
@@ -59,6 +60,12 @@ tech.co#@#.addthis_toolbox
 ||www.facebook.com/ajax/bz$first-party,xmlhttprequest
 ||www.huffingtonpost.com/_uac/2014adpage.html
 ||youtube.com/api/stats$xmlhttprequest
+!
+! Reported filters
+! https://forums.lanik.us/viewtopic.php?f=64&t=37971&sid=26fec68dbb3ed8439ea5f2c30daa2ccd
+@@||gatesnotes.com/*/TGN_v50_s_code.js$script
+! https://forums.lanik.us/viewtopic.php?f=64&t=37856&sid=26fec68dbb3ed8439ea5f2c30daa2ccd
+@@||knoema.com/assets.axd/Js/analytics*.js
 !
 ! Third-party filters
 ||api-read.facebook.com/restserver.php?api_key=$third-party
@@ -132,6 +139,8 @@ chronicle.com###maincontent > .content-item__container--article.clearfix > .cont
 cleantechnica.com###crestashareicon
 cleantechnica.com###crestashareiconincontent
 cleantechnica.com###text-127
+cnet.com###flyoutPromo
+community.spiceworks.com##.community-content--ad_card
 cpu-world.com##[id^="AB_W"]
 cpubenchmark.net###blocker > td
 cpuboss.com###facebook-widget
@@ -195,6 +204,8 @@ gazetaexpress.com##.leaderboard
 geekwire.com##.container > .content > .main > .post > header > .row
 gfi.com##[id^="ulp-inline"]
 gfi.com##[id^="ulp-layer"]
+ghacks.net##.entry > div:nth-of-type(1)
+ghacks.net##.entry > div:nth-of-type(2)
 ghacks.net###sidebar > strong:nth-of-type(3)
 gottabemobile.com##.cb-itemprop > .code-block > center
 gottabemobile.com##.cb-itemprop > p:nth-of-type(3)
@@ -248,6 +259,7 @@ m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs
 matadornetwork.com##.social-box
 mckinsey.com##.disruptor
 medianama.com##.entry-content > div:nth-of-type(3)
+medicinenet.com##.adTopWrapper
 metro.co.uk###post-5642470 > header > .share-buttons-top.share-buttons
 money.cnn.com##.inStoryHeading
 money.cnn.com###medianet
@@ -256,6 +268,7 @@ monova.org##.section-b.container-bt
 monova.org###lightbox_loading
 motherboard.vice.com###yw1
 mspoweruser.com###shunno_widget_sidebar_msft-4
+nhs.uk##.notification-banner--sticky
 noexperiencenecessarybook.com##.in.fade
 noexperiencenecessarybook.com###adBlockerPopup
 npr.org##.img.bucket
@@ -271,6 +284,7 @@ pcgamer.com##body > div:nth-of-type(2)
 pcgamer.com###sidebar > div
 pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
+people.com##.section-more-articles__native-ad
 play.spotify.com###desktop > .show.mft.upsell-background.content
 pmlive.com###pm-top-banner
 priceonomics.com###social-share
@@ -341,12 +355,15 @@ uk.eonline.com###cc-tag
 upliftconnect.com###ubam-article-mobile-banner-container
 useconomy.about.com###main > .container > .row > .article-content.col-tablet-8.col-11.col > .col-push-tablet-1.col-push-2 > .js-share.s-btns-eoc.s-btns
 useconomy.about.com###main > .lb-s.container > .row > .article-content.col-tablet-8.col-11.col > .col-push-tablet-1.col-push-2 > .js-share.s-btns-eoc.s-btns
+usnews.com##.ad-placeholder-rectangle
+usnews.com##.ad-slide
 wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar > .widget_momizattabber.widget
 wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar > .clearfix.momizat-ads.widget:nth-of-type(14)
 wakeup-world.com##.fixed_wrap > .clearfix.wrap > .main-container > .sws2.sidebar > .clearfix.momizat-ads.widget:nth-of-type(15)
 washingtonpost.com##.newsletter-inline-unit
 washingtonpost.com##.nl-top-hairline
 washingtonpost.com###fZW5Gi2W0O3CBp > .posttv-sticky-player-video
+wccftech.com##.wccf_related_post
 wccftech.com###banner
 wccftech.com###content > .clear.single > .body > div:nth-of-type(3)
 wccftech.com###content > .clear.single > .meta > .share
@@ -357,6 +374,7 @@ wccftech.com###sidebar > div:nth-of-type(6)
 wccftech.com###sidebar > div:nth-of-type(7)
 webopedia.com###homepage_main_column > .imu
 websearch.about.com##[id^="inArticleVideo"]
+weforum.org##.st__content-block--searchable-list
 wimp.com##.ad-headline
 winbeta.org###header > .group > .container-inner > .pad
 winbeta.org###page > .container-inner > .main > .group.main-inner > .content > .group.pad > .post > .group.post-inner > .entry > .entry-inner > .mashsb-main.mashsb-container:nth-of-type(1)

@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 86
+! Version: 87
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -12,7 +12,6 @@
 @@||p.d.1enm.com^$script,domain=nymag.com
 @@||wer-weiss-was.de/assets/javascripts/ads/ads-$script
 @@||www.googletagservices.com/tag/js/gpt.js$domain=~zdnet.com
-tech.co#@#.addthis_toolbox
 ||2o7.net
 ||ad.doubleclick.net^$domain=behind-the-scene
 ||bit.ly/TweetAndTrack.js
@@ -113,6 +112,7 @@ aeon.co##[id^="essay"] > .article__body > .article__body__meta > .sticky-wrapper
 aeon.co##[id^="essay"] > .article__body > .entry-content > .has-dropcap > .shortcode-inline-newsletter
 alzashop.com##.leftBanner
 alzashop.com##.rightBanner
+androidauthority.com##.vr_related_articles
 archive.is###CONTENT > .html1 > .html > .body > div > div > div > div > div > div > div > div > div:nth-of-type(1)
 arstechnica.com###article-sidebar > .column > .thick-divide-bottom.thick-divide-top
 arstechnica.com###content > .standalone > header > .post-meta > .corner-info
@@ -120,7 +120,12 @@ arstechnica.com###outbrain-recs
 arstechnica.com###outbrain-recs-wrap > hr
 arstechnica.com###stories-features > .thick-divide-bottom.thick-divide-top
 arstechnica.com##.pullbox
+askleo.com##.askleo_adblock1
 atlasobscura.com###social-siderails-btns
+azcentral.com##.article-metadata-wrap
+azcentral.com##.inline-ad
+azcentral.com##.leaderboard-ad-module
+azcentral.com##.storyrightrail-bucket
 auto-data.net##.overtitle
 bigthink.com###fixed-social-wrapper
 billiger.de##.promotion-campaign
@@ -153,6 +158,7 @@ dailymail.co.uk##div > iframe
 dailymail.co.uk###articleIconLinksContainer
 dailymail.co.uk###js-article-text > div:nth-of-type(2) > div:nth-of-type(2)
 davidwolfe.com###text-31
+deadline.com##.related-article
 dealbook.nytimes.com##.entry-related.entry
 digitalcitizen.life###dont-block-our-ads-popup
 diycozyhome.com###inner-wrap > .td-footer-wrap
@@ -200,12 +206,14 @@ fstoppers.com###block-block-12
 fstoppers.com###block-fs_helpers-fs_helpers_connect
 fstoppers.com###header-region > .social
 ft.com##.o-email-only-signup
+gadgetsnow.com##.amz_banner
 gazetaexpress.com##.leaderboard
 geekwire.com##.container > .content > .main > .post > header > .row
 gfi.com##[id^="ulp-inline"]
 gfi.com##[id^="ulp-layer"]
 ghacks.net##.entry > div:nth-of-type(1)
 ghacks.net##.entry > div:nth-of-type(2)
+ghacks.net##blockquote > div
 ghacks.net###sidebar > strong:nth-of-type(3)
 gottabemobile.com##.cb-itemprop > .code-block > center
 gottabemobile.com##.cb-itemprop > p:nth-of-type(3)
@@ -237,6 +245,7 @@ independent.co.uk##.partner-slots
 independent.co.uk##.relatedlinkslist
 indianexpress.com##.dnews
 influencive.com##.swp_one
+inside-handy.de##.not_on_mobile
 investopedia.com##.ad.box
 investopedia.com##.ad-leaderboard
 investopedia.com##.ad-textlink
@@ -256,6 +265,8 @@ livingtraditionally.com##.code-block
 lyricsfreak.com##.js-ab-partners
 m.bestvideo.pub###ads-back
 m.bestvideo.pub##.wrapper > .container-fluid > .page-article > .hidden-xs.col-xs-12.banner
+makeuseof.com##.link-callout
+makeuseof.com##[id^="axdsense"]
 matadornetwork.com##.social-box
 mckinsey.com##.disruptor
 medianama.com##.entry-content > div:nth-of-type(3)
@@ -321,12 +332,13 @@ techcrunch.com##.header-context-news.cf.header > .nav-bar > .lc > .lc > .cf.head
 techcrunch.com##.header-context-null.cf.header > .nav-bar > .lc > .lc > .cf.header-logo-bar > .header-social > .sprite-social.social-list.inline-list
 techcrunch.com##.homepage.split.flush.fluid > .lc-island.flush.lc > .l-two-col > .lc-padding.l-sidebar > .flush.section > .block.collapse-adjacent.collapse.newsletters-signup.aside.section
 techjourney.net##.et_social_animated.et_social_visible.et_social_mobile_on.et_social_trigger_bottom.et_social_slideup.et_social_flyin_bottom_right.et_social_resize.et_social_flyin
-techradar.com##body > div:nth-of-type(2)
 techtarget.com###download-offer
 tekrevue.com##.share-box-1
 tekrevue.com##.sponsor-blurb
+telegraph.co.uk##.apester-element
 teslarati.com##.social-sharing-top
 theatlantic.com###action-bar
+thebalance.com##.leaderboard
 thefinancialbrand.com###content > .entry.tag-watson.tag-robots.tag-papper.tag-nao.tag-mizuho-bank.tag-ibm.tag-david-brear.tag-chris-skinner.tag-brett-king.tag-bank-of-tokyo-mitsubishi-ufj.tag-bank-of-japan.tag-artificial-intelligence.tag-ai.category-technology-strategies.category-branches.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-52735 > .entry-content > .sd-sharing-enabled.sharedaddy:nth-of-type(1)
 thefinancialbrand.com###dym-sidebar-single-19 > .widget-wrap
 thefreethoughtproject.com###ajax_indicator
@@ -375,6 +387,7 @@ wccftech.com###sidebar > div:nth-of-type(7)
 webopedia.com###homepage_main_column > .imu
 websearch.about.com##[id^="inArticleVideo"]
 weforum.org##.st__content-block--searchable-list
+wikipedia.org##.mw-dismissable-notice
 wimp.com##.ad-headline
 winbeta.org###header > .group > .container-inner > .pad
 winbeta.org###page > .container-inner > .main > .group.main-inner > .content > .group.pad > .post > .group.post-inner > .entry > .entry-inner > .mashsb-main.mashsb-container:nth-of-type(1)

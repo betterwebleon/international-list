@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 87
+! Version: 88
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -39,6 +39,7 @@
 ||livefyre.com/wjs
 ||maps.googleapis.com/*/stats.js
 ||monova.org/ajax/get_lightbox_content$xmlhttprequest,first-party
+||phoneworld.com.pk/*$popup,domain=phoneworld.com.pk
 ||realtime.services.disqus.com/api/*/thread/
 ||rp-api.com/rjs/repostus.js
 ||s-cdn.phonearena.com/images/adblock-awareness.png
@@ -90,9 +91,12 @@
 ||spot.im/embed/scripts/launcher.js$third-party
 ||ziffstatic.com^$third-party
 !
-! General element filters
+! General element filters (mostly YouTube video overlays)
 ##.b_pos.bc_promo
+##.ytp-ce-channel
 ##.ytp-ce-element
+##.ytp-ce-element-show
+##.ytp-ce-video
 ##.ytp-pause-overlay
 ##.ytp-title-channel
 ##div[class*="ytp-ce-element"]
@@ -139,6 +143,15 @@ brightside.me##.js-dialog.js-fixed-like-box.dialog-social-fb.dialog-social-botto
 businessdictionary.com##.deep-2
 businessdictionary.com##.wfi-ad-slot-in-content
 businessinsider.com###main-content > .container > .siteskin-dropshadow > .primary-row.row > .span8 > .post.content > .clear-both.clearfix.bottom-share-module
+carbuyer.co.uk#@#.block-dfp
+carbuyer.co.uk#@#.dfp-tag-wrapper
+carbuyer.co.uk#@#div[id^="dfp-ad-"]
+carbuyer.co.uk#@##block-dfp-mpu-1
+carbuyer.co.uk#@##block-dfp-mpu-2
+carbuyer.co.uk#@##dfp-ad-mpu_1
+carbuyer.co.uk#@##dfp-ad-mpu_1-wrapper
+carbuyer.co.uk#@##dfp-ad-mpu_2
+carbuyer.co.uk#@##dfp-ad-mpu_2-wrapper
 cbsnews.com###smart-banner
 chronicle.com###maincontent > .content-item__container--article.clearfix > .content-item__story > .media-pull-left.media-width-half
 cleantechnica.com###crestashareicon
@@ -295,7 +308,9 @@ pcgamer.com##body > div:nth-of-type(2)
 pcgamer.com###sidebar > div
 pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
+pdevice.com##.ig_content
 people.com##.section-more-articles__native-ad
+phonearena.com##.bannerholder
 play.spotify.com###desktop > .show.mft.upsell-background.content
 pmlive.com###pm-top-banner
 priceonomics.com###social-share
@@ -304,6 +319,9 @@ psychcentral.com###jadsq
 q13fox.com##[id^="post"] > .clearfix > .entry-share
 qz.com###marquee
 readwrite.com##blockquote
+reddit.com##.listingsignupbar
+reddit.com##.newsletterbar.infobar
+reddit.com##.welcome
 rp-online.de###banneroben
 rp-online.de###main > .wide-header
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .alternative
@@ -388,6 +406,7 @@ webopedia.com###homepage_main_column > .imu
 websearch.about.com##[id^="inArticleVideo"]
 weforum.org##.st__content-block--searchable-list
 wikipedia.org##.mw-dismissable-notice
+wikipedia.org###centralNotice
 wimp.com##.ad-headline
 winbeta.org###header > .group > .container-inner > .pad
 winbeta.org###page > .container-inner > .main > .group.main-inner > .content > .group.pad > .post > .group.post-inner > .entry > .entry-inner > .mashsb-main.mashsb-container:nth-of-type(1)
@@ -538,7 +557,6 @@ www.politico.com###globalWrapper > .super-duper > .super > .super-inner > .story
 www.popularmechanics.com###share-sticky-bar
 www.psychologytoday.com###pt-social-media
 www.ptleader.com###in-story
-www.reddit.com##.content > .newsletter-container.newsletterbar.infobar
 www.researchgate.net##[id^="rgw78"]
 www.rethinkrobotics.com###main > .l-main > .l-container > .blog > .row > .blog-main > .post > .m-sharing
 www.reuters.com###content > .section:nth-of-type(4) > .sectionContent > .wrap.group > .grid-inside.grid8.column1 > .reuters-share-sticky.reuters-share > .horizontal-list

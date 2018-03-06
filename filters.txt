@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 88
+! Version: 89
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -21,13 +21,13 @@
 ||detectportal.firefox.com/success.txt$xmlhttprequest,domain=behind-the-scene
 ||eu-st.*.com/js/analytics.js
 ||eu-st.*.com/js/track.min.js
+||e.reddit.com^
 ||facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button$inline-script
 ||facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button$subdocument
 ||fbcdn-profile-a.akamaihd.net$domain=~facebook.com|~fbcdn.net
 ||flappyhamster.net/dt.adsafeprotected.com$image,domain=behind-the-scene
 ||gather.*/scripts/visittrack.js
 ||giurn.co.uk
-||googleadservices.com
 ||googletagmanager.com/*.js
 ||googletagservices.com/tag/js
 ||googleusercontent.com/gadgets/js
@@ -40,9 +40,9 @@
 ||maps.googleapis.com/*/stats.js
 ||monova.org/ajax/get_lightbox_content$xmlhttprequest,first-party
 ||phoneworld.com.pk/*$popup,domain=phoneworld.com.pk
+||play.google.com/log?
 ||realtime.services.disqus.com/api/*/thread/
 ||rp-api.com/rjs/repostus.js
-||s-cdn.phonearena.com/images/adblock-awareness.png
 ||safebrowsing-cache.google.com
 ||safebrowsing-cache.google.com^$other,domain=behind-the-scene
 ||safebrowsing.google.com
@@ -51,6 +51,7 @@
 ||static.addtoany.com/menu/page.js
 ||static2.businessinsider.com/image/51e9584f69beddbb1d000003-208/appstorebadgeen.png
 ||syndication.twitter.com/widgets/video/?callback$domain=~twitter.com
+||s-cdn.phonearena.com/images/adblock-awareness.png
 ||telemetry-experiment^$xmlhttprequest
 ||telemetry.mozilla.org/submit/telemetry
 ||thefinancialbrand.com/wp-content/*/*/*_*.*
@@ -98,6 +99,7 @@
 ##.ytp-ce-element-show
 ##.ytp-ce-video
 ##.ytp-pause-overlay
+##.ytp-subscribe-card
 ##.ytp-title-channel
 ##div[class*="ytp-ce-element"]
 !
@@ -117,6 +119,7 @@ aeon.co##[id^="essay"] > .article__body > .entry-content > .has-dropcap > .short
 alzashop.com##.leftBanner
 alzashop.com##.rightBanner
 androidauthority.com##.vr_related_articles
+appleinsider.com###leaderboard
 archive.is###CONTENT > .html1 > .html > .body > div > div > div > div > div > div > div > div > div:nth-of-type(1)
 arstechnica.com###article-sidebar > .column > .thick-divide-bottom.thick-divide-top
 arstechnica.com###content > .standalone > header > .post-meta > .corner-info
@@ -192,6 +195,7 @@ eprints.lse.ac.uk##.ep_noprint.ep_tm_header > div:nth-of-type(1)
 eteknix.com###wrapper > header
 euractiv.com##[id^="ea_gat"]
 facebook.com###pagelet_growth_expanding_cta
+faz.net###TopAd
 file-extensions.org###socialbuttonsbox
 filehippo.com###root-content > div > .advert-center-left
 filehippo.com###root-content > div > .left-hand-col > .advert-center-left
@@ -208,6 +212,7 @@ forbes.com##.top-ad-container
 forbes.com##.vestpocket
 forbes.com###abovefold > aside > .ad.block
 forbes.com###article-page > .article-background-wrapper > .main-article > .main-article-padding > .ng-scope.article-header > .ng-scope.top-ad-sticky
+forbes.com##tweet-quotes
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .article-image-figcaption
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .featured-img-article_full.rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
@@ -259,6 +264,10 @@ independent.co.uk##.relatedlinkslist
 indianexpress.com##.dnews
 influencive.com##.swp_one
 inside-handy.de##.not_on_mobile
+intoday.in##.ad_banner
+intoday.in##.ad_prt
+intoday.in##.f_tech_ad
+intoday.in###zedoadsmarket
 investopedia.com##.ad.box
 investopedia.com##.ad-leaderboard
 investopedia.com##.ad-textlink
@@ -266,6 +275,7 @@ investopedia.com###abkoverlay
 ipwatchdog.com##.ad
 ipwatchdog.com##.advertise
 ipwatchdog.com##center
+kfor.com###nativo
 krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
 kurier.at##.grid-block:nth-of-type(3) > .edge-left > .h275.w320
 kurier.at##.grid-block:nth-of-type(4) > .edge-left > .boxpart
@@ -301,6 +311,7 @@ nymag.com###primary > .share-mini
 nymag.com###tertiary > .ad-repeat
 nytimes.com###newsletter-promo
 nytimes.com###TopAd1
+oazaznanja.com###text-12
 office.com###epb
 parkers.co.uk##.top-ad__sticky-wrapper
 pcadvisor.co.uk##.criteo-div
@@ -311,8 +322,10 @@ pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
 pdevice.com##.ig_content
 people.com##.section-more-articles__native-ad
 phonearena.com##.bannerholder
+phonearena.com##[id^="div-gpt-ad"]
 play.spotify.com###desktop > .show.mft.upsell-background.content
 pmlive.com###pm-top-banner
+popsci.com##.oh-so-sticky-ad-container
 priceonomics.com###social-share
 progress.org##[id^="ad"]
 psychcentral.com###jadsq

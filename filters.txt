@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 89
+! Version: 90
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -106,6 +106,7 @@
 ! Site-specific filters
 9gag.com##[id^="jsid-entry-entity"] > .post-afterbar-a > .share > ul
 9gag.com###jsid-entry-entity-a8M31R1 > .full-width.in-post-bot.post-afterbar-a
+accaglobal.com##.advertLeaderboard
 accountingweb.com##.mpu-1
 accountingweb.com##.mpu-2
 accounts.google.com###glifPromo
@@ -146,6 +147,7 @@ brightside.me##.js-dialog.js-fixed-like-box.dialog-social-fb.dialog-social-botto
 businessdictionary.com##.deep-2
 businessdictionary.com##.wfi-ad-slot-in-content
 businessinsider.com###main-content > .container > .siteskin-dropshadow > .primary-row.row > .span8 > .post.content > .clear-both.clearfix.bottom-share-module
+calculat.org###zadost
 carbuyer.co.uk#@#.block-dfp
 carbuyer.co.uk#@#.dfp-tag-wrapper
 carbuyer.co.uk#@#div[id^="dfp-ad-"]
@@ -237,6 +239,7 @@ gottabemobile.com##.cb-itemprop > .code-block > center
 gottabemobile.com##.cb-itemprop > p:nth-of-type(3)
 gottabemobile.com##.cb-itemprop > p:nth-of-type(8)
 gottabemobile.com###cb-logo-box
+guidingtech.com##.detail-ad
 hardwarezone.com.sg##.nm-sub-dialog-overlay
 hardwarezone.com.sg##.nm-sub-dialog-wrapper
 hbr.org##.article-promo

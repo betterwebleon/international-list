@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 90
+! Version: 91
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -8,6 +8,7 @@
 ! GitHub issues: https://github.com/betterwebleon/international-list/issues
 !
 ! Network filters:
+@@||disqus.com/embed.js
 @@||notebooksbilliger.de
 @@||p.d.1enm.com^$script,domain=nymag.com
 @@||wer-weiss-was.de/assets/javascripts/ads/ads-$script
@@ -15,6 +16,7 @@
 ||2o7.net
 ||ad.doubleclick.net^$domain=behind-the-scene
 ||bit.ly/TweetAndTrack.js
+||carfromjapan.com/banner/files/banner_*.jpg
 ||cdn.billiger.com/billiger/marketing/$image
 ||cityam.com/assets/js/*1.11.1.min.js
 ||cruftexcision.xyz
@@ -32,8 +34,9 @@
 ||googletagservices.com/tag/js
 ||googleusercontent.com/gadgets/js
 ||gplusapi.$domain=~googleplus.com|~plus.google.com
-||i.mol.im/*/*skin_beach*.png$image
-||i.mol.im/*/*skin_picnic*.png$image
+||independent*.com/img/ads^
+||i.mol.im/*/*skin_beach*.png
+||i.mol.im/*/*skin_picnic*.png
 ||i.mol.im/i/furniture/*skin_coffee*.png
 ||i.po.st/share/script/post-widget.js
 ||livefyre.com/wjs
@@ -55,6 +58,7 @@
 ||telemetry-experiment^$xmlhttprequest
 ||telemetry.mozilla.org/submit/telemetry
 ||thefinancialbrand.com/wp-content/*/*/*_*.*
+||thurrott.com/wp-content/plugins/cleantalk-spam-protect/*.js
 ||twitter.com/intent
 ||www5.pcmag.com/media/images/368286-slideout-subscribe.png
 ||www.anandtech.com/Content/images/twitter_down_arrow.png
@@ -64,7 +68,7 @@
 !
 ! Reported filters
 ! https://forums.lanik.us/viewtopic.php?f=64&t=37971&sid=26fec68dbb3ed8439ea5f2c30daa2ccd
-@@||gatesnotes.com/*/TGN_v50_s_code.js$script
+@@||gatesnotes.com/*/TGN_v50_s_code.js
 ! https://forums.lanik.us/viewtopic.php?f=64&t=37856&sid=26fec68dbb3ed8439ea5f2c30daa2ccd
 @@||knoema.com/assets.axd/Js/analytics*.js
 !
@@ -85,6 +89,7 @@
 ||assets.tumblr.com/assets/html/iframe/o.html$third-party
 ||assets.tumblr.com/assets/html/iframe/teaser.html?$third-party
 ||browser-update.org^$third-party
+||contentexchange.me^$third-party
 ||fbstatic-a.akamaihd.net^$domain=~facebook.com,third-party
 ||gemius.pl^$third-party
 ||google.com/js/plusone.js$third-party
@@ -148,6 +153,7 @@ businessdictionary.com##.deep-2
 businessdictionary.com##.wfi-ad-slot-in-content
 businessinsider.com###main-content > .container > .siteskin-dropshadow > .primary-row.row > .span8 > .post.content > .clear-both.clearfix.bottom-share-module
 calculat.org###zadost
+canadianbusiness.com###native-ad-box
 carbuyer.co.uk#@#.block-dfp
 carbuyer.co.uk#@#.dfp-tag-wrapper
 carbuyer.co.uk#@#div[id^="dfp-ad-"]
@@ -157,6 +163,7 @@ carbuyer.co.uk#@##dfp-ad-mpu_1
 carbuyer.co.uk#@##dfp-ad-mpu_1-wrapper
 carbuyer.co.uk#@##dfp-ad-mpu_2
 carbuyer.co.uk#@##dfp-ad-mpu_2-wrapper
+carfolio.com##.ad
 cbsnews.com###smart-banner
 chronicle.com###maincontent > .content-item__container--article.clearfix > .content-item__story > .media-pull-left.media-width-half
 cleantechnica.com###crestashareicon
@@ -183,6 +190,7 @@ diycozyhome.com###inner-wrap > .td-footer-wrap
 diycozyhome.com###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4 > .widget_text.widget
 driverzone.com##[id^="block-block"]
 ebay.com##.me-rtm
+economist.com##.newsletter-form--inline
 economist.com###block-ec_components-print_sub
 economist.com###block-ec_components-share_inline_footer
 economist.com###page > footer > .footer-stripe-top
@@ -235,6 +243,7 @@ ghacks.net##.entry > div:nth-of-type(1)
 ghacks.net##.entry > div:nth-of-type(2)
 ghacks.net##blockquote > div
 ghacks.net###sidebar > strong:nth-of-type(3)
+github.com##.signup-prompt-bg
 gottabemobile.com##.cb-itemprop > .code-block > center
 gottabemobile.com##.cb-itemprop > p:nth-of-type(3)
 gottabemobile.com##.cb-itemprop > p:nth-of-type(8)
@@ -348,9 +357,12 @@ sciencebusiness.net##.newsarticleMPUbox
 sciencebusiness.net###main > .row > .hidden-xs
 sciencedirect.com##.login-message-container
 sciencenewsforstudents.org##.sns-sidebar-ad
+scmp.com##.scmp-inline-newsletter-subscription
+scoreboard.com##.box_over_content_9547
 searchenginejournal.com##.right-bottom-inner
 searchenginejournal.com##.summitad-wrap
 searchenginejournal.com##.top-share-buttons
+seekingalpha.com##[id^="DFP_"]
 socialblade.com##div[style^="width: 950px; padding: 10px 20px;"]
 statista.com###statisticSlideIn
 statnews.com##.standard.read-more
@@ -371,6 +383,7 @@ tekrevue.com##.share-box-1
 tekrevue.com##.sponsor-blurb
 telegraph.co.uk##.apester-element
 teslarati.com##.social-sharing-top
+theatlantic.com##.c-ad
 theatlantic.com###action-bar
 thebalance.com##.leaderboard
 thefinancialbrand.com###content > .entry.tag-watson.tag-robots.tag-papper.tag-nao.tag-mizuho-bank.tag-ibm.tag-david-brear.tag-chris-skinner.tag-brett-king.tag-bank-of-tokyo-mitsubishi-ufj.tag-bank-of-japan.tag-artificial-intelligence.tag-ai.category-technology-strategies.category-branches.hentry.has-post-thumbnail.format-standard.status-publish.type-post.post.post-52735 > .entry-content > .sd-sharing-enabled.sharedaddy:nth-of-type(1)
@@ -394,9 +407,11 @@ thinkinghumanity.com##.__b-popup1__
 thinkinghumanity.com##body > div:nth-of-type(10)
 thinkinghumanity.com###bar_popup
 thinkinghumanity.com###facebook_2_popup
+thurrott.com###adBlock
 time.com##[id^="article"] > .article-footer > .article-footer__share-tools
 timeanddate.com###ad300
 tomshardware.com##[id^="OTIz"]
+tutor2u.net##.dtl-Cta
 uk.eonline.com###cc-tag
 upliftconnect.com###ubam-article-mobile-banner-container
 useconomy.about.com###main > .container > .row > .article-content.col-tablet-8.col-11.col > .col-push-tablet-1.col-push-2 > .js-share.s-btns-eoc.s-btns
@@ -421,6 +436,7 @@ wccftech.com###sidebar > div:nth-of-type(7)
 webopedia.com###homepage_main_column > .imu
 websearch.about.com##[id^="inArticleVideo"]
 weforum.org##.st__content-block--searchable-list
+welt.de##.c-ad__medium-rectangle
 wikipedia.org##.mw-dismissable-notice
 wikipedia.org###centralNotice
 wimp.com##.ad-headline

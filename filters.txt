@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 91
+! Version: 92
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -9,12 +9,13 @@
 !
 ! Network filters:
 @@||disqus.com/embed.js
+@@||googletagservices.com/tag/js/gpt.js$domain=~zdnet.com
 @@||notebooksbilliger.de
 @@||p.d.1enm.com^$script,domain=nymag.com
 @@||wer-weiss-was.de/assets/javascripts/ads/ads-$script
-@@||www.googletagservices.com/tag/js/gpt.js$domain=~zdnet.com
 ||2o7.net
 ||ad.doubleclick.net^$domain=behind-the-scene
+||anandtech.com/Content/images/twitter_down_arrow.png
 ||bit.ly/TweetAndTrack.js
 ||carfromjapan.com/banner/files/banner_*.jpg
 ||cdn.billiger.com/billiger/marketing/$image
@@ -26,14 +27,14 @@
 ||e.reddit.com^
 ||facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button$inline-script
 ||facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button$subdocument
+||facebook.com/tr/?
+||facebook.com/tr?
 ||fbcdn-profile-a.akamaihd.net$domain=~facebook.com|~fbcdn.net
 ||flappyhamster.net/dt.adsafeprotected.com$image,domain=behind-the-scene
 ||gather.*/scripts/visittrack.js
 ||giurn.co.uk
-||googletagmanager.com/*.js
-||googletagservices.com/tag/js
-||googleusercontent.com/gadgets/js
 ||gplusapi.$domain=~googleplus.com|~plus.google.com
+||huffingtonpost.com/_uac/2014adpage.html
 ||independent*.com/img/ads^
 ||i.mol.im/*/*skin_beach*.png
 ||i.mol.im/*/*skin_picnic*.png
@@ -42,6 +43,7 @@
 ||livefyre.com/wjs
 ||maps.googleapis.com/*/stats.js
 ||monova.org/ajax/get_lightbox_content$xmlhttprequest,first-party
+||pcmag.com/media/images/368286-slideout-subscribe.png
 ||phoneworld.com.pk/*$popup,domain=phoneworld.com.pk
 ||play.google.com/log?
 ||realtime.services.disqus.com/api/*/thread/
@@ -60,10 +62,6 @@
 ||thefinancialbrand.com/wp-content/*/*/*_*.*
 ||thurrott.com/wp-content/plugins/cleantalk-spam-protect/*.js
 ||twitter.com/intent
-||www5.pcmag.com/media/images/368286-slideout-subscribe.png
-||www.anandtech.com/Content/images/twitter_down_arrow.png
-||www.facebook.com/ajax/bz$first-party,xmlhttprequest
-||www.huffingtonpost.com/_uac/2014adpage.html
 ||youtube.com/api/stats$xmlhttprequest
 !
 ! Reported filters
@@ -73,32 +71,20 @@
 @@||knoema.com/assets.axd/Js/analytics*.js
 !
 ! Third-party filters
-||api-read.facebook.com/restserver.php?api_key=$third-party
 ||api.groupon.com^$third-party
 ||api.oneall.com^$third-party
 ||api.starsmp.com^$third-party
-||apis.google.com/*/socialgraph/$third-party
-||apis.google.com/_/apps-static/_/js/gapi/*plusone/$third-party
-||apis.google.com/_/scs/apps-static/*=page,plusone/$third-party
-||apis.google.com/js/platform.js$third-party
-||apis.google.com/*/widget/render/follow?$third-party
-||apis.google.com/*/widget/render/page?$third-party
-||apis.google.com/*/widget/render/person?$third-party
-||assets.pinterest.com/js/pinit.js$third-party
-||assets.pinterest.com/pidget.html$third-party
-||assets.tumblr.com/assets/html/iframe/o.html$third-party
-||assets.tumblr.com/assets/html/iframe/teaser.html?$third-party
 ||browser-update.org^$third-party
 ||contentexchange.me^$third-party
-||fbstatic-a.akamaihd.net^$domain=~facebook.com,third-party
-||gemius.pl^$third-party
-||google.com/js/plusone.js$third-party
-||gplusapi.appspot.com$third-party
+||p.typekit.net^$third-party
+||shield.sitelock.com^$third-party
 ||spot.im/embed/scripts/launcher.js$third-party
 ||ziffstatic.com^$third-party
 !
 ! General element filters (mostly YouTube video overlays)
+##div[class*="ytp-ce-element"]
 ##.b_pos.bc_promo
+##.td-a-rec
 ##.ytp-ce-channel
 ##.ytp-ce-element
 ##.ytp-ce-element-show
@@ -106,7 +92,6 @@
 ##.ytp-pause-overlay
 ##.ytp-subscribe-card
 ##.ytp-title-channel
-##div[class*="ytp-ce-element"]
 !
 ! Site-specific filters
 9gag.com##[id^="jsid-entry-entity"] > .post-afterbar-a > .share > ul
@@ -190,6 +175,8 @@ diycozyhome.com###inner-wrap > .td-footer-wrap
 diycozyhome.com###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4 > .widget_text.widget
 driverzone.com##[id^="block-block"]
 ebay.com##.me-rtm
+economist.com##.end-of-article__wrapper
+economist.com##.inhouse__subscription-ribbon
 economist.com##.newsletter-form--inline
 economist.com###block-ec_components-print_sub
 economist.com###block-ec_components-share_inline_footer
@@ -366,6 +353,7 @@ seekingalpha.com##[id^="DFP_"]
 socialblade.com##div[style^="width: 950px; padding: 10px 20px;"]
 statista.com###statisticSlideIn
 statnews.com##.standard.read-more
+statnews.com##.stat-form-inline
 techaeris.com###dat-menu > .dat-menu-container > .dat-menu-padding.dat-menu-wrapper > .active.boxed > .content > .wrapper > .has-sidebar.main-content > .left.left-content > .banner.article-body-banner
 techaeris.com###essb_displayed_both1607151333 > .essb_links_list
 techaeris.com###sidebar > .sidebar-fixed

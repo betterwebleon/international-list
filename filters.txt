@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 92
+! Version: 93
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -63,6 +63,7 @@
 ||thurrott.com/wp-content/plugins/cleantalk-spam-protect/*.js
 ||twitter.com/intent
 ||youtube.com/api/stats$xmlhttprequest
+||youtube.com/youtubei/*/log_event?
 !
 ! Reported filters
 ! https://forums.lanik.us/viewtopic.php?f=64&t=37971&sid=26fec68dbb3ed8439ea5f2c30daa2ccd
@@ -191,6 +192,7 @@ edition.cnn.com###sponsored-outbrain-1
 eprints.lse.ac.uk##.ep_noprint.ep_tm_header > div:nth-of-type(1)
 eteknix.com###wrapper > header
 euractiv.com##[id^="ea_gat"]
+europass.cedefop.europa.eu###cloud-login-tooltip
 facebook.com###pagelet_growth_expanding_cta
 faz.net###TopAd
 file-extensions.org###socialbuttonsbox
@@ -293,6 +295,7 @@ matadornetwork.com##.social-box
 mckinsey.com##.disruptor
 medianama.com##.entry-content > div:nth-of-type(3)
 medicinenet.com##.adTopWrapper
+medium.com##.js-stickyFooter
 metro.co.uk###post-5642470 > header > .share-buttons-top.share-buttons
 money.cnn.com##.inStoryHeading
 money.cnn.com###medianet
@@ -351,6 +354,7 @@ searchenginejournal.com##.summitad-wrap
 searchenginejournal.com##.top-share-buttons
 seekingalpha.com##[id^="DFP_"]
 socialblade.com##div[style^="width: 950px; padding: 10px 20px;"]
+softfamous.com##.container_ads
 statista.com###statisticSlideIn
 statnews.com##.standard.read-more
 statnews.com##.stat-form-inline

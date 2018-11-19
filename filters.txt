@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 93
+! Version: 94
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -131,6 +131,7 @@ billiger.de##.promotion-campaign
 blog.capterra.com##.half-margin-bottom:nth-of-type(2)
 blog.sfgate.com###ctpl-fullbanner1
 bloomberg.com##.inline-newsletter
+borncity.com##.code-block
 bostonreview.net##.promotop
 brightside.me###js-article-content > div:nth-of-type(1) > .article-yandex-direct
 brightside.me###js-article-share-top
@@ -315,6 +316,7 @@ nytimes.com###newsletter-promo
 nytimes.com###TopAd1
 oazaznanja.com###text-12
 office.com###epb
+old.reddit.com##.listingsignupbar
 parkers.co.uk##.top-ad__sticky-wrapper
 pcadvisor.co.uk##.criteo-div
 pcgamer.com##body > div:nth-of-type(2)
@@ -403,6 +405,7 @@ thurrott.com###adBlock
 time.com##[id^="article"] > .article-footer > .article-footer__share-tools
 timeanddate.com###ad300
 tomshardware.com##[id^="OTIz"]
+tomshardware.co.uk###rightcol_top
 tutor2u.net##.dtl-Cta
 uk.eonline.com###cc-tag
 upliftconnect.com###ubam-article-mobile-banner-container
@@ -435,6 +438,7 @@ wimp.com##.ad-headline
 winbeta.org###header > .group > .container-inner > .pad
 winbeta.org###page > .container-inner > .main > .group.main-inner > .content > .group.pad > .post > .group.post-inner > .entry > .entry-inner > .mashsb-main.mashsb-container:nth-of-type(1)
 windows.ittoolbox.com###popupdiv
+windowscentral.com##.header-top-alert-bar
 windowscentral.com###Leaderboard_Header_ATF-wrap
 windowssecrets.com###sidebar > li:nth-of-type(1) > .smaller.block
 windowssecrets.com###sidebar > li:nth-of-type(2)

@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 94
+! Version: 95
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -12,6 +12,7 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=~zdnet.com
 @@||notebooksbilliger.de
 @@||p.d.1enm.com^$script,domain=nymag.com
+@@||sync.1dmp.io/pixel.gif?$image,domain=citroenforumsrbije.com
 @@||wer-weiss-was.de/assets/javascripts/ads/ads-$script
 ||2o7.net
 ||ad.doubleclick.net^$domain=behind-the-scene
@@ -29,6 +30,8 @@
 ||facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fimgur&width&layout=button$subdocument
 ||facebook.com/tr/?
 ||facebook.com/tr?
+||fatherly.com/prod/analytics
+||fatherly.com/wp-content/themes/grandfather/dist/js/*.js
 ||fbcdn-profile-a.akamaihd.net$domain=~facebook.com|~fbcdn.net
 ||flappyhamster.net/dt.adsafeprotected.com$image,domain=behind-the-scene
 ||gather.*/scripts/visittrack.js
@@ -195,6 +198,14 @@ eteknix.com###wrapper > header
 euractiv.com##[id^="ea_gat"]
 europass.cedefop.europa.eu###cloud-login-tooltip
 facebook.com###pagelet_growth_expanding_cta
+fatherly.com##.article__leaderboard-ad
+fatherly.com##.article__rail-ad
+fatherly.com##.featured
+fatherly.com##.homepage-jwplayer-video
+fatherly.com##.in-article-ad
+fatherly.com##.loading-gif
+fatherly.com##.module__ad
+fatherly.com##.newsletter-signup-ad
 faz.net###TopAd
 file-extensions.org###socialbuttonsbox
 filehippo.com###root-content > div > .advert-center-left
@@ -234,6 +245,8 @@ ghacks.net##.entry > div:nth-of-type(2)
 ghacks.net##blockquote > div
 ghacks.net###sidebar > strong:nth-of-type(3)
 github.com##.signup-prompt-bg
+gizmodo.com##.ad-non-sticky
+glassdoor.com##.sc-related
 gottabemobile.com##.cb-itemprop > .code-block > center
 gottabemobile.com##.cb-itemprop > p:nth-of-type(3)
 gottabemobile.com##.cb-itemprop > p:nth-of-type(8)
@@ -246,7 +259,9 @@ heise.de##.teaser_adliste
 heise.de##.us_ad
 heise.de###bannerzone
 hollywoodreporter.com##.readmore
+howtogeek.com##.email-overlay
 howtogeek.com##.overlay-bg
+howtogeek.com##.overlay-inner
 howtogeek.com##.relateditemwrap
 howtogeek.com##.relatedtext
 howtogeek.com##[id^="post"] > .thecontent > .relatedside
@@ -266,6 +281,7 @@ independent.co.uk##.relatedlinkslist
 indianexpress.com##.dnews
 influencive.com##.swp_one
 inside-handy.de##.not_on_mobile
+inside-handy.de###bigsize
 intoday.in##.ad_banner
 intoday.in##.ad_prt
 intoday.in##.f_tech_ad
@@ -646,6 +662,7 @@ www.wired.com###rad-card-small
 www.wired.com###sidebar-wrap > .sidebar-rad.marg-b-med.box.rad > a[href="javascript:;"] > .fallback-tall.fallback
 xda-developers.com##.et_social_sidebar_networks
 youtube.com##.alerts-wrapper
+youtube.com##.annotation-type-custom
 youtube.com##.yt-consent-banner
 youtube.com##.ytd-consent-bump-renderer-0
 youtube.com###ticker

@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 95
+! Version: 96
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -38,6 +38,7 @@
 ||giurn.co.uk
 ||gplusapi.$domain=~googleplus.com|~plus.google.com
 ||huffingtonpost.com/_uac/2014adpage.html
+||inc.com/rest/promotions$xmlhttprequest,domain=inc.com
 ||independent*.com/img/ads^
 ||i.mol.im/*/*skin_beach*.png
 ||i.mol.im/*/*skin_picnic*.png
@@ -176,6 +177,7 @@ davidwolfe.com###text-31
 deadline.com##.related-article
 dealbook.nytimes.com##.entry-related.entry
 digitalcitizen.life###dont-block-our-ads-popup
+disk-partition.com##.am-promotion-entry
 diycozyhome.com###inner-wrap > .td-footer-wrap
 diycozyhome.com###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4 > .widget_text.widget
 driverzone.com##[id^="block-block"]
@@ -412,6 +414,7 @@ theguardian.com###article > .tonal__main--tone-news.tonal__main.content__main > 
 theguardian.com###footer-nav > .u-cf.l-footer__navigation-wrapper > .navigation-container--collapsed.navigation-container.js-navigation-footer > .navigation.gs-container
 thepiratebay.*###social
 thespiritscience.net###shr_canvas4
+thestar.com##.inset .article-related__related
 thewindowsclub.com###searchbox
 thinkinghumanity.com##.__b-popup1__
 thinkinghumanity.com##body > div:nth-of-type(10)
@@ -450,6 +453,7 @@ weforum.org##.st__content-block--searchable-list
 welt.de##.c-ad__medium-rectangle
 wikipedia.org##.mw-dismissable-notice
 wikipedia.org###centralNotice
+willhaben.at###topbanners
 wimp.com##.ad-headline
 winbeta.org###header > .group > .container-inner > .pad
 winbeta.org###page > .container-inner > .main > .group.main-inner > .content > .group.pad > .post > .group.post-inner > .entry > .entry-inner > .mashsb-main.mashsb-container:nth-of-type(1)

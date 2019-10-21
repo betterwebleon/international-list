@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 97
+! Version: 98
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -317,6 +317,7 @@ medianama.com##.entry-content > div:nth-of-type(3)
 medicinenet.com##.adTopWrapper
 medium.com##.js-stickyFooter
 metro.co.uk###post-5642470 > header > .share-buttons-top.share-buttons
+miniclip.com###smartphone-promo
 money.cnn.com##.inStoryHeading
 money.cnn.com###medianet
 monova.org##.container-other.theme-showcase.container.main-container > div:nth-of-type(1)
@@ -450,6 +451,7 @@ wccftech.com###sidebar > div:nth-of-type(6)
 wccftech.com###sidebar > div:nth-of-type(7)
 webopedia.com###homepage_main_column > .imu
 websearch.about.com##[id^="inArticleVideo"]
+web.de##.cookie-lasche
 weforum.org##.st__content-block--searchable-list
 welt.de##.c-ad__medium-rectangle
 wikipedia.org##.mw-dismissable-notice
@@ -668,9 +670,9 @@ www.wired.com###sidebar-wrap > .sidebar-rad.marg-b-med.box.rad > a[href="javascr
 xda-developers.com##.et_social_sidebar_networks
 youtube.com##.alerts-wrapper
 youtube.com##.annotation-type-custom
+youtube.com##.opened
 youtube.com##.yt-consent-banner
 youtube.com##.ytd-consent-bump-renderer-0
-youtube.com##.ytd-popup-container
 youtube.com###ticker
 zasve.info##.fright.sidebar > .widget_text.widget
 zdnet.com##.alignLeft.relatedContent

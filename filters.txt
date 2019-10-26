@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 98
+! Version: 99
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -671,8 +671,10 @@ xda-developers.com##.et_social_sidebar_networks
 youtube.com##.alerts-wrapper
 youtube.com##.annotation-type-custom
 youtube.com##.opened
-youtube.com##.yt-consent-banner
 youtube.com##.ytd-consent-bump-renderer-0
+youtube.com##.yt-consent-banner
+youtube.com##.yt-dialog-base
+youtube.com###alert-banner
 youtube.com###ticker
 zasve.info##.fright.sidebar > .widget_text.widget
 zdnet.com##.alignLeft.relatedContent

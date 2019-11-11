@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 99
+! Version: 100
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -162,6 +162,7 @@ cleantechnica.com###crestashareiconincontent
 cleantechnica.com###text-127
 cnet.com###flyoutPromo
 community.spiceworks.com##.community-content--ad_card
+cpu-world.com##.ab_w9
 cpu-world.com##[id^="AB_W"]
 cpubenchmark.net###blocker > td
 cpuboss.com###facebook-widget
@@ -375,6 +376,7 @@ searchenginejournal.com##.right-bottom-inner
 searchenginejournal.com##.summitad-wrap
 searchenginejournal.com##.top-share-buttons
 seekingalpha.com##[id^="DFP_"]
+smallbusiness.chron.com###top-300
 socialblade.com##div[style^="width: 950px; padding: 10px 20px;"]
 softfamous.com##.container_ads
 statista.com###statisticSlideIn
@@ -673,7 +675,6 @@ youtube.com##.annotation-type-custom
 youtube.com##.opened
 youtube.com##.ytd-consent-bump-renderer-0
 youtube.com##.yt-consent-banner
-youtube.com##.yt-dialog-base
 youtube.com###alert-banner
 youtube.com###ticker
 zasve.info##.fright.sidebar > .widget_text.widget

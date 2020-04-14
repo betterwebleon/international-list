@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 100
+! Version: 101
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -183,6 +183,11 @@ diycozyhome.com###inner-wrap > .td-footer-wrap
 diycozyhome.com###inner-wrap > .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4 > .widget_text.widget
 driverzone.com##[id^="block-block"]
 ebay.com##.me-rtm
+econintersect.com##td:nth-of-type(3) > center
+econintersect.com##td > center > table > tbody
+econintersect.com##td > hr
+econintersect.com###background > center
+econintersect.com###sidewrap > table
 economist.com##.end-of-article__wrapper
 economist.com##.inhouse__subscription-ribbon
 economist.com##.newsletter-form--inline

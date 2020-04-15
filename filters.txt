@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 101
+! Version: 102
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -255,6 +255,9 @@ ghacks.net###sidebar > strong:nth-of-type(3)
 github.com##.signup-prompt-bg
 gizmodo.com##.ad-non-sticky
 glassdoor.com##.sc-related
+goal.com##.commercial
+goal.com##.widget-inline-editors-picks
+goal.com##.widget-semantic-player
 google.com###epbar
 gottabemobile.com##.cb-itemprop > .code-block > center
 gottabemobile.com##.cb-itemprop > p:nth-of-type(3)

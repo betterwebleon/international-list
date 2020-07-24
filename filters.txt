@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 102
+! Version: 103
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -250,6 +250,7 @@ gfi.com##[id^="ulp-inline"]
 gfi.com##[id^="ulp-layer"]
 ghacks.net##.entry > div:nth-of-type(1)
 ghacks.net##.entry > div:nth-of-type(2)
+ghacks.net##.slick-track
 ghacks.net##blockquote > div
 ghacks.net###sidebar > strong:nth-of-type(3)
 github.com##.signup-prompt-bg
@@ -259,6 +260,7 @@ goal.com##.commercial
 goal.com##.widget-inline-editors-picks
 goal.com##.widget-semantic-player
 google.com###epbar
+gottabemobile.com##.aawp
 gottabemobile.com##.cb-itemprop > .code-block > center
 gottabemobile.com##.cb-itemprop > p:nth-of-type(3)
 gottabemobile.com##.cb-itemprop > p:nth-of-type(8)
@@ -305,6 +307,7 @@ investopedia.com###abkoverlay
 ipwatchdog.com##.ad
 ipwatchdog.com##.advertise
 ipwatchdog.com##center
+jobs.meinestadt.de##.ms-result-disturber
 kfor.com###nativo
 krwgnews22.com##.newwr > .wr:nth-of-type(3) > .footer > .othercats
 kurier.at##.grid-block:nth-of-type(3) > .edge-left > .h275.w320

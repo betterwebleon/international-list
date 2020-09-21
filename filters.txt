@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 103
+! Version: 104
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -405,6 +405,7 @@ techcrunch.com##.header-context-news.cf.header > .nav-bar > .lc > .lc > .cf.head
 techcrunch.com##.header-context-null.cf.header > .nav-bar > .lc > .lc > .cf.header-logo-bar > .header-social > .sprite-social.social-list.inline-list
 techcrunch.com##.homepage.split.flush.fluid > .lc-island.flush.lc > .l-two-col > .lc-padding.l-sidebar > .flush.section > .block.collapse-adjacent.collapse.newsletters-signup.aside.section
 techjourney.net##.et_social_animated.et_social_visible.et_social_mobile_on.et_social_trigger_bottom.et_social_slideup.et_social_flyin_bottom_right.et_social_resize.et_social_flyin
+techspot.com##.billboard_placeholder_home
 techtarget.com###download-offer
 tekrevue.com##.share-box-1
 tekrevue.com##.sponsor-blurb
@@ -440,6 +441,7 @@ time.com##[id^="article"] > .article-footer > .article-footer__share-tools
 timeanddate.com###ad300
 tomshardware.com##[id^="OTIz"]
 tomshardware.co.uk###rightcol_top
+translate.google.*##.notification-container.tlid-notification-container
 tutor2u.net##.dtl-Cta
 uk.eonline.com###cc-tag
 upliftconnect.com###ubam-article-mobile-banner-container
@@ -486,6 +488,7 @@ worldtruth.tv##.clearfix.container > .clearfix.row > .span4 > .widget:nth-of-typ
 worldtruth.tv##.clearfix.container > .clearfix.row > .span4 > .widget:nth-of-type(37)
 worldtruth.tv##.clearfix.container > .clearfix.row > .span4 > .widget:nth-of-type(38) > .title-block
 worldtruth.tv##.clearfix.container > .clearfix.row > .span8 > .textwidget:nth-of-type(6) > center
+wsws.org##.engagement-widget
 www.agame.com###sgAdLb2Hp728x90
 www.agame.com###sgAdLbHp728x90
 www.agame.com###sgAdScHp160x600
@@ -687,6 +690,7 @@ youtube.com##.opened
 youtube.com##.ytd-consent-bump-renderer-0
 youtube.com##.yt-consent-banner
 youtube.com###alert-banner
+youtube.com###dialog
 youtube.com###ticker
 zasve.info##.fright.sidebar > .widget_text.widget
 zdnet.com##.alignLeft.relatedContent

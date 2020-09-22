@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 104
+! Version: 105
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -441,7 +441,7 @@ time.com##[id^="article"] > .article-footer > .article-footer__share-tools
 timeanddate.com###ad300
 tomshardware.com##[id^="OTIz"]
 tomshardware.co.uk###rightcol_top
-translate.google.*##.notification-container.tlid-notification-container
+translate.google.*##.notification-area
 tutor2u.net##.dtl-Cta
 uk.eonline.com###cc-tag
 upliftconnect.com###ubam-article-mobile-banner-container

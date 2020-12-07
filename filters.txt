@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 105
+! Version: 106
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -361,6 +361,7 @@ phonearena.com##.bannerholder
 phonearena.com##[id^="div-gpt-ad"]
 play.spotify.com###desktop > .show.mft.upsell-background.content
 pmlive.com###pm-top-banner
+politico.eu##.ad__card
 popsci.com##.oh-so-sticky-ad-container
 priceonomics.com###social-share
 progress.org##[id^="ad"]

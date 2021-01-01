@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 106
+! Version: 107
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -394,6 +394,9 @@ softfamous.com##.container_ads
 statista.com###statisticSlideIn
 statnews.com##.standard.read-more
 statnews.com##.stat-form-inline
+suchen.mobile.de##hr.topresult:nth-of-type(1)
+suchen.mobile.de##.cBox-body--similarSellerAds
+suchen.mobile.de##.rbt-top.dealerAd
 techaeris.com###dat-menu > .dat-menu-container > .dat-menu-padding.dat-menu-wrapper > .active.boxed > .content > .wrapper > .has-sidebar.main-content > .left.left-content > .banner.article-body-banner
 techaeris.com###essb_displayed_both1607151333 > .essb_links_list
 techaeris.com###sidebar > .sidebar-fixed

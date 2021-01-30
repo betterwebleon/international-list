@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 107
+! Version: 108
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -162,6 +162,7 @@ cleantechnica.com###crestashareiconincontent
 cleantechnica.com###text-127
 cnet.com###flyoutPromo
 community.spiceworks.com##.community-content--ad_card
+cpu-monkey.com##.werb
 cpu-world.com##.ab_w9
 cpu-world.com##[id^="AB_W"]
 cpubenchmark.net###blocker > td
@@ -246,6 +247,7 @@ ft.com##.o-email-only-signup
 gadgetsnow.com##.amz_banner
 gazetaexpress.com##.leaderboard
 geekwire.com##.container > .content > .main > .post > header > .row
+get.adobe.com##.ContentColumn1BottomOverlayBg
 gfi.com##[id^="ulp-inline"]
 gfi.com##[id^="ulp-layer"]
 ghacks.net##.entry > div:nth-of-type(1)
@@ -396,6 +398,7 @@ statnews.com##.standard.read-more
 statnews.com##.stat-form-inline
 suchen.mobile.de##hr.topresult:nth-of-type(1)
 suchen.mobile.de##.cBox-body--similarSellerAds
+suchen.mobile.de##.cBox-body--topInCategory
 suchen.mobile.de##.rbt-top.dealerAd
 techaeris.com###dat-menu > .dat-menu-container > .dat-menu-padding.dat-menu-wrapper > .active.boxed > .content > .wrapper > .has-sidebar.main-content > .left.left-content > .banner.article-body-banner
 techaeris.com###essb_displayed_both1607151333 > .essb_links_list

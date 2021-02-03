@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 108
+! Version: 109
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -412,6 +412,7 @@ techcrunch.com##.header-context-news.cf.header > .nav-bar > .lc > .lc > .cf.head
 techcrunch.com##.header-context-null.cf.header > .nav-bar > .lc > .lc > .cf.header-logo-bar > .header-social > .sprite-social.social-list.inline-list
 techcrunch.com##.homepage.split.flush.fluid > .lc-island.flush.lc > .l-two-col > .lc-padding.l-sidebar > .flush.section > .block.collapse-adjacent.collapse.newsletters-signup.aside.section
 techjourney.net##.et_social_animated.et_social_visible.et_social_mobile_on.et_social_trigger_bottom.et_social_slideup.et_social_flyin_bottom_right.et_social_resize.et_social_flyin
+techradar.com##.region_redirect_popup_asset
 techspot.com##.billboard_placeholder_home
 techtarget.com###download-offer
 tekrevue.com##.share-box-1

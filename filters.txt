@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 109
+! Version: 110
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -66,8 +66,6 @@
 ||thefinancialbrand.com/wp-content/*/*/*_*.*
 ||thurrott.com/wp-content/plugins/cleantalk-spam-protect/*.js
 ||twitter.com/intent
-||youtube.com/api/stats$xmlhttprequest
-||youtube.com/youtubei/*/log_event?
 !
 ! Reported filters
 ! https://forums.lanik.us/viewtopic.php?f=64&t=37971&sid=26fec68dbb3ed8439ea5f2c30daa2ccd

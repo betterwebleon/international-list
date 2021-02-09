@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 110
+! Version: 111
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -7,13 +7,25 @@
 !
 ! GitHub issues: https://github.com/betterwebleon/international-list/issues
 !
-! Network filters:
+! Exception filters:
+carbuyer.co.uk#@#.block-dfp
+carbuyer.co.uk#@#.dfp-tag-wrapper
+carbuyer.co.uk#@#div[id^="dfp-ad-"]
+carbuyer.co.uk#@##block-dfp-mpu-1
+carbuyer.co.uk#@##block-dfp-mpu-2
+carbuyer.co.uk#@##dfp-ad-mpu_1
+carbuyer.co.uk#@##dfp-ad-mpu_1-wrapper
+carbuyer.co.uk#@##dfp-ad-mpu_2
+carbuyer.co.uk#@##dfp-ad-mpu_2-wrapper
 @@||disqus.com/embed.js
 @@||googletagservices.com/tag/js/gpt.js$domain=~zdnet.com
 @@||notebooksbilliger.de
 @@||p.d.1enm.com^$script,domain=nymag.com
 @@||sync.1dmp.io/pixel.gif?$image,domain=citroenforumsrbije.com
 @@||wer-weiss-was.de/assets/javascripts/ads/ads-$script
+@@||youtube.com/api/stats/playback?$image
+!
+! Network filters:
 ||2o7.net
 ||ad.doubleclick.net^$domain=behind-the-scene
 ||anandtech.com/Content/images/twitter_down_arrow.png
@@ -66,12 +78,15 @@
 ||thefinancialbrand.com/wp-content/*/*/*_*.*
 ||thurrott.com/wp-content/plugins/cleantalk-spam-protect/*.js
 ||twitter.com/intent
+||youtube.com/api/stats
 !
 ! Reported filters
 ! https://forums.lanik.us/viewtopic.php?f=64&t=37971&sid=26fec68dbb3ed8439ea5f2c30daa2ccd
 @@||gatesnotes.com/*/TGN_v50_s_code.js
 ! https://forums.lanik.us/viewtopic.php?f=64&t=37856&sid=26fec68dbb3ed8439ea5f2c30daa2ccd
 @@||knoema.com/assets.axd/Js/analytics*.js
+! https://github.com/IDKwhattoputhere/uBlock-Filters-Plus/issues/2
+@@||computeruniverse.net/Scripts/wt/webtrekk_v*.js$script
 !
 ! Third-party filters
 ||api.groupon.com^$third-party
@@ -143,15 +158,6 @@ businessdictionary.com##.wfi-ad-slot-in-content
 businessinsider.com###main-content > .container > .siteskin-dropshadow > .primary-row.row > .span8 > .post.content > .clear-both.clearfix.bottom-share-module
 calculat.org###zadost
 canadianbusiness.com###native-ad-box
-carbuyer.co.uk#@#.block-dfp
-carbuyer.co.uk#@#.dfp-tag-wrapper
-carbuyer.co.uk#@#div[id^="dfp-ad-"]
-carbuyer.co.uk#@##block-dfp-mpu-1
-carbuyer.co.uk#@##block-dfp-mpu-2
-carbuyer.co.uk#@##dfp-ad-mpu_1
-carbuyer.co.uk#@##dfp-ad-mpu_1-wrapper
-carbuyer.co.uk#@##dfp-ad-mpu_2
-carbuyer.co.uk#@##dfp-ad-mpu_2-wrapper
 carfolio.com##.ad
 cbsnews.com###smart-banner
 chronicle.com###maincontent > .content-item__container--article.clearfix > .content-item__story > .media-pull-left.media-width-half
@@ -266,6 +272,7 @@ gottabemobile.com##.cb-itemprop > p:nth-of-type(3)
 gottabemobile.com##.cb-itemprop > p:nth-of-type(8)
 gottabemobile.com###cb-logo-box
 guidingtech.com##.detail-ad
+guru99.com##.top-ads-boxes
 hardwarezone.com.sg##.nm-sub-dialog-overlay
 hardwarezone.com.sg##.nm-sub-dialog-wrapper
 hbr.org##.article-promo

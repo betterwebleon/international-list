@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 112
+! Version: 113
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -30,6 +30,7 @@ carbuyer.co.uk#@##dfp-ad-mpu_2-wrapper
 ! Network filters
 ||2o7.net
 ||ad.doubleclick.net^$domain=behind-the-scene
+||allkeyshop.com/blog/wp-content/uploads/Outriders*.jpg
 ||anandtech.com/Content/images/twitter_down_arrow.png
 ||auto-online.ch/lightboxAds.php
 ||bit.ly/TweetAndTrack.js
@@ -52,6 +53,7 @@ carbuyer.co.uk#@##dfp-ad-mpu_2-wrapper
 ||gather.*/scripts/visittrack.js
 ||giurn.co.uk
 ||gplusapi.$domain=~googleplus.com|~plus.google.com
+||gstatic.com/youtube/img/promos/growth/*.png
 ||huffingtonpost.com/_uac/2014adpage.html
 ||inc.com/rest/promotions$xmlhttprequest,domain=inc.com
 ||independent*.com/img/ads^
@@ -128,6 +130,8 @@ accuweather.com###offers
 aeon.co##.wrapper > div:nth-of-type(1) > .cf.fixed-header
 aeon.co##[id^="essay"] > .article__body > .article__body__meta > .sticky-wrapper > .article__actions
 aeon.co##[id^="essay"] > .article__body > .entry-content > .has-dropcap > .shortcode-inline-newsletter
+allkeyshop.com##.bg-link-left
+allkeyshop.com##.bg-link-right
 alzashop.com##.leftBanner
 alzashop.com##.rightBanner
 androidauthority.com##.vr_related_articles
@@ -291,6 +295,7 @@ howtogeek.com##.relatedtext
 howtogeek.com##[id^="post"] > .thecontent > .relatedside
 howtogeek.com###div-thetop1
 howtogeek.com###htgHeader > .logo > .logo2
+hrkgame.com##.page_background
 hrpayrollsystems.net##.callout
 icreatived.com##[id^="post"] > .td-post-sharing-top
 idioms.thefreedictionary.com###content > .content-holder > aside > .share-block
@@ -368,6 +373,7 @@ pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu 
 pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing
 pdevice.com##.ig_content
 people.com##.section-more-articles__native-ad
+petguide.com##.ad
 phonearena.com##.bannerholder
 phonearena.com##[id^="div-gpt-ad"]
 play.spotify.com###desktop > .show.mft.upsell-background.content

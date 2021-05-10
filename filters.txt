@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 113
+! Version: 114
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -104,7 +104,7 @@ carbuyer.co.uk#@##dfp-ad-mpu_2-wrapper
 ||spot.im/embed/scripts/launcher.js$third-party
 ||ziffstatic.com^$third-party
 !
-! General element filters (mostly YouTube video overlays)
+! General element hiding filters (mostly YouTube video overlays)
 ##div[class*="ytp-ce-element"]
 ##.b_pos.bc_promo
 ##.td-a-rec
@@ -116,7 +116,7 @@ carbuyer.co.uk#@##dfp-ad-mpu_2-wrapper
 ##.ytp-subscribe-card
 ##.ytp-title-channel
 !
-! Site-specific filters
+! Specific element hiding filters
 9gag.com##[id^="jsid-entry-entity"] > .post-afterbar-a > .share > ul
 9gag.com###jsid-entry-entity-a8M31R1 > .full-width.in-post-bot.post-afterbar-a
 accaglobal.com##.advertLeaderboard
@@ -152,6 +152,7 @@ azcentral.com##.storyrightrail-bucket
 auto-data.net##.overtitle
 bigthink.com###fixed-social-wrapper
 billiger.de##.promotion-campaign
+blockonomi.com##.sponbot
 blog.capterra.com##.half-margin-bottom:nth-of-type(2)
 blog.sfgate.com###ctpl-fullbanner1
 bloomberg.com##.inline-newsletter
@@ -162,7 +163,7 @@ brightside.me###js-article-share-top
 brightside.me##.js-dialog.js-fixed-like-box.dialog-social-fb.dialog-social-bottom.dialog-social
 businessdictionary.com##.deep-2
 businessdictionary.com##.wfi-ad-slot-in-content
-businessinsider.com###main-content > .container > .siteskin-dropshadow > .primary-row.row > .span8 > .post.content > .clear-both.clearfix.bottom-share-module
+businessinsider.com##.htl-ad
 calculat.org###zadost
 canadianbusiness.com###native-ad-box
 carfolio.com##.ad
@@ -261,10 +262,11 @@ geekwire.com##.container > .content > .main > .post > header > .row
 get.adobe.com##.ContentColumn1BottomOverlayBg
 gfi.com##[id^="ulp-inline"]
 gfi.com##[id^="ulp-layer"]
+ghacks.net##blockquote > div
 ghacks.net##.entry > div:nth-of-type(1)
 ghacks.net##.entry > div:nth-of-type(2)
+ghacks.net##.home-posts:has-text(SPONSORED CONTENT)
 ghacks.net##.slick-track
-ghacks.net##blockquote > div
 ghacks.net###sidebar > strong:nth-of-type(3)
 github.com##.signup-prompt-bg
 gizmodo.com##.ad-non-sticky
@@ -379,6 +381,7 @@ phonearena.com##[id^="div-gpt-ad"]
 play.spotify.com###desktop > .show.mft.upsell-background.content
 pmlive.com###pm-top-banner
 politico.eu##.ad__card
+pons.com##[id^="pons-ad"]
 popsci.com##.oh-so-sticky-ad-container
 priceonomics.com###social-share
 progress.org##[id^="ad"]
@@ -389,6 +392,8 @@ readwrite.com##blockquote
 reddit.com##.listingsignupbar
 reddit.com##.newsletterbar.infobar
 reddit.com##.welcome
+root-nation.com##.backstretch
+root-nation.com##[href^="https://gtly.to/"]
 rp-online.de###banneroben
 rp-online.de###main > .wide-header
 rt.com##.main-header > .main-header-wp > .head-nav > .center > .alternative

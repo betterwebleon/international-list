@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 116
+! Version: 117
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -371,7 +371,6 @@ old.reddit.com##.listingsignupbar
 otto.de##.av_anchor
 parkers.co.uk##.top-ad__sticky-wrapper
 pcadvisor.co.uk##.criteo-div
-pcgamer.com##body > div:nth-of-type(2)
 pcgamer.com###sidebar > div
 pctechmag.com###td-outer-wrap > .td-content-wrap.td-transition-content-and-menu > .td-header-style-1.td-header-wrap > .td-logo-wrap-full.td-banner-wrap-full > .td-header-header.td-header-row.td-container > .td-header-sp-recs
 pctechmag.com##[id^="post-"] > .td-post-sharing-top.td-post-sharing

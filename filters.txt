@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 117
+! Version: 118
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -169,6 +169,11 @@ calculat.org###zadost
 canadianbusiness.com###native-ad-box
 carfolio.com##.ad
 carsguide.com.au##.read-more--container
+car-recalls.eu##.hidden-xs:nth-of-type(1)
+car-recalls.eu##[id^="skyscraper"]
+car-recalls.eu###custom_html-12
+car-recalls.eu###custom_html-14
+car-recalls.eu###custom_html-4
 cbsnews.com###smart-banner
 chronicle.com###maincontent > .content-item__container--article.clearfix > .content-item__story > .media-pull-left.media-width-half
 cleantechnica.com###crestashareicon
@@ -234,6 +239,7 @@ file-extensions.org###socialbuttonsbox
 filehippo.com###root-content > div > .advert-center-left
 filehippo.com###root-content > div > .left-hand-col > .advert-center-left
 finance.yahoo.com###mediacontentsharebuttons
+finanzen.net##.fixed-height-desktop-only
 flvto.biz##.content > .primary-screen > .container > .banner
 flvto.biz##.content > .primary-screen > .container > .col-slim > .banner
 flvto.biz##.download-page > .container > .banner
@@ -241,6 +247,7 @@ flvto.biz##.progress > .container > .hidden-mobile > a > .flvto-player-banner
 flvto.biz##header > .container > .wide.banner
 forbes.com##.article-gallery-embedded
 forbes.com##.gallery-fbs-ad-wrapper
+forbes.com##.marketPlace
 forbes.com##.ntv-rail-ad
 forbes.com##.top-ad-container
 forbes.com##.vestpocket
@@ -273,6 +280,7 @@ ghacks.net###sidebar > strong:nth-of-type(3)
 github.com##.signup-prompt-bg
 gizmodo.com##.ad-non-sticky
 glassdoor.com##.sc-related
+gmx.net,web.de##[id^="service-box"]
 goal.com##.commercial
 goal.com##.widget-inline-editors-picks
 goal.com##.widget-semantic-player

@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 118
+! Version: 119
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -274,6 +274,7 @@ gfi.com##[id^="ulp-layer"]
 ghacks.net##blockquote > div
 ghacks.net##.entry > div:nth-of-type(1)
 ghacks.net##.entry > div:nth-of-type(2)
+ghacks.net##.ghacks-ad
 ghacks.net##.home-posts:has-text(SPONSORED CONTENT)
 ghacks.net##.slick-track
 ghacks.net###sidebar > strong:nth-of-type(3)
@@ -724,12 +725,10 @@ www.wired.com###sidebar-wrap > .sidebar-rad.marg-b-med.box.rad > a[href="javascr
 xda-developers.com##.et_social_sidebar_networks
 youtube.com##.alerts-wrapper
 youtube.com##.annotation-type-custom
-youtube.com##.opened
 youtube.com##.ytd-consent-bump-renderer-0
 youtube.com##.ytd-rich-metadata-row-renderer.style-scope
 youtube.com##.yt-consent-banner
 youtube.com###alert-banner
-youtube.com###dialog
 youtube.com###ticker
 zasve.info##.fright.sidebar > .widget_text.widget
 zdnet.com##.alignLeft.relatedContent

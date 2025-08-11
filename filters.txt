@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 119
+! Version: 120
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -117,16 +117,6 @@ carbuyer.co.uk#@##dfp-ad-mpu_2-wrapper
 ##.ytp-title-channel
 !
 ! Specific element hiding filters
-9gag.com##[id^="jsid-entry-entity"] > .post-afterbar-a > .share > ul
-9gag.com###jsid-entry-entity-a8M31R1 > .full-width.in-post-bot.post-afterbar-a
-accaglobal.com##.advertLeaderboard
-accountingweb.com##.mpu-1
-accountingweb.com##.mpu-2
-accounts.google.com###glifPromo
-accuweather.com##.sidebar-telmet-promo
-accuweather.com###aadTop300
-accuweather.com###header-davek
-accuweather.com###offers
 aeon.co##.wrapper > div:nth-of-type(1) > .cf.fixed-header
 aeon.co##[id^="essay"] > .article__body > .article__body__meta > .sticky-wrapper > .article__actions
 aeon.co##[id^="essay"] > .article__body > .entry-content > .has-dropcap > .shortcode-inline-newsletter
@@ -259,6 +249,8 @@ fortune.com###content > .content-well > div > .ranking-layout-float.full-article
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-body > .article-bottom > .rail.right-rail > .right-rail-inner > div > .right-rail-buttons-container
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-divider > .two_ad
 fortune.com###content > .content-well > div > .ranking-layout-float.full-article > .post.article-inner > .article-header > .article-byline > .article-social.article-byline-social.social-icons
+forum.hr##td[class="sidebar_column"][width="300"]
+forum.hr##.advertisement_postbit_legacy
 fount.artequalswork.com###advertisement
 fox2now.com##.entry-header > .entry-share
 fstoppers.com###block-block-12

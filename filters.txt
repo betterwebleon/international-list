@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Version: 120
+! Version: 121
 ! Title: International List
 ! Expires: 3 days
 ! Homepage: https://github.com/betterwebleon/
@@ -117,30 +117,15 @@ carbuyer.co.uk#@##dfp-ad-mpu_2-wrapper
 ##.ytp-title-channel
 !
 ! Specific element hiding filters
-aeon.co##.wrapper > div:nth-of-type(1) > .cf.fixed-header
-aeon.co##[id^="essay"] > .article__body > .article__body__meta > .sticky-wrapper > .article__actions
-aeon.co##[id^="essay"] > .article__body > .entry-content > .has-dropcap > .shortcode-inline-newsletter
-allkeyshop.com##.bg-link-left
-allkeyshop.com##.bg-link-right
-alzashop.com##.leftBanner
-alzashop.com##.rightBanner
-androidauthority.com##.vr_related_articles
 appleinsider.com###leaderboard
-archive.is###CONTENT > .html1 > .html > .body > div > div > div > div > div > div > div > div > div:nth-of-type(1)
-arstechnica.com###article-sidebar > .column > .thick-divide-bottom.thick-divide-top
-arstechnica.com###content > .standalone > header > .post-meta > .corner-info
-arstechnica.com###outbrain-recs
-arstechnica.com###outbrain-recs-wrap > hr
-arstechnica.com###stories-features > .thick-divide-bottom.thick-divide-top
-arstechnica.com##.pullbox
-askleo.com##.askleo_adblock1
-atlasobscura.com###social-siderails-btns
-azcentral.com##.article-metadata-wrap
-azcentral.com##.inline-ad
-azcentral.com##.leaderboard-ad-module
-azcentral.com##.storyrightrail-bucket
-autotrader.ca##.relatedArticles
-auto-data.net##.overtitle
+askleo.com##.al_related_inline
+atlasobscura.com##.aon-notification
+atlasobscura.com##.article-gastro-interruptor
+atlasobscura.com##.place-body-ad
+azcentral.com##promo-up-next
+azcentral.com##.feedback
+auto-data.net##.adsense
+auto-data.net##.ad970_280
 bigthink.com###fixed-social-wrapper
 billiger.de##.promotion-campaign
 blockonomi.com##.sponbot
@@ -527,10 +512,6 @@ www.alternet.org###like_alternet_on_fb
 www.amazon.com###poweredBy
 www.amazon.com###raw-sitewide-rhf
 www.amazon.com###rhf_table
-www.anandtech.com##.content > .sidebar > .twitter > .twitter_box > .pie.twitter_follow_btn[href="http://twitter.com/anandtech"]
-www.anandtech.com##.header > .header_top > .header_top_right > .header_right_btm > span
-www.anandtech.com##.header > .topic_inner.topic_menu:nth-of-type(2)
-www.anandtech.com##.header > .topic_inner.topic_menu:nth-of-type(3)
 www.avclub.com###sideshare > .unstyled
 www.avclub.com###topshare > .unstyled
 www.bbc.com###share-tools-top
